@@ -1,0 +1,155 @@
+P21rna_nucPCC	EXP21pn_nucPCC	P21gene_nucPCC	P21pn_nucPCC
+AKTINHAKext_cytoPCC	AKTpf_cytoPCC	ICMTpn_erPCC	PDPK1pn_cytoPCC
+MUTCDN2Agene_nucPCC	CDN2Agene_nucPCC	CDN2Arna_nucPCC	CDN2Apf_nucPCC
+MUTCHK2gene_nucPCC	CHK2gene_nucPCC	CHK2rna_nucPCC	CHK2pf_nucPCC
+PUMArna_nucPCC	PUMApn_cytoPCC	PUMAgene_nucPCC
+LACTATEche_ex	LACTATEche_cytoPCC	ACIDICMEbp_ex
+MTORC1pf_cytoPCC	MTORC1pf_nucPCC	MTORINHTMext_cytoPCC
+P53rna_nucPCC	MUTP53gene_nucPCC	P53gene_nucPCC
+SRCpn_cytoPCC	ADAMpf_memPCC	SRCINHSRext_cytoPCC
+MUTCCND1gene_nucPCC	CCND1gene_nucPCC	CCND1rna_nucPCC
+CSF1Rpf_memMAC	CSF1R_ACTpf_memMAC	CSF1pf_ex
+TGFB1R_ACTpf_memMAC	ERKpf_cytoMAC	TGFB1Rpf_memMAC
+IGF1Rpf_memPCC	IGF1R_ACTpf_memPCC	IGF1pf_ex
+FIBRONECTINpn_exPCC	INTEGRINpf_memPCC	LTBPpf_ex
+RAGE_ACTpn_memMAC	MEK1pf_cytoMAC	RAGEpn_memMAC
+PEROXIREDOXINpf_cytoPCC	MUTPTENpn_cytoPCC	PTENpn_cytoPCC
+PI3Kpf_cytoPCC	MUTPIK3CApf_cytoPCC	PI3KINHZSext_cytoPCC
+VEGFR_ACTpf_memPCC	VEGFRpf_memPCC	VEGFpf_ex
+MUTBRAFpn_cytoPCC	RAFpf_cytoPCC	RAFINHext_cytoPCC
+MUTSMAD4pf_nucPCC	SMAD3pf_cytoPCC	SMAD3pf_nucPCC
+CAS8pf_cytoPCC	FADDpn_cytoPCC
+ATG4Apf_cytoPCC	ATG4Arna_nucPCC
+GLUT1rna_nucPCC	GLUT1pf_memPCC
+ATMrna_nucPCC	ATMgene_nucPCC
+IFNGpn_ex	AAEIMMUNEbp_nucPCC
+MITODAMbp_mitoPCC	AAGOXPHOSbp_mitoPCC
+STAT3pf_nucPCC	AAHPROLIFERATIONbp_nucPCC
+MUTAPCpf_cytoPCC	APCpf_cytoPCC
+THIOREDOXINpn_cytoPCC	ASKpf_cytoPCC
+MRNpf_nucPCC	ROScf_nucPCC
+CCR2_ACTpn_memMAC	CCR2pn_memMAC
+CDK4INHRYext_nucPCC	CDK4ext_nucPCC
+EGFrna_nucPCC	EGFgene_nucPCC
+EXOSOMESbp_ex	EXOSOMESbp_memMAC
+GLUCOSEche_ex	GLUCOSEche_cytoPCC
+NRF2pn_nucPCC	NRF2pn_cytoPCC
+GSTrna_nucPCC	GSTpf_cytoPCC
+NECROPTOSISbp_cytoPCC	RIPKpf_cytoPCC
+I10R1pn_memMAC	I10R1_ACTpn_memMAC
+IFNGRpf_memPCC	IFNGR_ACTpf_memPCC
+IFNGgene_nucMAC	IFNGrna_nucMAC
+IFNGgene_nucPCC	IFNGrna_nucPCC
+IL10gene_nucMAC	IL10rna_nucMAC
+IL1Bgene_nucMAC	IL1Brna_nucMAC
+IL1R1_ACTpf_memMAC	IL1R1pf_memMAC
+IL1R1_ACTpf_memPCC	IL1R1pf_memPCC
+IL1R1gene_nucMAC	IL1R1rna_nucMAC
+IL6RBpf_memPCC	IL6RB_ACTpf_memPCC
+IL6gene_nucMAC	IL6rna_nucMAC
+INGR2_ACTpf_memMAC	ROScf_ex
+IRSpn_cytoPCC	RPS6KB1pf_cytoPCC
+DUSP13pf_cytoPCC	JNKpf_cytoPCC
+PDK1pf_mitoPCC	WNTpf_ex
+MDM2gene_nucPCC	MDM2rna_nucPCC
+MDM2pn_cytoPCC	MDM2pn_nucPCC
+MEKINH901ext_cytoPCC	MEK1pf_cytoPCC
+TLR4_ACTpf_memMAC	TLR4pf_memMAC
+PKCApf_cytoPCC	PKCINHROext_cytoPCC
+PDCD1pn_memMAC	PDCD1_ACTpn_memMAC
+RAGE_ACTpn_memPCC	RAGEpn_memPCC
+RASpf_cytoPCC	MUTRASpf_cytoPCC
+TGFB1R_ACTpf_memPCC	TGFB1Rpf_memPCC
+TERTrna_nucPCC	TERTpn_nucPCC
+TGFB1gene_nucPCC	TGFB1rna_nucPCC
+TGFB1rna_nucMAC	TGFB1gene_nucMAC
+TNFARpn_memPCC	TNFARrna_nucPCC
+TNFAgene_nucMAC	TNFArna_nucMAC
+TNFAgene_nucPCC	TNFArna_nucPCC
+TNR1A_ACTpf_memMAC	TNR1Apn_memMAC
+BCL2pf_mitoPCC
+AAAAPOPTOSISbp_cytoPCC
+NFKBpf_cytoPCC
+AABAUTOPHAGYbp_cytoPCC
+BECNpn_cytoPCC
+P53pn_cytoPCC
+AACCCprogressbp_nucPCC
+CCND1pn_nucPCC
+CCNE1pn_nucPCC
+TGFB1pf_ex
+IL10pn_ex
+AAFINFLAMMATORYbp_nucPCC
+IL1Bpf_ex
+IL6pn_ex
+TNFApn_ex
+TCAKREBSbp_mitoPCC
+PP2Apf_cytoPCC
+LKB1pn_cytoPCC
+AMPKpf_cytoPCC
+HIF1Apf_nucPCC
+ATG4Agene_nucPCC
+JNKpf_nucPCC
+ATMpn_cytoPCC
+AADDNAdambp_nucPCC
+ATMpn_nucPCC
+BCL2gene_nucPCC
+BCL2rna_nucPCC
+BECNgene_nucPCC
+BECNrna_nucPCC
+STAT1pf_nucMAC
+CCL2gene_nucMAC
+STAT3pf_nucMAC
+CCL2rna_nucMAC
+CCL2pn_ex
+MYCpn_nucPCC
+CCNE1gene_nucPCC
+CCNE1rna_nucPCC
+P53pn_nucPCC
+EGFRpf_memPCC
+EGFR_ACTpf_memPCC
+EGFpf_ex
+NFKBpf_nucPCC
+EGFRgene_nucPCC
+EGFRrna_nucPCC
+ERKpf_cytoPCC
+ERKpf_nucPCC
+TNFAR_ACTpn_memPCC
+GLUT1gene_nucPCC
+GLYCOLYSISbp_cytoPCC
+GSTgene_nucPCC
+HMGB1pf_nucPCC
+HMGB1pf_cytoPCC
+HMGB1pf_ex
+INJURYbp_memPCC
+NFKBpf_nucMAC
+STAT1pf_nucPCC
+P38MAPKpf_nucPCC
+IL1Bgene_nucPCC
+IL1Brna_nucPCC
+IL6RBpf_memMAC
+IL6RB_ACTpf_memMAC
+IL6RBgene_nucMAC
+IL6RBrna_nucMAC
+INGR2pf_memMAC
+PDL1L1pn_ex
+INGR2gene_nucMAC
+JAK1pf_cytoPCC
+JAK2pf_cytoMAC
+RAC1pn_cytoPCC
+LDHpf_cytoPCC
+ROScf_cytoPCC
+TSC2pf_cytoPCC
+MYCgene_nucPCC
+MYCrna_nucPCC
+NFKBpf_cytoMAC
+NOXpf_memPCC
+P38MAPKpf_cytoPCC
+STAT1gene_nucMAC
+STAT1pf_cytoMAC
+STAT1rna_nucMAC
+STAT1pf_cytoPCC
+TYK2pn_cytoMAC
+STAT3pf_cytoMAC
+STAT3pf_cytoPCC
+TERTgene_nucPCC
+TNFARgene_nucPCC
