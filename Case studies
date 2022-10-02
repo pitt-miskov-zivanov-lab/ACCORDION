@@ -1,0 +1,80 @@
+We describe here the creation of nine case studies, three studies for each system, naïve T cell differentiation, T cell large granular lympho-cyte leukemia, and pancreatic cancer cells. 
+In particular, we provide the details of baseline models, golden models, candidate event (CE) sets, properties and scenarios. 
+For all the nine case studies, we used the PubMed database [1]. The PubMed search was conducted using Entrez [2], an integrated database retrieval system that allows access to a diverse 
+set of databases at the National Center for Biotechnology Information (NCBI) website. 
+The published articles that were obtained through search of PubMed are read using the REACH engine [3], which extracted a list of events and the corresponding information. 
+The REACH reading engine is available online and can be run through the Integrated Network and Dynamical Reasoning Assembler (INDRA) [4].
+
+
+I. T cell differentiation (Tcell)
+
+We used in this work two existing, manually built models of naïve T cell differentiation, described in [5] and [6]. 
+Naïve peripheral T cells are stimulated via antigen presentation to T cell receptor (TCR) and with co-stimulation at CD28 receptor. This stimulation results in the activation of several downstream pathways, 
+feedback and feedforward loops between pathway elements, which then lead to the differentiation of naïve T cells into helper (Th) or regulatory (Treg) phe-notypes. The distribution between Th and Treg cells 
+within the T cell population depends on antigen dose; for instance, high antigen dose re-sults in prevalence of Th cells, while low antigen dose leads to a mixed population of Th and Treg cells. The key markers 
+that are commonly used to measure the outcomes of the naïve T cell differentiation into Th and Treg cells are IL2 and Foxp3, respectively. 
+In other words, Th cells are characterized by high expression of IL-2 and low expression of Foxp3, and Treg cells are characterized by high expression of Foxp3 and low expression of IL-2. 
+In [5], the authors proposed a model where most of the elements are assumed to have two main levels of activity, and are therefore repre-sented with Boolean variables, and their update rules are logic functions. Additionally, 
+the stimulation through TCR is assumed to have three dif-ferent levels, no stimulation (TCR=0), low dose (TCR=1), and high dose (TCR=2), and therefore, it is implemented using two Boolean variables. 
+In [6], the authors have proposed an extension of the original T cell model from [5], a new model that improved the behavior of the original model. Specifically, in the new model in [6], the Foxp3 response to low dose is closer 
+to experimental observations, that is, it is present in al-most 70% of the differentiated population, while in [5] Foxp3 was present in 100% of the differentiated population. 
+In both models, there is a brief transient induction of Foxp3 after the stimulation with high antigen dose. We will refer to the model from [6] as the golden model. As the baseline model, we used the original model from [5], 
+without several interactions overlapping with the golden model from [6] (TCR activates PIP3, PIP3 activates Akt, Akt activates mTORC2 and mTORC2 inhibits Akt). While the model from [5] satisfied a large number of system properties, 
+except for a few that are satisfied by the model in [6] only, the baseline model in its reduced shape does not satisfy a larger set of sys-tem properties. 
+From the golden model in [6] and the results of its studies, we define a set of properties that the final model recommended by ACCORDION should satisfy. Specifically, the properties capture observed responses of key pathway components in T cells, 
+Foxp3, IL-2, PTEN, CD25, STAT5, AKT, mTOR, mTORC2 and FoxO1, to three scenarios: (1) no stimula-tion (TCR=0), (2) stimulation with low antigen dose (TCR=1), and (3) stimula-tions with high antigen dose (TCR=2). 
+The complete list of 27 properties is shown in Table S1 in ACCORDION paper.
+The CE set, which is another input to ACCORDION, is assembled in three different ways for the T cell case studies. In the ‘fully automated’ (Tcell-CEFA) CE set, both the PubMed database search for relevant articles and the extraction of event data 
+from the selected articles were done by machines. In this first experiment, we used the search query “T-cell and (PTEN or AKT or FOXO)” and selected top 11 from the best matched papers, by the PubMed search engine. 
+In the ‘semi-automated’ (Tcell-CESA) CE set, we selected papers that are cited by [6] and used the event information that REACH automatically extracted from those papers. 
+Finally, in the semi-manual (Tcell-CESM) CE set, we excluded from the SA CE set those interactions that violate any assumptions made by the authors originally in [5]. For instance, the authors in [5] consider element TCR to be an input to the network, 
+and therefore, TCR should not have any regulators in the T cell model. Therefore, if REACH retrieves an interaction in which TCR is a regulated element, we remove these interactions and keep only the interactions having TCR as a regulator. 
+We have also selected from the reading output the protein-protein interactions, not including the more general biological processes information. 
+The rationale behind this is that there is often not enough context for a mentioned biological process, and the lack of context affects inter-pretation of the extracted interaction. 
+The machine reading outputs obtained by reading papers for each case contain 239, 131 and 85 interactions for the Tcell-CEFA, Tcell-CESA and Tcell-CESM cases, respectively.
+
+
+II. T cell large granular lymphocyte (T-LGL) leukemia
+
+The blood cancer T cell large granular lymphocyte (T-LGL) leukemia is a chronic disease characterized by an abnormal increase of T cells [7]. There is no curative therapy yet known for this disease. 
+Hence, there is a crucial need to identify potential therapeutic targets. A discrete dynamic model of the disease was published in [7]. Eventually, the authors in [8] performed a comprehensive dynamical 
+and structural analysis of the network model which led to the identification of 19 therapeutic targets [8].
+For this case study, the model published in [7] will serve as the golden model, whereas the baseline model for this study will be created by removing all direct regulators of the 19 model elements that were identified by [8] 
+as therapeutic targets. According to [8], these elements are: BID, Caspase, Ceramide, DISC, ERK, GAP, IL2RB, IL2RBT, JAK, MCL1, MEK, NFKB, PDGFR, PI3K, RAS, S1P, SOCS, SPHK1 and STAT3. 
+Here, we define the set of properties that our final automatically extended model needs to satisfy as the properties that capture the observed responses of the 19 therapeutic targets in the golden model under one scenario (Table S1 in ACCORDION paper). 
+Next, we came up with three different queries that will be the input to the search engine in order to retrieve the most relevant sets of papers. The first query which corresponds to “T-LGL simple query” or (T-LGL QSm) case is “T-LGL leukemia therapeutic targets and apoptosis”. 
+From the papers that PubMed returned, we then selected 22 papers that PubMed identified as “Best match”. The machine reading output obtained by reading those papers contains 52 interactions. 
+For the second and third cases of this study namely “T-LGL medium query” or T-LGL QMed and “T-LGL detailed query” or T-LGL QDet, we used “T cell large granular lympho-cyte (T-LGL) leukemia proliferation apoptosis” and “T cell large granular lymphocyte (T-LGL) leukemia therapeutic targets proliferation apopto-sis”, respectively. 
+The number of interactions used in these cases are 448 and 644 extracted from 38 and 46 papers, respectively. As can be noticed, the queries were designed so that they include key words related to the T-LGL model and therapeutic targets. 
+For each query and the corresponding set of papers, we used REACH to read these papers and extract the set of CEs as input to ACCORDION.
+
+
+III. Pancreatic cancer cell (PCC)
+
+The modeling of pancreatic cancer is of great importance since it could reveal some molecular mechanisms that will help in guiding treatment. In [9], the authors created manually a discrete model of the major signaling pathways, metabolism and the tumor microenvironment including macrophages. 
+The model is initialized with pancreatic cancer receptors and mutations and simulated in time. The model describes the hallmarks of cancer and suggests combinations of inhibitors as therapies. These hallmarks are represented as the processes of apoptosis, autophagy, cell cycle pro-gression, inflammation, immune response, oxidative phos-phorylation and proliferation. 
+The model in [9] serves as a golden model for our PCC case studies.  We removed from the model in [9] a subset of paths that have autophagy, apoptosis and proliferation as their target nodes to create three different baseline models for the PCC case studies. 
+Unlike the T-LGL case study where we used the same baseline model and different CEs, here, we designed each experiment with a different baseline model. This is achieved by removing the paths that connect a source node that initiates a specific biological process such as (autophagy, apoptosis and proliferation) to a target node which will be this biological process. 
+For instance, in PCC BMAu, according to the evidence that mTORC1 initiates autophagy [10], we remove the paths that link mTORC1 and autophagy and the outcome will be our first baseline model that corresponds to PCC BMAu. 
+Similarly, for PCC BMAp and PCC BMPr, based on the fact that TGFβ1 regulates apoptosis [11] and KRas mutations enhances proliferation [12], we have also created the baseline models that correspond to PCC BMAp and PCC BMPr, respectively by removing the paths that connect source nodes (TGFβ1, KRas) to target nodes (apoptosis and proliferation).  
+In this case study, the golden model will be the whole PCC model network [9]. 
+The CE input set for ACCORDION is the same for the three PCC case studies, it contains 631 interactions retrieved from 19 papers cited in the PCC model paper[9].
+Using the golden model and the descriptions from [9], we wrote the BLTL expressions of 21 system properties that capture the behavior of seven key elements (apoptosis, autophagy, cell cycle progression, immune response, inflammation, oxidative phosphorylation and proliferation) under three different scenarios, (1) normal, (2) with injury and (3) with KRas, TP53 and CDN2A mutation [13] (Table S1 in ACCORDION paper).
+
+
+References
+
+[1] R. J. Roberts, “PubMed Central: The GenBank of the published literature,” Proc Natl Acad Sci U S A, vol. 98, no. 2, pp. 381–382, 2001, doi: 10.1073/pnas.98.2.381.
+[2] Entrez: Molecular biology database and re-trieval system,” Methods Enzymol, vol. 266, pp. 141–161, 1996, doi: 10.1016/s0076-6879(96)66012-1.
+[3] M. A. Valenzuela-escárcega et al., “Large-scale Automated Reading of Scientific Cancer Litera-ture Discovers New Cancer Driving Mecha-nisms,” Database, 2018.
+[4] B. M. Gyori, J. A. Bachman, K. Subramanian, J. L. Muhlich, L. Galescu, and P. K. Sorger, “From word models to executable models of signaling networks using automated assem-bly,” Mol Syst Biol, vol. 13, no. 11, p. 954, 2017, doi: 10.15252/msb.20177651.
+[5] N. Miskov-Zivanov, M. S. Turner, L. P. Kane, P. A. Morel, and J. R. Faeder, “The duration of T cell stimulation is a critical determinant of cell fate and plasticity,” Sci Signal, vol. 6, no. 300, 2013, doi: 10.1126/scisignal.2004217.
+[6] W. F. Hawse et al., “ Cutting Edge: Differential Regulation of PTEN by TCR, Akt, and FoxO1 Controls CD4 + T Cell Fate Decisions ,” The Journal of Immunology, vol. 194, no. 10, pp. 4615–4619, 2015, doi: 10.4049/jimmunol.1402554.
+[7] R. Zhang et al., “Network model of survival signaling in T-cell large granular lymphocyte leukemia,” Proceedings of the National Academy of Sciences, vol. 105, no. 42, pp. 16308–16313, 2008, doi: 10.1201/9781439811863.
+[8] A. Saadatpour et al., “Dynamical and Structur-al Analysis of a T Cell Survival Network Iden-tifies Novel Candidate Therapeutic Targets for Large Granular Lymphocyte Leukemia,” PLoS Comput Biol, 2011, doi: 10.1371/journal.pcbi.1002267.
+[9] C. Telmer et al., “Computational modeling of cell signaling and mutations in pancreatic can-cer,” 2019.
+[10] D. Muilenburg, C. Parsons, J. Coates, S. Viru-dachalam, and R. J. Bold, “Role of Autophagy in Apoptotic Regulation by Akt in Pancreatic Cancer,” Anticancer Res, vol. 34, no. 2, pp. 631–637, 2014, doi: 10.1016/j.physbeh.2017.03.040.
+[11] P. Siegel and J. Massagué, “Cytostatic and apoptotic actions of TGF-beta in homeostasis and cancer,” Nature Reviews. Cancer Cancer, vol. 3, no. 11, 2003, doi: 10.1038/nrc1208.
+[12] N. Bardeesy and R. A. DePinho, “Pancreatic cancer biology and genetics,” Nat Rev Cancer, vol. 2, no. 12, pp. 897–909, 2002, doi: 10.1038/nrc949.
+
+
