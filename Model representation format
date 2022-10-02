@@ -1,0 +1,16 @@
+Model representation format
+
+ACCORDION uses the element-based BioRECIPES representation format described in [1], which includes for each model element: 
+(i) name, 
+(ii) type (protein, gene, RNA, or a chemical), 
+(iii) identifier from a database (e.g., UniProt [2]), 
+(iv) variable that represents state, and 
+(v) set of regulators written using a notation that captures different discrete functions (e.g., weighted sum, min/max, Boolean). 
+All benchmark presented in this work are written in the BioRECIPES representation format. 
+From this format, executable models are generated automatically as part of the DiSH simulator [3], which is publicly available.
+
+References
+
+[1] K. Sayed, C. A. Telmer, A. A. Butchy, and N. Miskov-Zivanov, “Recipes for translating big data machine reading to executable cellular signaling models,” Lecture Notes in Computer Science (including subseries Lecture Notes in Ar-tificial Intelligence and Lecture Notes in Bioin-formatics), vol. 10710 LNCS, pp. 1–15, 2018, doi: 10.1007/978-3-319-72926-8_1.
+[2] A. Bateman et al., “UniProt: The universal protein knowledgebase,” Nucleic Acids Res, vol. 45, no. D1, pp. D158–D169, 2017, doi: 10.1093/nar/gkw1099.
+[3] K. Sayed, Y. H. Kuo, A. Kulkarni, and N. Miskov-Zivanov, “DiSH simulator: Capturing dynamics of cellular signaling with heteroge-neous knowledge,” Proceedings - Winter Simu-lation Conference, pp. 896–907, 2018, doi: 10.1109/WSC.2017.8247841.
