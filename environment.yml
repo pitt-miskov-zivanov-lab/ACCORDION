@@ -1,0 +1,10 @@
+dependencies:
+  - python
+  - numpy
+  - pip
+  - pip:
+    - networkx
+    - openpyxl
+    - pandas
+    - matplotlib
+    - rst2pdf
