@@ -1,7 +1,8 @@
 #!/bin/bash
 
 conda install -c "bioconda/label/cf201901" mcl
-conda install gsl
+#conda install gsl
+apt-get install libgsl-dev
 
 cd dependencies/Model_Checking/dishwrap_v1.0/dishwrap
 make
