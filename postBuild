@@ -1,4 +1,17 @@
 #!/bin/bash
 
 conda install -c "bioconda/label/cf201901" mcl
-conda install gsl
+conda install -c "conda-forge/label/gcc7" gsl
+conda install -c "conda-forge/label/gcc7" flex  #required by gsl
+conda install -c "conda-forge/label/gcc7" bison #required by gsl
+
+#FIXME: hard-coded include_path & library_path for binder image only, may not be necessary if gsl is installed locally
+CPLUS_INCLUDE_PATH=/srv/conda/pkgs/boost-cpp-1.80.0-h75c5d50_0/include:/srv/conda/pkgs/gsl-2.7-he838d99_0/include
+export CPLUS_INCLUDE_PATH
+LIBRARY_PATH=/srv/conda/pkgs/gsl-2.7-he838d99_0/lib
+export LIBRARY_PATH
+
+cd dependencies/Model_Checking/dishwrap_v1.0/dishwrap
+make
+cd ../monitor
+make
