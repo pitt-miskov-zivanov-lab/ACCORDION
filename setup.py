@@ -15,7 +15,7 @@ setup(
     #license='',
     keywords='dynamic system boolean logical qualitative modeling simulation',
 
-    package=['src',]
+    package=['src','dependencies/Model_Checking']
 
     include_package_data=True,
 
@@ -25,6 +25,9 @@ setup(
         'pandas',
         'openpyxl',
         'rst2pdf',
+        'multiprocessing',
+        'joblib',
+        'glob',
         'tornado==4.5.3' # to not interfere with jupyter
     ],
     zip_safe=False # install as directory

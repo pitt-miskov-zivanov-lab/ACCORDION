@@ -1,0 +1,150 @@
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py "../../examples/output/BooleanTcell_Extension_Candidate_1.xlsx" "../../examples/traces/example_traces_BooleanTcell_Extension_Candidate_1.txt" --scenario=0 --steps=1555 --output_format=2 --runs=1
+2023-01-06 22:39:56,448 [MainThread  ] [INFO ]  Simulating...
+2023-01-06 22:39:56,864 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker "../../examples/input/TheProperties/p1/p1a.txt" "../../examples/traces/example_traces_BooleanTcell_Extension_Candidate_1.txt"
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py "../../examples/output/BooleanTcell_Extension_Candidate_1.xlsx" "../../examples/traces/example_traces_BooleanTcell_Extension_Candidate_1.txt" --scenario=0 --steps=1555 --output_format=2 --runs=1
+2023-01-06 22:39:57,596 [MainThread  ] [INFO ]  Simulating...
+2023-01-06 22:39:58,023 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker "../../examples/input/TheProperties/p1/p1a.txt" "../../examples/traces/example_traces_BooleanTcell_Extension_Candidate_1.txt"
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py "../../examples/output/BooleanTcell_Extension_Candidate_1.xlsx" "../../examples/traces/example_traces_BooleanTcell_Extension_Candidate_1.txt" --scenario=0 --steps=1555 --output_format=2 --runs=1
+2023-01-06 22:39:58,749 [MainThread  ] [INFO ]  Simulating...
+2023-01-06 22:39:59,160 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker "../../examples/input/TheProperties/p1/p1a.txt" "../../examples/traces/example_traces_BooleanTcell_Extension_Candidate_1.txt"
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py "../../examples/output/BooleanTcell_Extension_Candidate_1.xlsx" "../../examples/traces/example_traces_BooleanTcell_Extension_Candidate_1.txt" --scenario=0 --steps=1555 --output_format=2 --runs=1
+2023-01-06 22:39:59,860 [MainThread  ] [INFO ]  Simulating...
+2023-01-06 22:40:00,270 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker "../../examples/input/TheProperties/p1/p1a.txt" "../../examples/traces/example_traces_BooleanTcell_Extension_Candidate_1.txt"
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py "../../examples/output/BooleanTcell_Extension_Candidate_1.xlsx" "../../examples/traces/example_traces_BooleanTcell_Extension_Candidate_1.txt" --scenario=0 --steps=1555 --output_format=2 --runs=1
+2023-01-06 22:40:00,966 [MainThread  ] [INFO ]  Simulating...
+2023-01-06 22:40:01,341 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker "../../examples/input/TheProperties/p1/p1a.txt" "../../examples/traces/example_traces_BooleanTcell_Extension_Candidate_1.txt"
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py "../../examples/output/BooleanTcell_Extension_Candidate_1.xlsx" "../../examples/traces/example_traces_BooleanTcell_Extension_Candidate_1.txt" --scenario=0 --steps=1555 --output_format=2 --runs=1
+2023-01-06 22:40:02,005 [MainThread  ] [INFO ]  Simulating...
+2023-01-06 22:40:02,382 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker "../../examples/input/TheProperties/p1/p1a.txt" "../../examples/traces/example_traces_BooleanTcell_Extension_Candidate_1.txt"
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py "../../examples/output/BooleanTcell_Extension_Candidate_1.xlsx" "../../examples/traces/example_traces_BooleanTcell_Extension_Candidate_1.txt" --scenario=0 --steps=1555 --output_format=2 --runs=1
+2023-01-06 22:40:03,020 [MainThread  ] [INFO ]  Simulating...
+2023-01-06 22:40:03,426 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker "../../examples/input/TheProperties/p1/p1a.txt" "../../examples/traces/example_traces_BooleanTcell_Extension_Candidate_1.txt"
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py "../../examples/output/BooleanTcell_Extension_Candidate_1.xlsx" "../../examples/traces/example_traces_BooleanTcell_Extension_Candidate_1.txt" --scenario=0 --steps=1555 --output_format=2 --runs=1
+2023-01-06 22:40:04,178 [MainThread  ] [INFO ]  Simulating...
+2023-01-06 22:40:04,763 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker "../../examples/input/TheProperties/p1/p1a.txt" "../../examples/traces/example_traces_BooleanTcell_Extension_Candidate_1.txt"
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py "../../examples/output/BooleanTcell_Extension_Candidate_1.xlsx" "../../examples/traces/example_traces_BooleanTcell_Extension_Candidate_1.txt" --scenario=0 --steps=1555 --output_format=2 --runs=1
+2023-01-06 22:40:05,528 [MainThread  ] [INFO ]  Simulating...
+2023-01-06 22:40:06,001 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker "../../examples/input/TheProperties/p1/p1a.txt" "../../examples/traces/example_traces_BooleanTcell_Extension_Candidate_1.txt"
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py "../../examples/output/BooleanTcell_Extension_Candidate_1.xlsx" "../../examples/traces/example_traces_BooleanTcell_Extension_Candidate_1.txt" --scenario=0 --steps=1555 --output_format=2 --runs=1
+2023-01-06 22:40:06,830 [MainThread  ] [INFO ]  Simulating...
+2023-01-06 22:40:07,327 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker "../../examples/input/TheProperties/p1/p1a.txt" "../../examples/traces/example_traces_BooleanTcell_Extension_Candidate_1.txt"
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py "../../examples/output/BooleanTcell_Extension_Candidate_1.xlsx" "../../examples/traces/example_traces_BooleanTcell_Extension_Candidate_1.txt" --scenario=0 --steps=1555 --output_format=2 --runs=1
+2023-01-06 22:40:08,025 [MainThread  ] [INFO ]  Simulating...
+2023-01-06 22:40:08,462 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker "../../examples/input/TheProperties/p1/p1a.txt" "../../examples/traces/example_traces_BooleanTcell_Extension_Candidate_1.txt"
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py "../../examples/output/BooleanTcell_Extension_Candidate_1.xlsx" "../../examples/traces/example_traces_BooleanTcell_Extension_Candidate_1.txt" --scenario=0 --steps=1555 --output_format=2 --runs=1
+2023-01-06 22:40:09,727 [MainThread  ] [INFO ]  Simulating...
+2023-01-06 22:40:10,316 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker "../../examples/input/TheProperties/p1/p1a.txt" "../../examples/traces/example_traces_BooleanTcell_Extension_Candidate_1.txt"
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py "../../examples/output/BooleanTcell_Extension_Candidate_1.xlsx" "../../examples/traces/example_traces_BooleanTcell_Extension_Candidate_1.txt" --scenario=0 --steps=1555 --output_format=2 --runs=1
+2023-01-06 22:40:11,006 [MainThread  ] [INFO ]  Simulating...
+2023-01-06 22:40:11,399 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker "../../examples/input/TheProperties/p1/p1a.txt" "../../examples/traces/example_traces_BooleanTcell_Extension_Candidate_1.txt"
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py "../../examples/output/BooleanTcell_Extension_Candidate_1.xlsx" "../../examples/traces/example_traces_BooleanTcell_Extension_Candidate_1.txt" --scenario=0 --steps=1555 --output_format=2 --runs=1
+2023-01-06 22:40:12,066 [MainThread  ] [INFO ]  Simulating...
+2023-01-06 22:40:12,499 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker "../../examples/input/TheProperties/p1/p1a.txt" "../../examples/traces/example_traces_BooleanTcell_Extension_Candidate_1.txt"
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py "../../examples/output/BooleanTcell_Extension_Candidate_1.xlsx" "../../examples/traces/example_traces_BooleanTcell_Extension_Candidate_1.txt" --scenario=0 --steps=1555 --output_format=2 --runs=1
+2023-01-06 22:40:13,233 [MainThread  ] [INFO ]  Simulating...
+2023-01-06 22:40:13,917 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker "../../examples/input/TheProperties/p1/p1a.txt" "../../examples/traces/example_traces_BooleanTcell_Extension_Candidate_1.txt"
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py "../../examples/output/BooleanTcell_Extension_Candidate_1.xlsx" "../../examples/traces/example_traces_BooleanTcell_Extension_Candidate_1.txt" --scenario=0 --steps=1555 --output_format=2 --runs=1
+2023-01-06 22:40:14,636 [MainThread  ] [INFO ]  Simulating...
+2023-01-06 22:40:15,038 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker "../../examples/input/TheProperties/p1/p1a.txt" "../../examples/traces/example_traces_BooleanTcell_Extension_Candidate_1.txt"
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py "../../examples/output/BooleanTcell_Extension_Candidate_1.xlsx" "../../examples/traces/example_traces_BooleanTcell_Extension_Candidate_1.txt" --scenario=0 --steps=1555 --output_format=2 --runs=1
+2023-01-06 22:40:15,791 [MainThread  ] [INFO ]  Simulating...
+2023-01-06 22:40:16,215 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker "../../examples/input/TheProperties/p1/p1a.txt" "../../examples/traces/example_traces_BooleanTcell_Extension_Candidate_1.txt"
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py "../../examples/output/BooleanTcell_Extension_Candidate_1.xlsx" "../../examples/traces/example_traces_BooleanTcell_Extension_Candidate_1.txt" --scenario=0 --steps=1555 --output_format=2 --runs=1
+2023-01-06 22:40:16,965 [MainThread  ] [INFO ]  Simulating...
+2023-01-06 22:40:17,418 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker "../../examples/input/TheProperties/p1/p1a.txt" "../../examples/traces/example_traces_BooleanTcell_Extension_Candidate_1.txt"
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py "../../examples/output/BooleanTcell_Extension_Candidate_1.xlsx" "../../examples/traces/example_traces_BooleanTcell_Extension_Candidate_1.txt" --scenario=0 --steps=1555 --output_format=2 --runs=1
+2023-01-06 22:40:18,171 [MainThread  ] [INFO ]  Simulating...
+2023-01-06 22:40:18,598 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker "../../examples/input/TheProperties/p1/p1a.txt" "../../examples/traces/example_traces_BooleanTcell_Extension_Candidate_1.txt"
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py "../../examples/output/BooleanTcell_Extension_Candidate_1.xlsx" "../../examples/traces/example_traces_BooleanTcell_Extension_Candidate_1.txt" --scenario=0 --steps=1555 --output_format=2 --runs=1
+2023-01-06 22:40:19,268 [MainThread  ] [INFO ]  Simulating...
+2023-01-06 22:40:19,676 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker "../../examples/input/TheProperties/p1/p1a.txt" "../../examples/traces/example_traces_BooleanTcell_Extension_Candidate_1.txt"
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py "../../examples/output/BooleanTcell_Extension_Candidate_1.xlsx" "../../examples/traces/example_traces_BooleanTcell_Extension_Candidate_1.txt" --scenario=0 --steps=1555 --output_format=2 --runs=1
+2023-01-06 22:40:20,518 [MainThread  ] [INFO ]  Simulating...
+2023-01-06 22:40:20,994 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker "../../examples/input/TheProperties/p1/p1a.txt" "../../examples/traces/example_traces_BooleanTcell_Extension_Candidate_1.txt"
+syntax error, unexpected UNKN_TOK, expecting $end
+BEST 0.05 0.9 1 1: estimate = 0.956522, successes = 21, samples = 21
+Elapsed cpu time: 0.015335
+Elapsed wall time: 26
