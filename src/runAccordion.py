@@ -326,7 +326,12 @@ def extend_model(base_mdl,clusters,ext_mdl):
 	pos=df.columns.get_loc("Positive regulators")+1
 	neg=df.columns.get_loc("Negative regulators")+1
 	var_name=df.columns.get_loc("Variable name")+1
-	ini0=df.columns.get_loc("Initial 0")+1
+	ini0=df.columns.get_loc("Initial 0")+1 #uncomment the following lines if you have more than one scenario in the properties
+	ini1=df.columns.get_loc("Initial 1")+1
+	ini2=df.columns.get_loc("Initial 2")+1
+#	ini3=df.columns.get_loc("Initial 3")+1
+#	ini4=df.columns.get_loc("Initial 4")+1
+#	ini5=df.columns.get_loc("Initial 5")+1
 	el_name=df.columns.get_loc("Element name")+1
 	name_to_row = getRow(ext_mdl)
 	curr_row = len(name_to_row)+2
@@ -337,8 +342,8 @@ def extend_model(base_mdl,clusters,ext_mdl):
 			ws.cell(row=curr_row,column=el_name,value=e[0])
 			ws.cell(row=curr_row,column=var_name,value=e[0])
 			ws.cell(row=curr_row,column=ini0,value=1) #uncomment the following lines if you have more than one scenario in the properties
-#			ws.cell(row=curr_row,column=ini1,value=1)
-#			ws.cell(row=curr_row,column=ini2,value=1)
+			ws.cell(row=curr_row,column=ini1,value=1)
+			ws.cell(row=curr_row,column=ini2,value=1)
 #			ws.cell(row=curr_row,column=ini3,value=1)
 #			ws.cell(row=curr_row,column=ini4,value=1)
 #			ws.cell(row=curr_row,column=ini5,value=1)
@@ -347,9 +352,9 @@ def extend_model(base_mdl,clusters,ext_mdl):
 		if e[1] not in name_to_row:
 			ws.cell(row=curr_row,column=el_name,value=e[1])
 			ws.cell(row=curr_row,column=var_name,value=e[1])
-			ws.cell(row=curr_row,column=ini0,value=1)
-#			ws.cell(row=curr_row,column=ini1,value=1)
-#			ws.cell(row=curr_row,column=ini2,value=1)
+			ws.cell(row=curr_row,column=ini0,value=1) #uncomment the following lines if you have more than one scenario in the properties
+			ws.cell(row=curr_row,column=ini1,value=1)
+			ws.cell(row=curr_row,column=ini2,value=1)
 #			ws.cell(row=curr_row,column=ini3,value=1)
 #			ws.cell(row=curr_row,column=ini4,value=1)
 #			ws.cell(row=curr_row,column=ini5,value=1)
