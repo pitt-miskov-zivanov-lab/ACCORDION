@@ -25,9 +25,7 @@ setup(
         'pandas',
         'openpyxl',
         'rst2pdf',
-        'multiprocessing',
         'joblib',
-        'glob',
         'tornado==4.5.3' # to not interfere with jupyter
     ],
     zip_safe=False # install as directory
