@@ -1,8 +1,9 @@
 #!/bin/bash
 
-cd dependencies/mcl-14-137
-./configure
+conda install -c "bioconda/label/cf201901" mcl
+conda install gsl
+
+cd dependencies/Model_Checking/dishwrap_v1.0/dishwrap
 make
-make install
-make clean
-make distclean
+cd ../monitor
+make
