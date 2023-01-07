@@ -10,6 +10,4 @@ rst2pdf
 pandas
 openpyxl
 networkx
-multiprocessing
 joblib
-glob
