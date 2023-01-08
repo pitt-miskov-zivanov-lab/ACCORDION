@@ -8,7 +8,7 @@ export LIBRARY_PATH
 LD_LIBRARY_PATH=${NB_PYTHON_PREFIX}/lib
 export LD_LIBRARY_PATH
 
-cd dishwrap_v1.0/dishwrap
+cd dependencies/Model_Checking/dishwrap_v1.0/dishwrap
 make
 cd ../monitor
 make
