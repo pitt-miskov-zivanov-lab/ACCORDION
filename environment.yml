@@ -1,4 +1,11 @@
+channels:
+  - conda-forge
+  - "bioconda/label/cf201901"
 dependencies:
+  - gsl=2.6
+  - flex
+  - bison
+  - mcl
   - python
   - numpy
   - pip
