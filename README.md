@@ -7,7 +7,7 @@ ACCORDION (ACCelerating and Optimizing model RecommenDatIONs) is novel tool and 
 ## Contents
 
 - [Functionality](#Functionality)
-- [I/O](#I/O)
+- [I/O](#IO)
 - [Online Tutorial](#Online-Tutorial)
 - [Offline Installation](#Offline-Installation)
 - [Package Structure](#Package-Structure)
@@ -44,7 +44,7 @@ RegulatedName,RegulatedID,RegulatedType,RegulatorName,RegulatorID,RegulatorType,
 ## Online Tutorial
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pitt-miskov-zivanov-lab/ACCORDION/HEAD)
 
-Run the demonstrated example; or alternatively upload user-customized input files (see [I/O](#I/O)) to the _input/_ directory on File Browser Tab (upper left corner) of Binder.
+Run the demonstrated example; or alternatively upload user-customized input files (see [I/O](#IO)) to the _input/_ directory on File Browser Tab (upper left corner) of Binder.
 
 #### This interactive jupyter notebook walks you though all of the code and functions to:
 
@@ -83,9 +83,9 @@ Run the demonstrated example; or alternatively upload user-customized input file
 
 - [`setup.py`](setup.py): python file that help set up python dependencies installtion and non-python package building
 - [`src/`](src/): directory that includes core python ACCORDION files
-  - [`src/runACCORDION.py`](src/runACCORDION.py): functions for extending discrete network models in the BioRECIPES tabular format using knowledge from literature, as well as adding different groups of extensions to the model
+  - [`src/runAccordion.py`](src/runAccordion.py): functions for extending discrete network models in the BioRECIPES tabular format using knowledge from literature, as well as adding different groups of extensions to the model
   - [`src/markovCluster.py`](src/markovCluster.py): contains the functions that creates and clusters the network of baseline model and machine reading output
-- [`dependencies/`](dependencies/): dependencies directory, containing gsl and mcl packages and model checking module (a part of DySE framework)
+- [`dependencies/`](dependencies/): dependencies directory, containing gsl and MCL packages and model checking module (a part of [DySE framework](https://www.nmzlab.pitt.edu/our-tools))
 - [`examples/`](examples/): directory that includes tutorial notebook and example inputs and outputs
 - [`environment.yml`](environment.yml): environment file, required by Binder
 - [`postBuild`](postBuild): path settings and compilation, used by Binder
