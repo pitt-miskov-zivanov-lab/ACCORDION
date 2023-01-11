@@ -15,6 +15,7 @@
 import os
 import sys
 import sphinx_rtd_theme
+import sphinx_copybutton
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.getcwd(), os.pardir, 'src/')))
 
@@ -44,6 +45,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.mathjax',
     'sphinx_rtd_theme',
+    'sphinx_copybutton',
     'sphinx.ext.viewcode',
     'sphinx.ext.napoleon',
     'sphinx.ext.intersphinx',
