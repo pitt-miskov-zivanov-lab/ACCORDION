@@ -28,13 +28,11 @@ Applications
 The primary application area of ACCORDION is dynamic and causal network models.
 
 
---------
-
 .. toctree::
    :maxdepth: 2
    :caption: Contents
 
    runAccordion
    markovCluster
-   installation
+   TutorialandInstallation
    Legal

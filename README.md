@@ -48,7 +48,7 @@ Run the demonstrated example; or alternatively upload user-customized input file
 
 #### This interactive jupyter notebook walks you though all of the code and functions to:
 
-1. Get familar with and parse the input files including baseline model spreadsheet and machine reading extracted events.
+1. Get familiar with and parse the input files including baseline model spreadsheet and machine reading extracted events.
 2. Cluster events into groups, generate extension candidates and possibly merge some candidates.
 3. Modify baseline model spreadsheet according to extension candidates.
 4. Test new model files against system properties and obtain model checking results that will help modelers choose the best extension among candidates.
