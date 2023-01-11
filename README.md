@@ -8,11 +8,11 @@ ACCORDION (ACCelerating and Optimizing model RecommenDatIONs) is novel tool and 
 
 - [Functionality](#Functionality)
 - [I/O](#I/O)
-- [Online Tutorial](#OnlineTutorial)
-- [Offline Installation](#Installation)
-- [Package Structure](#PackageStructure)
-- [Citation](#citation)
-- [Funding](#funding)
+- [Online Tutorial](#Online-Tutorial)
+- [Offline Installation](#Offline-Installation)
+- [Package Structure](#Package-Structure)
+- [Citation](#Citation)
+- [Funding](#Funding)
 - [Support](#Support)
 
 ## Functionality
@@ -44,7 +44,7 @@ RegulatedName,RegulatedID,RegulatedType,RegulatorName,RegulatorID,RegulatorType,
 ## Online Tutorial
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pitt-miskov-zivanov-lab/ACCORDION/HEAD)
 
-Run the demonstrated example; or alternatively upload user-customized input files (see [Input & Output](#Input&Output)) to the _input/_ directory on File Browser Tab (upper left corner) of Binder.
+Run the demonstrated example; or alternatively upload user-customized input files (see [I/O](#I/O)) to the _input/_ directory on File Browser Tab (upper left corner) of Binder.
 
 #### This interactive jupyter notebook walks you though all of the code and functions to:
 
@@ -74,25 +74,25 @@ Run the demonstrated example; or alternatively upload user-customized input file
    cd ../monitor
    make
    ```
-3. Run the provided notebook (Check [Jupyter notebook install](https://jupyter.org/install) here). Comment Cell 11 & 29 if you already build the non-python dependencies locally.
+3. Run the provided notebook (Check [Jupyter notebook installation](https://jupyter.org/install) here). Comment Cell 11 & 29 if you already build the non-python dependencies locally.
    ```
    jupyter notebook examples/use_ACCORDION.ipynb
    ```
 
 ## Package Structure
 
-- [`setup.py`](#setup.py): python file that help set up python dependencies installtion and non-python package building
-- [`src/`](#src/): directory that includes core python ACCORDION files
-  - [`src/runACCORDION.py`](#src/runACCORDION.py): functions for extending discrete network models in the BioRECIPES tabular format using knowledge from literature, as well as adding different groups of extensions to the model
-  - [`src/markovCluster.py`](#src/markovCluster.py): contains the functions that creates and clusters the network of baseline model and machine reading output
-- [`dependencies/`](#dependencies/): dependencies directory, containing gsl and mcl packages and model checking module (a part of DySE framework)
-- [`examples/`](#examples/): directory that includes tutorial notebook and example inputs and outputs
-- [`environment.yml`](#environment.yml): environment file, required by Binder
-- [`postBuild`](#postBuild): path settings and compilation, used by Binder
-- [`docs/`](#docs/): containing files supporting the repo's host on [Read the Docs](https://accordion.readthedocs.io)
-- [`supplementary/`](#supplementary): containing supplementary files for paper manuscript
-- [`LICENSE.txt`](#LICENSE.txt): MIT License
-- [`README.md`](#README.md): this is me!
+- [`setup.py`](setup.py): python file that help set up python dependencies installtion and non-python package building
+- [`src/`](src/): directory that includes core python ACCORDION files
+  - [`src/runACCORDION.py`](src/runACCORDION.py): functions for extending discrete network models in the BioRECIPES tabular format using knowledge from literature, as well as adding different groups of extensions to the model
+  - [`src/markovCluster.py`](src/markovCluster.py): contains the functions that creates and clusters the network of baseline model and machine reading output
+- [`dependencies/`](dependencies/): dependencies directory, containing gsl and mcl packages and model checking module (a part of DySE framework)
+- [`examples/`](examples/): directory that includes tutorial notebook and example inputs and outputs
+- [`environment.yml`](environment.yml): environment file, required by Binder
+- [`postBuild`](postBuild): path settings and compilation, used by Binder
+- [`docs/`](docs/): containing files supporting the repo's host on [Read the Docs](https://accordion.readthedocs.io)
+- [`supplementary/`](supplementary): containing supplementary files for paper manuscript
+- [`LICENSE.txt`](LICENSE.txt): MIT License
+- [`README.md`](README.md): this is me!
 
 ## Citation
 
