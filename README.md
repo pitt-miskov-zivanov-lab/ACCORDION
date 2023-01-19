@@ -1,6 +1,6 @@
 # ACCORDION
 [![Documentation Status](https://readthedocs.org/projects/accordion/badge/?version=latest)](https://accordion.readthedocs.io/en/latest/?badge=latest)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pitt-miskov-zivanov-lab/ACCORDION/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pitt-miskov-zivanov-lab/ACCORDION/HEAD?labpath=%2Fexamples%2Fuse_ACCORDION.ipynb)
 
 ### (ACCelerating and Optimizing model RecommenDatIONs)
 
@@ -102,7 +102,7 @@ _Yasmine Ahmed, Cheryl Telmer, Gaoxiang Zhou, Natasa Miskov-Zivanov, “Context-
 
 ## Funding
 
-| Program             |     Grant Number |
+| Program             |   Grant Number   |
 | ------------------- | ---------------: |
 | DARPA Big Mechanism | W911NF-17-1-0135 |
 
