@@ -1,4 +1,6 @@
 # ACCORDION
+[![Documentation Status](https://readthedocs.org/projects/accordion/badge/?version=latest)](https://accordion.readthedocs.io/en/latest/?badge=latest)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pitt-miskov-zivanov-lab/ACCORDION/HEAD)
 
 ### (ACCelerating and Optimizing model RecommenDatIONs)
 
@@ -87,8 +89,8 @@ Run the demonstrated example; or alternatively upload user-customized input file
   - [`src/markovCluster.py`](src/markovCluster.py): contains the functions that creates and clusters the network of baseline model and machine reading output
 - [`dependencies/`](dependencies/): dependencies directory, containing gsl and MCL packages and model checking module (a part of [DySE framework](https://www.nmzlab.pitt.edu/our-tools))
 - [`examples/`](examples/): directory that includes tutorial notebook and example inputs and outputs
-- [`environment.yml`](environment.yml): environment file, required by Binder
-- [`postBuild`](postBuild): path settings and compilation, used by Binder
+- [`environment.yml`](environment.yml): environment file, required by [Binder](https://mybinder.readthedocs.io/en/latest/using/config_files.html#environment-yml-install-a-conda-environment)
+- [`postBuild`](postBuild): path settings and compilation, used by [Binder](https://mybinder.readthedocs.io/en/latest/using/config_files.html#postbuild-run-code-after-installing-the-environment)
 - [`docs/`](docs/): containing files supporting the repo's host on [Read the Docs](https://accordion.readthedocs.io)
 - [`supplementary/`](supplementary): containing supplementary files for paper manuscript
 - [`LICENSE.txt`](LICENSE.txt): MIT License
@@ -96,9 +98,7 @@ Run the demonstrated example; or alternatively upload user-customized input file
 
 ## Citation
 
-_Unpublished -> to be updated once published._
-
-_Yasmine Ahmed, Cheryl Telmer, Natasa Miskov-Zivanov, “ACCORDION: Clustering and Selecting Relevant Data for Guided Network Extension and Query Answering,” arXiv, February 2020_
+_Yasmine Ahmed, Cheryl Telmer, Gaoxiang Zhou, Natasa Miskov-Zivanov, “Context-aware knowledge selection and reliable model recommendation with ACCORDION”, bioRxiv preprint, doi: https://doi.org/10.1101/2022.01.22.477231._
 
 ## Funding
 
