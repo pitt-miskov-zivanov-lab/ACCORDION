@@ -35,7 +35,7 @@ setup(
     description='ACCelerating and Optimizing model RecommenDatIONs',
     long_description='A conditional clustering of relating data, built by the Mechanisms and Logic of Dynamics Lab at the University of Pittsburgh',
     #license='',
-    keywords='dynamic system boolean logical qualitative modeling simulation',
+    keywords='extension clustering modeling model-checking',
 
     package=['src','dependencies.Model_Checking'],
 
