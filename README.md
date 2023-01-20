@@ -102,9 +102,11 @@ _Yasmine Ahmed, Cheryl Telmer, Gaoxiang Zhou, Natasa Miskov-Zivanov, “Context-
 
 ## Funding
 
-| Program             |   Grant Number   |
-| ------------------- | ---------------: |
-| DARPA Big Mechanism | W911NF-17-1-0135 |
+| Program                  |   Grant Number   |
+| ------------------------ | ---------------: |
+| DARPA Big Mechanism      | W911NF-17-1-0135 |
+| ------------------------ | ---------------: |
+| University of Pittsburgh |                  |
 
 ## Support
 _To be updated_
