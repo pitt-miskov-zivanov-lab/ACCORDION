@@ -2,7 +2,7 @@
 Online Tutorial
 ########################
 .. image:: https://mybinder.org/badge_logo.svg
- :target: https://mybinder.org/v2/gh/pitt-miskov-zivanov-lab/ACCORDION/HEAD
+ :target: https://mybinder.org/v2/gh/pitt-miskov-zivanov-lab/ACCORDION/HEAD?labpath=%2Fexamples%2Fuse_ACCORDION.ipynb
 
 Click the icon above and run the demonstrated example; or alternatively upload user-customized input files to the input/ directory on File Browser Tab (upper left corner) of Binder.
 
