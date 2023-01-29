@@ -38,8 +38,8 @@ ACCORDION requires Python and C compiler installed on local machine. If users wa
 .. admonition:: And alternatively on MacOS/Linux
 
  - Feel free to only install python dependencies first via ``cd ACCORDION && pip install -e .``
- - And build non-python packages using your package managers. For MCL, try ``sudo apt-get install mcl`` or ``conda install -c "bioconda/label/cf201901" mcl``; For GSL, try ``sudo apt-get install libgsl-dev`` or ``conda install -c conda-forge gsl`` or ``brew install gsl``
- - Compile two C++ files to executables via ``cd dependencies/Model_Checking/dishwrap_v1.0/dishwrap && make && cd ../monitor && make``
+ - And build non-python packages using your package managers. For MCL, try |br| ``sudo apt-get install mcl`` or ``conda install -c "bioconda/label/cf201901" mcl``; For GSL, try ``sudo apt-get install libgsl-dev`` or ``conda install -c conda-forge gsl`` or ``brew install gsl``
+ - Compile two C++ files to executables via |br| ``cd dependencies/Model_Checking/dishwrap_v1.0/dishwrap && make && cd ../monitor && make``
  - The following libraries might also be required to compile successfully: ``boost``, ``flex``, ``bison``; install them via apt-get / conda / brew and update your system ``CPLUS_INCLUDE_PATH`` when there are related errors
 
 ..
@@ -52,14 +52,15 @@ ACCORDION requires Python and C compiler installed on local machine. If users wa
  python setup.py install
 
 .. Attention::
- Since many commands in C building process are not available on fresh Windows, `Cygwin <https://www.cygwin.com>`_ installation is encouraged as it has a large collection of open source tools which provide functionality similar to a Linux distribution
+ **Windows users**: Since many commands in C building process are not available on fresh Windows, `Cygwin <https://www.cygwin.com>`_ installation is encouraged as it has a large collection of open source tools which provide functionality similar to a Linux distribution
 
- - During Cygwin installation, follow default options given, but take time in :guilabel:`Select Packages` stage, :guilabel:`Search` in full view the following packages and change from ``skip`` option to certain version: |br| ``bison, flex, gcc-core(==7.4.0-1), gcc-g++(==7.4.0-1), gsl, libboost-devel, libgsl-devel, make``
+ - During Cygwin installation, follow default options given, but take time in :guilabel:`Select Packages` stage, :guilabel:`Search` in full view the following packages and change from ``skip`` option to certain version: |br| ``bison,flex,gcc-core(==7.4.0-1),gcc-g++(==7.4.0-1),gsl,libboost-devel,libgsl-devel,make``
  - Open Cygwin Terminal to build and compile, you need to first use ``cd C:`` to change directory to C drive and then further change to local files
- - Force Cygwin to run python executeable of Windows, not the python executeable in Cygwin's own bin folder: 
-  - first, run ``where python`` in Windows Command Prompt to get python location (e.g., ``C:\{this\is\the\path\to}\python.exe`` );
-  - then, run ``export PATH=/cygdrive/C/{this/is/the/path/to}/:$PATH`` in Cygwin Terminal;
-  - lastly, check ``which python`` in Cygwin Terminal, it should not return ``/usr/bin/python`` again.
+ - Force Cygwin to run python executeable of Windows, not the python executeable in Cygwin's own bin folder:
+
+   - first, run ``where python`` in Windows Command Prompt to get python location |br| (e.g., ``C:\{this\is\the\path\to}\python.exe`` );
+   - then, run ``export PATH=/cygdrive/C/{this/is/the/path/to}/:$PATH`` in Cygwin Terminal;
+   - lastly, check ``which python`` in Cygwin Terminal, it should not return ``/usr/bin/python`` again.
  - Make sure to use the above ``export`` command each time you open a new Cygwin Terminal
 
 

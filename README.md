@@ -61,29 +61,21 @@ Run the demonstrated example; or alternatively upload user-customized input file
    ```
    git clone https://github.com/pitt-miskov-zivanov-lab/ACCORDION.git
    ```
-2. Navigate into the directory, install ACCORDION and its python dependencies and two non-python dependencies ([gsl](https://www.gnu.org/software/gsl/) and [MCL](http://micans.org/mcl/)).
+2. Navigate into the directory, install ACCORDION and its python dependencies and two non-python dependencies.
    ```
    cd ACCORDION
    python setup.py install
    ```
-   Alternatively:
-   - You can separate python dependencies installation `pip install -e .`;
-   - and non-python dependencies building using package managers like [conda](https://anaconda.org/bioconda/mcl), [brew](https://formulae.brew.sh/formula/gsl), [apt](https://manpages.ubuntu.com/manpages/jammy/en/man8/apt.8.html);
-   - in this case, make sure to compile.
-   ```
-   cd dependencies/Model_Checking/dishwrap_v1.0/dishwrap
-   make
-   cd ../monitor
-   make
-   ```
-3. Run the provided notebook (Check [Jupyter notebook installation](https://jupyter.org/install) here). Comment Cell 11 & 29 if you already build the non-python dependencies locally.
+   Check [here](https://accordion.readthedocs.io/en/latest/TutorialandInstallation.html#offline-installation) for more detailed instructions, MacOS/Linux users have alternative way to build non-python packages using managers like [conda](https://anaconda.org/bioconda/mcl), [brew](https://formulae.brew.sh/formula/gsl), [apt](https://manpages.ubuntu.com/manpages/jammy/en/man8/apt.8.html), Windows users may need [Cygwin](https://www.cygwin.com) installation to compile.
+
+3. Run the provided notebook (Check [Jupyter notebook installation](https://jupyter.org/install) here).
    ```
    jupyter notebook examples/use_ACCORDION.ipynb
    ```
 
 ## Package Structure
 
-- [`setup.py`](setup.py): python file that help set up python dependencies installtion and non-python package building
+- [`setup.py`](setup.py): python file that help set up python dependencies installation and non-python package building
 - [`src/`](src/): directory that includes core python ACCORDION files
   - [`src/runAccordion.py`](src/runAccordion.py): functions for extending discrete network models in the BioRECIPES tabular format using knowledge from literature, as well as adding different groups of extensions to the model
   - [`src/markovCluster.py`](src/markovCluster.py): contains the functions that creates and clusters the network of baseline model and machine reading output
