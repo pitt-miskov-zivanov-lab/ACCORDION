@@ -2,7 +2,7 @@
  *
  *
  *
- * Statistical tests in this software are copied from bnwrap, 
+ * Statistical tests in this software are copied from bnwrap,
  * copyright (C) 2010, 2011, 2012 Paolo Zuliani and Edmund M. Clarke.  All rights reserved.
  * By using this software the USER indicates that he or she has read, understood and will comply
  * with the following:
@@ -112,11 +112,11 @@ public:
     switch (out) {
       // print only when the test is finished
       case NOTDONE:
-        cerr << "Test.printResult() : test not completed: " << args << endl; 
-        exit(EXIT_FAILURE); 
+        cerr << "Test.printResult() : test not completed: " << args << endl;
+        exit(EXIT_FAILURE);
       case NULLHYP:
         cout << args << ": " << "Accept Null hypothesis"; break;
-      case ALTHYP: 
+      case ALTHYP:
         cout << args << ": " << "Reject Null hypothesis"; break;
     }
     cout << ", successes = " << successes << ", samples = " << samples << endl;
@@ -170,12 +170,12 @@ public:
 
     // sanity checks
     if ((delta >= 0.5) || (delta <= 0.0)) {
-      cerr << args << " : must have 0 < delta < 0.5" << endl; 
+      cerr << args << " : must have 0 < delta < 0.5" << endl;
       exit(EXIT_FAILURE);
     }
 
     if (c <= 0.0) {
-      cerr << args << " : must have c > 0" << endl; 
+      cerr << args << " : must have c > 0" << endl;
       exit(EXIT_FAILURE);
     }
 
@@ -205,18 +205,18 @@ public:
 void Estim::printResult (){
 
     // platform-dependent stuff
-    string Iam = typeid(*this).name(); 
+    string Iam = typeid(*this).name();
 
     // print only when the test is finished
     switch (out) {
       case NOTDONE:
-        cerr << "Estim.printResult() : test not completed: " << args << endl; 
-        exit(EXIT_FAILURE); 
+        cerr << "Estim.printResult() : test not completed: " << args << endl;
+        exit(EXIT_FAILURE);
       case DONE:
-        cout << args << ": estimate = " << estimate <<  ", successes = " << successes 
+        cout << args << ": estimate = " << estimate <<  ", successes = " << successes
 		<< ", samples = " << samples;
 
-	// if called by a CHB object, print the sample size 
+	// if called by a CHB object, print the sample size
 	// of the Chernoff-Hoeffding bound, as well
 	if (Iam.find("CHB",0) != string::npos) {
 	  cout << ", C-H bound = " << dynamic_cast<CHB*>(this)->get_CH_bound();
@@ -248,20 +248,20 @@ public:
 
     // sanity checks
     if ((delta > 0.5) || (delta <= 0.0)) {
-      cerr << args << " : must have 0 < delta < 0.5" << endl; 
+      cerr << args << " : must have 0 < delta < 0.5" << endl;
       exit(EXIT_FAILURE);
     }
 
     if (c <= 0.0) {
-      cerr << args << " : must have c > 0" << endl; 
+      cerr << args << " : must have c > 0" << endl;
       exit(EXIT_FAILURE);
     }
 
     if ((alpha <= 0.0) || (beta <= 0.0)) {
-      cerr << args << " : must have alpha, beta > 0" << endl; 
+      cerr << args << " : must have alpha, beta > 0" << endl;
       exit(EXIT_FAILURE);
     }
-    
+
     // writes back the test arguments, with proper formatting
     ostringstream tmp;
     tmp << testName << " " << delta << " " << c << " " << alpha << " " << beta;
@@ -305,15 +305,15 @@ public:
 //  "Nearly Optimal Sequential Tests of Composite Hypotheses"
 //  The Annals of Statistics
 //  1988, 16(2): 856-886
-// 
-// 
+//
+//
 //  Inputs
 //  theta: probability threshold - must satisfy 0 < theta < 1
 //  c    : cost per observation
 //  n    : number of samples
 //  x    : number of successful samples. It must be  x <= n
-// 
-// 
+//
+//
 //  The Null hypothesis H_0 is the interval [theta, 1]
 //
 //  Output
@@ -321,7 +321,7 @@ public:
 //        ALTHYP is the hypothesis [0, theta]
 //        NULLHYP is the hypothesis [theta, 1]
 //
-// 
+//
 
 class Lai : public HTest {
 private:
@@ -343,22 +343,22 @@ public:
 
     // sanity checks
     if ((theta >= 1.0) || (theta <= 0.0)) {
-      cerr << args << " : must have 0 < theta < 1" << endl; 
+      cerr << args << " : must have 0 < theta < 1" << endl;
       exit(EXIT_FAILURE);
-    } 
+    }
 
     if (cpo <= 0.0) {
-      cerr << args << " : must have cost > 0" << endl; 
+      cerr << args << " : must have cost > 0" << endl;
       exit(EXIT_FAILURE);
     }
 
     // initialize pseudo-random number generator
     r = gsl_rng_alloc (gsl_rng_mt19937);
-    srand(time(NULL));                    
+    srand(time(NULL));
     gsl_rng_set (r, rand());
 
     pi = atan(1)*4;
-    
+
     // writes back the test arguments, with proper formatting
     ostringstream tmp;
     tmp << testName << " " << theta << " " << cpo;
@@ -373,21 +373,21 @@ public:
     double g, w;
 
     // compute the Kullback-Leibler information number
-    if (maxle == 0.0) 
-      KL = log(1/(1-theta)); 
-    else if (maxle == 1.0) 
-      KL = log(1/theta); 
-    else 
+    if (maxle == 0.0)
+      KL = log(1/(1-theta));
+    else if (maxle == 1.0)
+      KL = log(1/theta);
+    else
       KL = maxle * log(maxle/theta) + (1 - maxle) * log( (1-maxle)/(1-theta) );
 
     // compute function g and the threshold
     t = cpo*n;
-    if (t >= 0.8) { 
-        w = 1/t; 
+    if (t >= 0.8) {
+        w = 1/t;
         g = (1/(16*pi))*(pow(w,2) - (10/(48*pi))*pow(w,4) + pow(5/(48*pi), 2)*pow(w,6));
     } else if ((0.1 <= t) && (t < 0.8))
 	g = (exp(-1.38*t-2))/(2*t);
-    else if ((0.01 <= t) && (t < 0.1)) 
+    else if ((0.01 <= t) && (t < 0.1))
 	g = (0.1521 + 0.000225/t - 0.00585/sqrt(t))/(2*t);
     else  w = 1/t; g = 0.5*(2*log(w) + log(log(w)) - log(4*pi) - 3*exp(-0.016*sqrt(w)));
 
@@ -400,7 +400,7 @@ public:
 
       // decide which hypothesis to accept
       if (maxle == theta)
-          if (gsl_rng_uniform (r) <= 0.5) out = NULLHYP; 
+          if (gsl_rng_uniform (r) <= 0.5) out = NULLHYP;
 	  else out = ALTHYP;
       else if (maxle > theta) out = NULLHYP; else out = ALTHYP;
     }
@@ -409,10 +409,10 @@ public:
 
 
 // The Bayes Factor Test with Beta prior
-// 
+//
 //  It computes the Bayes Factor P(data|H_0)/P(data|H_1) and returns
 //  whether it is greater/smaller than a specified threshold value or not.
-// 
+//
 //  Inputs
 //  theta: probability threshold - must satisfy 0 < theta < 1
 //  T    : ratio threshold satisfying T > 1
@@ -429,20 +429,20 @@ public:
 //        ALTHYP is the hypothesis [0, theta]
 //        NULLHYP is the hypothesis [theta, 1]
 //
-  
+
 class BFT : public HTest {
 private:
   double T;			// ratio threshold
-  double podds;			// prior odds 
+  double podds;			// prior odds
   double alpha, beta;		// Beta prior parameters
-	
+
 public:
   BFT (string v) : HTest(v) {
   }
 
   void init () {	// initialize test parameters
 
-    double p0, p1;		// prior probabilities	
+    double p0, p1;		// prior probabilities
     string testName;
 
     // convert test arguments from string to double
@@ -451,17 +451,17 @@ public:
 
     // sanity checks
     if (T <= 1.0) {
-      cerr << args << " : must have T > 1" << endl; 
+      cerr << args << " : must have T > 1" << endl;
       exit(EXIT_FAILURE);
     }
 
     if ((theta >= 1.0) || (theta <= 0.0)) {
-      cerr << args << " : must have 0 < theta < 1" << endl; 
+      cerr << args << " : must have 0 < theta < 1" << endl;
       exit(EXIT_FAILURE);
-    } 
+    }
 
     if ((alpha <= 0.0) || (beta <= 0.0)) {
-      cerr << args << " : must have alpha, beta > 0" << endl; 
+      cerr << args << " : must have alpha, beta > 0" << endl;
       exit(EXIT_FAILURE);
     }
 
@@ -470,13 +470,13 @@ public:
 
     // sanity check
     if ((p1 >= 1.0) || (p1 <= 0.0)) {
-      cerr << args << " : Prob(H_1) is either 0 or 1" << endl; 
+      cerr << args << " : Prob(H_1) is either 0 or 1" << endl;
       exit(EXIT_FAILURE);
     }
     p0 = 1 - p1;
 
     // compute prior odds
-    podds = p1 / p0; 
+    podds = p1 / p0;
 
     // writes back the test arguments, with proper formatting
     ostringstream tmp;
@@ -504,7 +504,7 @@ public:
 //
 // It computes the Bayes Factor P(data|H_0)/P(data|H_1) and returns
 // whether it is greater/smaller than a specified threshold value or not.
-// 
+//
 //  Inputs
 //  theta1: probability threshold - must satisfy 0 < theta1 < theta2 < 1
 //  theta2: probability threshold
@@ -514,31 +514,31 @@ public:
 //  alpha: Beta prior parameter
 //  beta : Beta prior parameter
 //  podds: prior odds ratio ( = P(H_1)/P(H_0) )
-// 
+//
 //  The Null hypothesis H_0 is the interval [theta2, 1]
 //
 //  Output
 //  out : NOTDONE more samples needed
 //        ALTHYP is the hypothesis [0, theta1]
 //        NULLHYP is the hypothesis [theta2, 1]
-// 
 //
- 
+//
+
 class BFTI : public HTest {
 private:
   double T;			// ratio threshold
-  double podds;			// prior odds 
+  double podds;			// prior odds
   double alpha, beta;		// Beta prior parameters
   double delta;			// half indifference region
   double theta1, theta2;	// theta1 < theta2 (indifference region)
-	
+
 public:
   BFTI (string v) : HTest(v) {
   }
 
   void init () {		// initialize test parameters
 
-    double p0, p1;		// prior probabilities	
+    double p0, p1;		// prior probabilities
     string testName;
 
     // convert test arguments from string to float
@@ -547,32 +547,32 @@ public:
 
     // sanity checks
     if (T <= 1.0) {
-      cerr << args << " : must have T > 1" << endl; 
+      cerr << args << " : must have T > 1" << endl;
       exit(EXIT_FAILURE);
     }
 
     if ((theta >= 1.0) || (theta <= 0.0)) {
-      cerr << args << " : must have 0 < theta < 1" << endl; 
+      cerr << args << " : must have 0 < theta < 1" << endl;
       exit(EXIT_FAILURE);
-    } 
+    }
 
     if ((alpha <= 0.0) || (beta <= 0.0)) {
-      cerr << args << " : must have alpha, beta > 0" << endl; 
+      cerr << args << " : must have alpha, beta > 0" << endl;
       exit(EXIT_FAILURE);
     }
 
     if ((delta >= 0.5) || (delta <= 0.0)) {
-      cerr << args << " : must have 0 < delta < 0.5" << endl; 
+      cerr << args << " : must have 0 < delta < 0.5" << endl;
       exit(EXIT_FAILURE);
-    } 
-    
+    }
+
     // prepare parameters
     theta1 = max(0.0, theta-delta);
     theta2 = min(1.0, theta+delta);
 
     // another sanity check
     if ((theta1 <= 0.0) || (theta2 >= 1.0)) {
-      cerr << args << " : indifference region borders 0 or 1" << endl; 
+      cerr << args << " : indifference region borders 0 or 1" << endl;
       exit(EXIT_FAILURE);
     }
 
@@ -581,14 +581,14 @@ public:
 
     // sanity check
     if ((p1 >= 1.0) || (p1 <= 0.0)) {
-      cerr << args << " : Prob(H_1) is either 0 or 1" << endl; 
+      cerr << args << " : Prob(H_1) is either 0 or 1" << endl;
       exit(EXIT_FAILURE);
     }
     p0 = 1 - p1;
 
     // compute prior odds
     podds = p1 / p0;
-    
+
     // writes back the test arguments, with proper formatting
     ostringstream tmp;
     tmp << testName << " " << theta << " " << T << " " << alpha << " " << beta << " " << delta;
@@ -612,14 +612,14 @@ public:
 
 
 
-// The Sequential Probability Ratio Test 
+// The Sequential Probability Ratio Test
 //
 //  Inputs
 //  theta1, theta2 : probability thresholds satisfying theta1 < theta2
 //  T : ratio threshold satisfying T > 1
 //  n : number of samples
 //  x : number of successful samples. It must be  x <= n
-// 
+//
 //  Output
 //  out : NOTDONE more samples needed
 //        ALTHYP is the hypothesis [0, theta1]
@@ -630,7 +630,7 @@ private:
   double delta;			// half indifference region
   double theta1, theta2;	// theta1 < theta2 (indifference region)
   double T;			// ratio threshold
-	
+
 public:
   SPRT (string v) : HTest(v) {
   }
@@ -645,19 +645,19 @@ public:
 
     // sanity checks
     if (T <= 1.0) {
-      cerr << args << " : must have T > 1" << endl; 
+      cerr << args << " : must have T > 1" << endl;
       exit(EXIT_FAILURE);
     }
 
     if ((theta >= 1.0) || (theta <= 0.0)) {
-      cerr << args << " : must have 0 < theta < 1" << endl; 
+      cerr << args << " : must have 0 < theta < 1" << endl;
       exit(EXIT_FAILURE);
-    } 
+    }
 
     if ((delta >= 0.5) || (delta <= 0.0)) {
-      cerr << args << " : must have 0 < delta < 0.5" << endl; 
+      cerr << args << " : must have 0 < delta < 0.5" << endl;
       exit(EXIT_FAILURE);
-    } 
+    }
 
     // prepare parameters
     theta1 = max(0.0, theta-delta);
@@ -665,10 +665,10 @@ public:
 
     // another sanity check
     if ((theta1 <= 0.0) || (theta2 >= 1.0)) {
-      cerr << args << " : indifference region borders 0 or 1" << endl; 
+      cerr << args << " : indifference region borders 0 or 1" << endl;
       exit(EXIT_FAILURE);
     }
-    
+
     // writes back the test arguments, with proper formatting
     ostringstream tmp;
     tmp << testName << " " << theta << " " << T << " " << delta;
@@ -688,14 +688,14 @@ public:
     else { if (r < -t) {out = ALTHYP; samples = n; successes = x;}}
   }
 };
-    
+
 
 
 int main (int argc, char **argv) {
-  // Call the simulator to generate element trace files, check output against 
+  // Call the simulator to generate element trace files, check output against
   // the provided property using the specified statistical test.
 
-  const string USAGE = 
+  const string USAGE =
     "\nUsage: dishwrap <testfile> <checker> <property> <simulator> <modelfile> <trace> [<scenarios>] [<normalize>] [<steps>] \n\n"
     "where:\n"
     "      <testfile> is a sequence of test specifications;\n"
@@ -763,7 +763,7 @@ int main (int argc, char **argv) {
   // command for running the trace checker
   string checkercommand((char *) argv[2]);
   string property((char *) argv[3]);
-  
+
   // command for running the simulator interface
   string simcommand((char *) argv[4]);
   // location of the model file
@@ -772,7 +772,7 @@ int main (int argc, char **argv) {
   string trace((char *) argv[6]);
 
   // base command for running simulator
-  string basedishcmd = "python3 " + simcommand + " " + modelfile;
+  string basedishcmd = "python " + simcommand + " " + modelfile;
 
   // input test file
   string testfile((char *) argv[1]);
@@ -789,11 +789,11 @@ int main (int argc, char **argv) {
   for (int i = 0; i < lines.size(); i++) {
 
     istringstream iline(lines[i]);		// each line is a test specification
-    
+
     // by default, extraction >> skips whitespaces
     keyword = "";
     iline >> keyword;
-    
+
     // discard comments (lines starting with '#') or empty lines
     if ((keyword.compare(0, 1, "#") != 0) && (keyword.length() > 0)) {
 
@@ -834,7 +834,7 @@ int main (int argc, char **argv) {
 
     // process scenarios input
     boost::split(scenarios,scenarios_input,boost::is_any_of(","));
-    
+
     if (scenarios.size() > 1) {
       // build command to call the checker on the processed trace file from the simulator
       // get base file path + name and extension of trace file
@@ -851,16 +851,16 @@ int main (int argc, char **argv) {
       string trace_processed;
 
       if ((scenarios.size() == 2) && (normalize_input != "0")) {
-        // will calculate the difference between the two scenarios, 
+        // will calculate the difference between the two scenarios,
         // call the checker on the difference output file
         // using scenario number to index difference file
         trace_processed = trace_split_ext[0] + "_diff" + scenarios[1] + trace_split_ext[1];
         checkercommand += " " + trace_processed;
 
-        dishcmd += " --difference";  
+        dishcmd += " --difference";
       }
       else if ((scenarios.size() > 2) && (normalize_input != "0")) {
-        // will normalize traces, then concatenate all scenario traces 
+        // will normalize traces, then concatenate all scenario traces
         // into one file and call the checker on that file
         trace_processed = trace_split_ext[0] + "_concat" + trace_split_ext[1];
         checkercommand += " " + trace_processed;
@@ -876,7 +876,7 @@ int main (int argc, char **argv) {
 
         dishcmd += " --concatenate";
       }
-      
+
     }
     else {
       checkercommand += " " + trace;
@@ -885,10 +885,11 @@ int main (int argc, char **argv) {
 
     // start sampling
     while (! alldone) {
-      
+
       // call the simulator
       cout << "Calling simulator" << endl;
       cout << dishcmd << endl;
+      cout << dishcmd.c_str() << endl;
       ret = system(dishcmd.c_str());
 
       if (!WIFEXITED(ret)) {
@@ -922,17 +923,17 @@ int main (int argc, char **argv) {
           cerr << "Error: unknown return code from trace checker - return code: " << ret << endl;
           exit (EXIT_FAILURE);
       }
-        
+
       // increase number of samples
       n++;
 
         // do all the tests
         alldone = true;
         for (int j = 0; j < numtests; j++) {
-  
+
           // do a test, if not done
           done = myTests[j]->done();
-          if (!done) { 
+          if (!done) {
             myTests[j]->doTest (n, x);
             done = myTests[j]->done();
 	    if (done) myTests[j]->printResult();

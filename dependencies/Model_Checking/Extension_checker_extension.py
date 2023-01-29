@@ -2,6 +2,7 @@
 # See details at https://github.com/orgs/pitt-miskov-zivanov-lab/repositories (find the repo named DySE)
 
 import os
+import platform
 import multiprocessing
 from joblib import Parallel, delayed
 from collections import defaultdict
@@ -187,20 +188,25 @@ def call_checker(test_, property_, model_, trace_, estimate_,
 	# add quotes around file paths to handle spaces in file names
 	# for the call to dishwrap/checker
 	# NOTE: not replacing spaces with '\ ' to keep this platform agnostic
-	property_path_str = '\"' + os.path.join(rel_input_path,property_) + '\"'
-	model_path_str = '\"' + os.path.join(rel_input_path,model_) + '\"'
-	trace_path_str = '\"' + os.path.join(rel_input_path,trace_) + '\"'
+	property_path_str =os.path.join(rel_input_path,property_)
+	model_path_str = os.path.join(rel_input_path,model_)
+	trace_path_str = os.path.join(rel_input_path,trace_)
 
 	# TODO: check dishwrap to see why quotes won't work with the test file
 	test_path_str = os.path.join(rel_input_path,test_)
 
 	# executable paths
-	dishwrap_path_str = os.path.join('dishwrap_v1.0','dishwrap','dishwrap')
-	checker_path_str = os.path.join('dishwrap_v1.0','monitor','checker')
+	if platform.system() == 'Windows':
+		dishwrap_path_str = os.path.join('dishwrap_v1.0','dishwrap','dishwrap.exe')
+		checker_path_str = os.path.join('dishwrap_v1.0','monitor','checker.exe')
+	else:
+		dishwrap_path_str = os.path.join('dishwrap_v1.0','dishwrap','dishwrap')
+		checker_path_str = os.path.join('dishwrap_v1.0','monitor','checker')
 	simulator_path_str = os.path.join('Simulation_Simulator_Python_simulator_interface.py')
 
 	# call checker and pipe output to txt file
 	checker_output_file = open(os.path.join(rel_input_path,estimate_), 'w')
+
 	p = subprocess.Popen([dishwrap_path_str,
 			test_path_str,
 			checker_path_str,

@@ -204,7 +204,7 @@ def merge_clusters(regulators, path, ReturnTh):
     G = makeDiGraphBase(regulators)
     com_edges = list()
     group_num = 1
-    extensions = pickle.load(open(path+"grouped_ext",'rb'))
+    extensions = pickle.load(open(os.path.join(path,"grouped_ext"),'rb'))
 
     for ii in range(0,len(extensions)):
         for jj in range(ii+1,len(extensions)):
@@ -258,7 +258,7 @@ def merge_clusters(regulators, path, ReturnTh):
                 com_edges.append([group_num] + NODESS)
                 group_num = group_num+1
 
-    pickle.dump(com_edges, open(path + "grouped_ext_Merged",'wb')) #Merged clusters
+    pickle.dump(com_edges, open(os.path.join(path, "grouped_ext_Merged"),'wb')) #Merged clusters
 
     return
 

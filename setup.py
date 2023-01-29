@@ -1,6 +1,7 @@
 from setuptools import setup
 from setuptools.command.install import install
 import subprocess
+import platform
 
 def readme():
     with open('README.md') as f:
@@ -12,17 +13,33 @@ class compileLibrary(install):
     def run(self):
         install.run(self)
 
+        command=""
         # in model extension(ACCORDION), MCL package installation is required
-        command = "cd dependencies/mcl-14-137"
-        command += " && ./configure && make && make install && make clean && make distclean"
+        if platform.system()=='Darwin':
+            command += "cd dependencies && tar -xvzf mcl-14-137.tar.gz && "
+            command += "cd mcl-14-137 && ./configure && make && sudo make install && cd .. && rm -r mcl-14-137/ && mcl -h"
+        elif platform.system()=='Linux':
+            command += "sudo apt-get install mcl"
+        elif platform.system()== 'Windows' or platform.system().startswith('CYGWIN'):
+            command += "cd dependencies && tar -xvzf mcl-14-137.tar.gz && "
+            command += "cd mcl-14-137 && sh configure && make && make install && cd .. && rm -r mcl-14-137/ && mcl -h"
         process = subprocess.Popen(command, shell=True)
         process.wait()
 
-        # in model checking, gsl package installation and two build-ups are required
-        command = "cd dependencies/gsl-2.7.1"
-        command += " && ./configure && make && make install && make clean && make distclean"
-        command += " && cd ../Model_Checking/dishwrap_v1.0/dishwrap && make"
-        command += " && cd ../monitor && make"
+        command=""
+        # in model checking, gsl package installation is required
+        if platform.system()=='Darwin' or platform.system()=='Linux':
+            command += "cd dependencies && tar -xvzf gsl-2.7.1.tar.gz && "
+            command += "cd gsl-2.7.1 && ./configure && make && sudo make install && cd .. && rm -r gsl-2.7.1/"
+        elif platform.system()== 'Windows' or platform.system().startswith('CYGWIN'):
+            #gsl is supposed to be installed within cygwin installation
+            command += ""
+        process = subprocess.Popen(command, shell=True)
+        process.wait()
+
+        #compile two c++ files
+        command = "cd dependencies/Model_Checking/dishwrap_v1.0/dishwrap && make clean && make"
+        command += "&& cd ../monitor && make clean && make"
         process = subprocess.Popen(command, shell=True)
         process.wait()
 

@@ -32,8 +32,8 @@ def runMarkovCluster(out_dir,ext_edges,base_model,coef):
 	ext_model,new_base_model = buildExtGraph(ext_edges,base_model)
 	clusteringAlgo(out_dir,ext_model,coef)
 	ModelNetwork(out_dir,base_model)
-	res = getGroupedExt(out_dir+'markov_cluster',ext_edges)
-	pickle.dump(res, open(out_dir+'grouped_ext','wb'))
+	res = getGroupedExt(os.path.join(out_dir,'markov_cluster'),ext_edges)
+	pickle.dump(res, open(os.path.join(out_dir,'grouped_ext'),'wb'))
 	return res, new_base_model
 
 def buildExtGraph(ext_edges,base_model=dict()):
@@ -86,7 +86,7 @@ def clusteringAlgo(MCL_result_folder,ext_model,coef):
 	"""
 
 	# translate ext_model into the abc format supported by MCL, stored inside 'abc_model'(an intermediate output)
-	abc_model = MCL_result_folder + 'abc_model'
+	abc_model = os.path.join(MCL_result_folder,'abc_model')
 	output_stream = open(abc_model, 'w')
 	for tgt in sorted(ext_model):
 		for reg in sorted(ext_model[tgt]):
@@ -94,7 +94,7 @@ def clusteringAlgo(MCL_result_folder,ext_model,coef):
 			output_stream.write(reg+' '+tgt+' '+str(1)+'\n')
 	output_stream.close()
 
-	MCL_result_file = MCL_result_folder + 'markov_cluster'
+	MCL_result_file = os.path.join(MCL_result_folder,'markov_cluster')
 
 	cmd = 'mcl '+abc_model.replace(' ','\ ')+' --abc -I '+str(coef)+' -o '+MCL_result_file.replace(' ','\ ')
 	logging.info('Running the following command through MCL algorithm:\n{}\n'.format(cmd))
@@ -116,7 +116,7 @@ def ModelNetwork(out_dir,base_model):
 	new_base_model=dict()
 	for k in base_model:
 		new_base_model[k]=base_model[k]['regulators']
-	abc_model = out_dir + 'abc_model_network'
+	abc_model = os.path.join(out_dir,'abc_model_network')
 	output_stream = open(abc_model, 'w')
 	for tgt in sorted(new_base_model):
 		for reg in sorted(new_base_model[tgt]):
