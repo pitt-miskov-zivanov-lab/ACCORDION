@@ -303,7 +303,7 @@ def getRow(mdl):
 	df = pd.read_excel(mdl)
 	res = dict()
 	for i in df.index:
-		el=df['Element name'][i].strip()
+		el=df['Element Name'][i].strip()
 		res[el]=i+2
 	return res
 
@@ -323,16 +323,16 @@ def extend_model(base_mdl,clusters,ext_mdl):
 
 	os.system('cp '+base_mdl+' '+ext_mdl)
 	df = pd.read_excel(ext_mdl)
-	pos=df.columns.get_loc("Positive regulators")+1
-	neg=df.columns.get_loc("Negative regulators")+1
-	var_name=df.columns.get_loc("Variable name")+1
+	pos=df.columns.get_loc("Positive Regulators")+1
+	neg=df.columns.get_loc("Negative Regulators")+1
+	var_name=df.columns.get_loc("Variable")+1
 	ini0=df.columns.get_loc("Initial 0")+1 #uncomment the following lines if you have more than one scenario in the properties
 	ini1=df.columns.get_loc("Initial 1")+1
 	ini2=df.columns.get_loc("Initial 2")+1
 #	ini3=df.columns.get_loc("Initial 3")+1
 #	ini4=df.columns.get_loc("Initial 4")+1
 #	ini5=df.columns.get_loc("Initial 5")+1
-	el_name=df.columns.get_loc("Element name")+1
+	el_name=df.columns.get_loc("Element Name")+1
 	name_to_row = getRow(ext_mdl)
 	curr_row = len(name_to_row)+2
 	wb = openpyxl.load_workbook(ext_mdl)
