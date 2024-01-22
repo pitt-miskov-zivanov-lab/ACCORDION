@@ -45,7 +45,7 @@ class compileLibrary(install):
 
 setup(
     name='ACCORDION',
-    version='Latest',
+    version='1.0',
 
     author='Yasmine Ahmed',
     #author_email='',

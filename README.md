@@ -22,26 +22,37 @@ An automated framework for clustering and selecting relevant data for guided net
 - Clustering: creating groups of interactions, comparing to an existing model
 - Extension: adding different groups of extensions to the model and verifying behavior against defined properties
 
-## I/O
+## I/O and Parameters
+
 
 ### Input
-- A .xlsx file containing the model to extend, in the BioRECIPES tabular format, see [`examples/input/BooleanTcell.xlsx`](examples/input/BooleanTcell.xlsx)
-- Machine reading output file with the following header, see [`examples/input/MachineReadingOutput.csv`](examples/input/MachineReadingOutput.csv)
-RegulatedName,RegulatedID,RegulatedType,RegulatorName,RegulatorID,RegulatorType,PaperID
+- A .xlsx file containing the baseline model to extend, in the tabular format with the following column headers, see [`examples/input/BooleanTcell.xlsx`](examples/input/BooleanTcell.xlsx)
+Element Name, Element IDs, Positive Regulators, Negative Regulators, Levels, Initial 0
+- Machine reading output file with the following header, it has potential interactions that could be added to baseline model, see [`examples/input/MachineReadingOutput.csv`](examples/input/MachineReadingOutput.csv)
+RegulatedName, RegulatedID, RegulatedType, RegulatorName, RegulatorID, RegulatorType, PaperID
+- Property files containing the property expression based on BLTL syntax, they are the golden properties that the extended models should satisfy, see them at directory [`examples/input/TheProperties/p1`](examples/input/TheProperties/p1)
+
+### Parameters
 - Inflation parameter for Markov Clustering, defined in Cell 12 of the notebook
 - Number of return paths, defined in Cell 17 of the notebook
-- Property file containing the property expression based on BLTL syntax, see them at directory [`examples/input/TheProperties/p1`](examples/input/TheProperties/p1)
 
-### Output
+### Intermediate Output
+- [`examples/output/abc_model`](examples/output/abc_model), network edges with only baseline model interactions
+- [`examples/output/abc_model_network`](examples/output/abc_model_network), network edges with baseline model and machine reading output network
+- [`examples/traces`](examples/traces), containing trace files generated from simulating the resulting extended model, required by statistical model checking
 
-- [`examples/output/markov_cluster`](examples/output/markov_cluster), a cluster dictionary that contains individual clusters
+### Output: Clusters
+- [`examples/output/markov_cluster`](examples/output/markov_cluster), a cluster dictionary that contains individual clusters, each line shows one cluster, formed by element in the baseline model or machine reading output
+
+### Output: Candidate Extended Model
 - [`examples/output/grouped_ext`](examples/output/grouped_ext), a pickle file containing grouped (clustered) extensions, specified as nested lists. Each group starts with an integer, followed by interactions specified as [regulator element, regulated element, Interaction type: Activation (+) or Inhibition (-)]. This file along with the directory of system properties will be the input to the statistical model checking to verify the behavior of candidate models against the properties
 - [`examples/output/grouped_ext_Merged`](examples/output/grouped_ext_Merged), a pickle file containing the merged clusters (different than _grouped_ext_ which is not merged), clusters are merged based on user-selected number of return paths
-- [`examples/output/BooleanTcell_Extension_Candidate_1.xlsx`](examples/output/BooleanTcell_Extension_Candidate_1.xlsx), a new .xlsx file containing the resulting extended model, this is just one candidate extension and there could be many candidates
+- [`examples/output/BooleanTcell_Extension_Candidate_1.xlsx`](examples/output/BooleanTcell_Extension_Candidate_1.xlsx), a new .xlsx file containing the resulting candidate extended model, this is just one candidate extension and there could be many candidates
+- [`examples/output/BooleanTcell_Extension_Candidate_2.xlsx`](examples/output/BooleanTcell_Extension_Candidate_2.xlsx), same as above
+
+### Output: Model Checking
 - [`examples/checking`](examples/checking), containing model checking results of the resulting extended model against properties
-- intermediate output - [`examples/output/abc_model`](examples/output/abc_model), network edges with only baseline model interactions
-- intermediate output - [`examples/output/abc_model_network`](examples/output/abc_model_network), network edges with baseline model and machine reading output network
-- intermediate output - [`examples/traces`](examples/traces), containing trace files generated from simulating the resulting extended model, required by statistical model checking
+
 
 ## Online Tutorial
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pitt-miskov-zivanov-lab/ACCORDION/HEAD)
