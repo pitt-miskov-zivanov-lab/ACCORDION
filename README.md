@@ -4,7 +4,7 @@
 
 ### (ACCelerating and Optimizing model RecommenDatIONs)
 
-ACCORDION (ACCelerating and Optimizing model RecommenDatIONs) is novel tool and methodology for rapid model assembly by automatically extending dynamic network models with the information published in literature. This facilitates information reuse and data reproducibility and replaces hundreds or thousands of manual experiments, thereby reducing the time needed for the advancement of knowledge.
+ACCORDION (ACCelerating and Optimizing model RecommenDatIONs) is a novel tool and methodology for rapid model assembly by automatically extending and evaluating dynamic network models with the information published in literature. This facilitates information reuse and data reproducibility and replaces hundreds or thousands of manual experiments, thereby reducing the time needed for the advancement of knowledge.
 
 ## Contents
 
@@ -19,8 +19,8 @@ ACCORDION (ACCelerating and Optimizing model RecommenDatIONs) is novel tool and 
 
 ## Functionality
 An automated framework for clustering and selecting relevant data for guided network extension and query answering. More specifically, answering biological questions by automatically assembling new, or expanding existing models using published literature.
-- Clustering: creating groups of interactions, comparing to an existing model
-- Extension: adding different groups of extensions to the model and verifying behavior against defined properties
+- Clustering: creating groups of interactions, related to an existing model
+- Extension: adding different groups of extensions to the model and evaluating the model behavior using defined properties
 
 ## I/O and Parameters
 
@@ -61,10 +61,10 @@ Run the demonstrated example; or alternatively upload user-customized input file
 
 #### This interactive jupyter notebook walks you though all of the code and functions to:
 
-1. Get familiar with and parse the input files including baseline model spreadsheet and machine reading extracted events.
+1. Become familiar with and parse the input files including baseline model spreadsheet and machine reading extracted events.
 2. Cluster events into groups, generate extension candidates and possibly merge some candidates.
-3. Modify baseline model spreadsheet according to extension candidates.
-4. Test new model files against system properties and obtain model checking results that will help modelers choose the best extension among candidates.
+3. Modify the baseline model spreadsheet according to extension candidates.
+4. Test new model files against system properties and obtain model checking results that will help modelers choose the best extended model from the set of available candidate models.
 
 ## Offline Installation
 
