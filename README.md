@@ -33,8 +33,8 @@ RegulatedName, RegulatedID, RegulatedType, RegulatorName, RegulatorID, Regulator
 - Property files containing the property expression based on BLTL syntax, they are the golden properties that the extended models should satisfy, see them at directory [`examples/input/TheProperties/p1`](examples/input/TheProperties/p1)
 
 ### Parameters
-- Inflation parameter for Markov Clustering, defined in Cell 12 of the notebook
-- Number of return paths, defined in Cell 17 of the notebook
+- Inflation parameter for Markov Clustering, defined in Cell 14 of the notebook
+- Number of return paths, defined in Cell 19 of the notebook
 
 ### Intermediate Output
 - [`examples/output/abc_model`](examples/output/abc_model), network edges with only baseline model interactions
@@ -141,7 +141,7 @@ Run the demonstrated example; or alternatively upload user-customized input file
 | IL2_R          | MTORC2         | increases   | PMC4418530 |
 | PI3K           | PIP3           | increases   | PMC4418530 |
 
-2. Markov cluster algorithm is applied to cluster the set of candidate event. 17 clusters are detected as follows:
+2. Markov cluster algorithm is applied to cluster the set of candidate event (with a user-defined inflation parameter being 2), 17 clusters are detected as follows:
 
 | Clusters   | Interaction List|
 | ---------- | --------------- |
@@ -153,6 +153,31 @@ Run the demonstrated example; or alternatively upload user-customized input file
 | Cluster 16 |   ['FASL_ext', 'FAS_ext', '+'] |
 | Cluster 17 |   ['HIF1alpha_ext', 'IL17A_ext', '-'] |
 
+3. We now extend the baseline model to include candidate event set and generate 17 candidate models, see two examples at [`examples/output/BooleanTcell_Extension_Candidate_1.xlsx`](examples/output/BooleanTcell_Extension_Candidate_1.xlsx) and [`examples/output/BooleanTcell_Extension_Candidate_2.xlsx`](examples/output/BooleanTcell_Extension_Candidate_2.xlsx). For example, the former one now has 79 elements, and its first seven rows are now as follows:
+
+| Element Name | Positive Regulators                                                                          | Negative Regulators                                                         | Levels | Initial 0 |
+| ------------ | -------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- | ------ | --------- |
+| AKT          | (PDK1,MTORC2),PIP3,PTEN,CHK1_ext,<br>TBK1_ext,TGFBETA,IFNgamma_ext,<br>CK2_ext,PDK1,PI3K,MTORC2,MTOR | AKT_OFF,PTEN,TBK1_ext,MEK1_ext,<br>CTLA4_ext,PI3K,TIL_ext,PD1_ext,<br>SHIP1_ext,TCR | 2      | 0         |
+| AKT_OFF      |                                                                                              |                                                                             | 2      | 0         |
+| AP1          | (FOS_DD,JUN)                                                                                 |                                                                             | 2      | 0         |
+| CA           | TCR                                                                                          |                                                                             | 2      | 0         |
+| CD122        |                                                                                              |                                                                             | 2      | 1         |
+| CD132        |                                                                                              |                                                                             | 2      | 1         |
+| CD25         | FOXP3,(AP1,NFAT,NFKAPPAB),STAT5                                                              |                                                                             | 2      | 0         |
+
+Apparently, regulators for `AKT` are significantly updated.
+
+We omit to show the remaining candidate models, but all of them are listed under the directory of [`examples/output/`](examples/output/)
+
+4. Statistical model checking is run on the candidate models, against golden properties. The properties are extracted from golden models, suggesting the golden behavior that a model expect to satisfy under certain scenario. For example, we test five candidate models against four properties stored in [`examples/input/TheProperties/p1/`](examples/input/TheProperties/p1/). A property match table summarizes all the probabilities. Users are able to choose the best candidate model by general satisfication or priortized satisfication, subject to certain application scenario.
+
+|                       | Property 1d  | Property 1c  | Property 1b  | Property 1a  |
+| --------------------- | -------- | -------- | -------- | -------- |
+| Extension_Candidate_1 | 0.722222 | 0.956522 | 0.956522 | 0.956522 |
+| Extension_Candidate_2 | 0.956522 | 0.956522 | 0.956522 | 0.956522 |
+| Extension_Candidate_3 | 0.956522 | 0.956522 | 0.956522 | 0.956522 |
+| Extension_Candidate_4 | 0.956522 | 0.956522 | 0.956522 | 0.956522 |
+| Extension_Candidate_5 | 0.956522 | 0.956522 | 0.956522 | 0.956522 |
 
 ## Citation
 
@@ -163,4 +188,4 @@ _Yasmine Ahmed, Cheryl Telmer, Gaoxiang Zhou, Natasa Miskov-Zivanov, “Context-
 This work was funded in part by DARPA Big Mechanism award, AIMCancer (W911NF-17-1-0135); and in part by the University of Pittsburgh, Swanson School of Engineering.
 
 ## Support
-_To be updated_
+Correspondence: Natasa Miskov-Zivanov: nmzivanov@pitt.edu
