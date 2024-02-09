@@ -1,5 +1,5 @@
 # ACCORDION
-[![Documentation Status](https://readthedocs.org/projects/accordion/badge/?version=latest)](https://accordion.readthedocs.io/en/latest/?badge=latest)
+[![Documentation Status](https://readthedocs.org/projects/melody-accordion/badge/?version=latest)](https://melody-accordion.readthedocs.io/en/latest/?badge=latest)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pitt-miskov-zivanov-lab/ACCORDION/HEAD?labpath=%2Fexamples%2Fuse_ACCORDION.ipynb)
 
 ### (ACCelerating and Optimizing model RecommenDatIONs)
