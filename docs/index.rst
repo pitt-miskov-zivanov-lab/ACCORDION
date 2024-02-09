@@ -5,8 +5,8 @@
 
 Welcome to ACCORDION's documentation!
 =====================================
-.. image:: https://readthedocs.org/projects/accordion/badge/?version=latest
-    :target: https://accordion.readthedocs.io/en/latest/?badge=latest
+.. image:: https://readthedocs.org/projects/melody-accordion/badge/?version=latest
+    :target: https://melody-accordion.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
 .. image:: https://mybinder.org/badge_logo.svg
     :target: https://mybinder.org/v2/gh/pitt-miskov-zivanov-lab/ACCORDION/HEAD?labpath=%2Fexamples%2Fuse_ACCORDION.ipynb
