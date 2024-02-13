@@ -1,0 +1,171 @@
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_3.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_3.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-02-09 05:04:30,547 [MainThread  ] [INFO ]  Simulating...
+2024-02-09 05:04:32,169 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pc.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_3.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_3.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-02-09 05:04:34,790 [MainThread  ] [INFO ]  Simulating...
+2024-02-09 05:04:35,886 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pc.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_3.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_3.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-02-09 05:04:39,219 [MainThread  ] [INFO ]  Simulating...
+2024-02-09 05:04:41,720 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pc.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_3.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_3.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-02-09 05:04:44,258 [MainThread  ] [INFO ]  Simulating...
+2024-02-09 05:04:45,368 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pc.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_3.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_3.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-02-09 05:04:47,980 [MainThread  ] [INFO ]  Simulating...
+2024-02-09 05:04:49,113 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pc.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_3.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_3.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-02-09 05:04:51,506 [MainThread  ] [INFO ]  Simulating...
+2024-02-09 05:04:52,660 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pc.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_3.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_3.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-02-09 05:04:55,333 [MainThread  ] [INFO ]  Simulating...
+2024-02-09 05:04:57,773 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pc.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_3.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_3.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-02-09 05:05:00,515 [MainThread  ] [INFO ]  Simulating...
+2024-02-09 05:05:01,987 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pc.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_3.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_3.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-02-09 05:05:04,707 [MainThread  ] [INFO ]  Simulating...
+2024-02-09 05:05:05,904 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pc.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_3.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_3.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-02-09 05:05:08,217 [MainThread  ] [INFO ]  Simulating...
+2024-02-09 05:05:09,752 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pc.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_3.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_3.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-02-09 05:05:13,710 [MainThread  ] [INFO ]  Simulating...
+2024-02-09 05:05:14,760 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pc.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_3.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_3.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-02-09 05:05:17,441 [MainThread  ] [INFO ]  Simulating...
+2024-02-09 05:05:19,001 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pc.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_3.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_3.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-02-09 05:05:21,156 [MainThread  ] [INFO ]  Simulating...
+2024-02-09 05:05:22,633 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pc.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_3.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_3.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-02-09 05:05:25,923 [MainThread  ] [INFO ]  Simulating...
+2024-02-09 05:05:27,018 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pc.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_3.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_3.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-02-09 05:05:29,540 [MainThread  ] [INFO ]  Simulating...
+2024-02-09 05:05:31,275 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pc.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_3.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_3.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-02-09 05:05:34,091 [MainThread  ] [INFO ]  Simulating...
+2024-02-09 05:05:35,203 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pc.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_3.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_3.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-02-09 05:05:39,065 [MainThread  ] [INFO ]  Simulating...
+2024-02-09 05:05:40,511 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pc.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_3.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_3.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-02-09 05:05:43,397 [MainThread  ] [INFO ]  Simulating...
+2024-02-09 05:05:45,028 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pc.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_3.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_3.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-02-09 05:05:47,248 [MainThread  ] [INFO ]  Simulating...
+2024-02-09 05:05:48,409 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pc.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_3.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_3.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-02-09 05:05:51,283 [MainThread  ] [INFO ]  Simulating...
+2024-02-09 05:05:52,662 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pc.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_3.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_3.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-02-09 05:05:55,161 [MainThread  ] [INFO ]  Simulating...
+2024-02-09 05:05:57,160 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pc.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_3.txt
+syntax error, unexpected UNKN_TOK, expecting $end
+BEST 0.05 0.9 1 1: estimate = 0.956522, successes = 21, samples = 21
+Elapsed cpu time: 0.021407
+Elapsed wall time: 90

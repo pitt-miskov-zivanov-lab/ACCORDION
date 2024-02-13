@@ -1,0 +1,707 @@
+﻿regulator_name,regulator_id,database1,ID1,location1,element_type1,cell_type1,level1,regulated_name,regulated_id,database2,ID2,location2,element_type2,cell_type2,level2,interaction,score,kindscore,matchlevel,epistemicvalue,file_numbers,number,Regulator Variable Name,Regulated Variable Name,PaperID
+cell_motility,,go,GO:0016477,go:0031012,Biological Process,,,integrins,,,UAZ00116,go:0031012,Other,,,decreases,,,,,,,,,10647931-cmu-out.tsv
+cyclin,,uniprot,P12004,,Protein,,,p21,,,Q16539936,,Protein,,,decreases,,,,,,,,,10647931-cmu-out.tsv
+thrombospondin1,,uniprot,P07996,,Protein,,,p53,,,P04637,,Protein,,,decreases,,,,,,,,,10647931-cmu-out.tsv
+Bax,,uniprot,Q07812,go:0005739,Protein,,,p53_tumor_suppressor_protein,,,UAZ02493,go:0005739,Other,,,decreases,,,,,,,,,10647931-cmu-out.tsv
+AKT,,be,"P31749,P31751",,Protein Family|Protein Complex,,,phosphatase,,,PF15698,,Protein Family,,,decreases,,,,,,,,,10647931-cmu-out.tsv
+cell_proliferation,,go,GO:0008283,,Biological Process,,,pRb,,,P06400,,Protein,,,decreases,,,,,,,,,10647931-cmu-out.tsv
+transcription,,go,GO:0006351,,Biological Process,,,pRb,,,P06400,,Protein,,,decreases,,,,,,,,,10647931-cmu-out.tsv
+cmyc_gene,,uaz,UAZ13528,,Other,,,TGFbeta,,,P01137,,Protein Family|Protein Complex,,,decreases,,,,,,,,,10647931-cmu-out.tsv
+caspases,,be,Q14790,go:0005739,Protein Family|Protein Complex,,,cytochrome_C,,,P99999,go:0005739,Protein,,,increases,,,,,,,,,10647931-cmu-out.tsv
+caspases,,be,Q14790,go:0005739,Protein Family|Protein Complex,,,death_receptors,,,Death_receptor,go:0005739,Protein Family|Protein Complex,,,increases,,,,,,,,,10647931-cmu-out.tsv
+death,,pfam,PF00531,,Protein Family,,,decoy_receptor_for_FAS_ligand,,,O95407,,Protein,,,increases,,,,,,,,,10647931-cmu-out.tsv
+apoptosis,,go,GO:0006915,go:0031012,Biological Process,,,integrins,,,UAZ00116,go:0031012,Other,,,increases,,,,,,,,,10647931-cmu-out.tsv
+cell_cycle,,go,GO:0007049,go:0031012,Biological Process,,,integrins,,,UAZ00116,go:0031012,Other,,,increases,,,,,,,,,10647931-cmu-out.tsv
+differentiation,,go,GO:0030154,,Biological Process,cl:CL:0000584,,MadMax_complexes,,,UAZ14775,,Other,,,increases,,,,,,,,,10647931-cmu-out.tsv
+DNA_repair,,go,GO:0006281,,Biological Process,,,p53_tumor_suppressor_protein,,,UAZ02493,,Other,,,increases,,,,,,,,,10647931-cmu-out.tsv
+AKT,,be,"P31749,P31751",,Protein Family|Protein Complex,,,pTEN,,,P60484,,Protein,,,increases,,,,,,,,,10647931-cmu-out.tsv
+CDK,,be,CDK,,Protein Family|Protein Complex,,,TGFbeta,,,P01137,,Protein Family|Protein Complex,,,increases,,,,,,,,,10647931-cmu-out.tsv
+p15_INK4B,,uaz,UAZ05346,,Other,,,TGFbeta,,,P01137,,Protein Family|Protein Complex,,,increases,,,,,,,,,10647931-cmu-out.tsv
+p21,,uniprot,Q16539936,,Protein,,,TGFbeta,,,P01137,,Protein Family|Protein Complex,,,increases,,,,,,,,,10647931-cmu-out.tsv
+growth_factor_receptors,,uaz,UAZ01911,,Other,cl:CL:0000066,,Merlin,,,P35240,,Protein,,,decreases,,,,,,,,,21376230-cmu-out.tsv
+cell_division_cycle,,go,GO:0007049,,Biological Process,,,RB,,,P06400,,Protein,,,decreases,,,,,,,,,21376230-cmu-out.tsv
+"{Bax,_Bak}",,"{uniprot, uniprot}","{Q07812, Q16611}",go:0005741,"{Protein, Protein}",,,antiapoptotic_Bcl2like_proteins,,,UAZ12032,go:0005741,Other,,,increases,,,,,,,,,21376230-cmu-out.tsv
+Cell_Survival,,mesh,D002470,go:0043226,Biological Process,,,Autophagy,,,GO:0006914,go:0043226,Biological Process,,,increases,,,,,,,,,21376230-cmu-out.tsv
+transcription,,go,GO:0006351,,Biological Process,cl:CL:0000499,,EMT,,,O75751,,Protein,,,increases,,,,,,,,,21376230-cmu-out.tsv
+glucose,,hmdb,HMDB06564,go:0005737,Chemical,,,glucose_transporters,,,SLC2A,go:0005737,Protein Family|Protein Complex,,,increases,,,,,,,,,21376230-cmu-out.tsv
+glucose,,hmdb,HMDB06564,go:0005737,Chemical,,,GLUT1,,,P11166,go:0005737,Protein,,,increases,,,,,,,,,21376230-cmu-out.tsv
+invasion,,mesh,D009361,,Biological Process,cl:CL:0000134,,IL4,,,P05112,,Protein,,,increases,,,,,,,,,21376230-cmu-out.tsv
+metastasis,,mesh,D009362,go:0005912,Biological Process,cl:CL:0000066,,invasion,,,D009361,go:0005912,Biological Process,,,increases,,,,,,,,,21376230-cmu-out.tsv
+citric_acid_cycle,,go,GO:0006099,go:0043226,Biological Process,,,lactate,,,HMDB00190,go:0043226,Chemical,,,increases,,,,,,,,,21376230-cmu-out.tsv
+apoptosis,,go,GO:0006915,,Biological Process,cl:CL:0000066,,Myc,,,P01106,,Protein,,,increases,,,,,,,,,21376230-cmu-out.tsv
+HIF1alpha,,uniprot,Q16665,go:0043226,Protein,,,Ras,,,PF00071,go:0043226,Protein Family,,,increases,,,,,,,,,21376230-cmu-out.tsv
+senescence,,mesh,D000375,,Biological Process,,,RB,,,P06400,,Protein,,,increases,,,,,,,,,21376230-cmu-out.tsv
+apoptosis,,go,GO:0006915,,Biological Process,,,TP53,,,P04637,,Protein,,,increases,,,,,,,,,21376230-cmu-out.tsv
+Noxa,,uniprot,Q13794,,Protein,cl:CL:0000066,,TP53,,,P04637,,Protein,,,increases,,,,,,,,,21376230-cmu-out.tsv
+Puma,,uniprot,Q96PG8,,Protein,cl:CL:0000066,,TP53,,,P04637,,Protein,,,increases,,,,,,,,,21376230-cmu-out.tsv
+HSR,,uniprot,P10486,,Protein,cl:CL:0000096,,Ab,,,Q24174,,Protein,,,decreases,,,,,,,,,20969478-cmu-out.tsv
+NADPH_oxidase,,be,NADPH_oxidase,,Protein Family|Protein Complex,cl:CL:0000096,,Ab,,,Q24174,,Protein,,,decreases,,,,,,,,,20969478-cmu-out.tsv
+autophagy,,go,GO:0006914,go:0005741,Biological Process,,,Bcl2,,,P10415,go:0005741,Protein,,,decreases,,,,,,,,,20969478-cmu-out.tsv
+Beclin1,,uniprot,Q14457,go:0005741,Protein,,,Bcl2,,,P10415,go:0005741,Protein,,,decreases,,,,,,,,,20969478-cmu-out.tsv
+autophagy,,go,GO:0006914,go:0005741,Biological Process,,,BclXL,,,Q07817,go:0005741,Protein,,,decreases,,,,,,,,,20969478-cmu-out.tsv
+Beclin1,,uniprot,Q14457,go:0005741,Protein,,,BclXL,,,Q07817,go:0005741,Protein,,,decreases,,,,,,,,,20969478-cmu-out.tsv
+chromatin_remodeling,,go,GO:0006338,go:0005739,Biological Process,,,DNA_damage,,,D004249,go:0005739,Biological Process,,,decreases,,,,,,,,,20969478-cmu-out.tsv
+apoE,,uniprot,P02649,,Protein,,,HMGB1,,,P09429,,Protein,,,decreases,,,,,,,,,20969478-cmu-out.tsv
+apoptosis,,go,GO:0006915,,Biological Process,cl:CL:0000235,,HMGB1,,,P09429,,Protein,,,decreases,,,,,,,,,20969478-cmu-out.tsv
+autophagy,,go,GO:0006914,,Biological Process,cl:CL:0000235,,HMGB1,,,P09429,,Protein,,,decreases,,,,,,,,,20969478-cmu-out.tsv
+immunity,,go,GO:0006955,,Biological Process,cl:CL:0000084,,HMGB1,,,P09429,,Protein,,,decreases,,,,,,,,,20969478-cmu-out.tsv
+plasmacytoid_DC_cytokine,,uaz,UAZ15280,go:0005829,Other,cl:CL:0000623,,HMGB1,,,P09429,go:0005829,Protein,,,decreases,,,,,,,,,20969478-cmu-out.tsv
+tissue_plasminogen_activator,,interpro,IPR026280,,Protein Family,cl:CL:0002139,,HMGB1,,,P09429,,Protein,,,decreases,,,,,,,,,20969478-cmu-out.tsv
+TLR3,,uniprot,O15455,,Protein,cl:CL:0000738,,HMGB1,,,P09429,,Protein,,,decreases,,,,,,,,,20969478-cmu-out.tsv
+TLR7,,uniprot,Q9NYK1,,Protein,cl:CL:0000738,,HMGB1,,,P09429,,Protein,,,decreases,,,,,,,,,20969478-cmu-out.tsv
+TLR9,,uniprot,Q9NR96,,Protein,cl:CL:0000738,,HMGB1,,,P09429,,Protein,,,decreases,,,,,,,,,20969478-cmu-out.tsv
+apoptosis,,go,GO:0006915,go:0005634,Biological Process,,,Hsp70,,,HSPA,go:0005634,Protein Family|Protein Complex,,,decreases,,,,,,,,,20969478-cmu-out.tsv
+caspase3,,uniprot,P42574,go:0005634,Protein,,,Hsp70,,,HSPA,go:0005634,Protein Family|Protein Complex,,,decreases,,,,,,,,,20969478-cmu-out.tsv
+HMGB1,,uniprot,P09429,go:0005739,Protein,cl:CL:0002548,,Hsp72,,,P53421,go:0005739,Protein,,,decreases,,,,,,,,,20969478-cmu-out.tsv
+HMGB1,,uniprot,P09429,,Protein,,,NAC,,,Q9C000,,Protein,,,decreases,,,,,,,,,20969478-cmu-out.tsv
+HMGB1,,uniprot,P09429,,Protein,,,NAC,,,Q9C000,,Protein,,,decreases,,,,,,,,,20969478-cmu-out.tsv
+hypoxia,,uaz,UAZ08610,,Other,,,NAC,,,Q9C000,,Protein,,,decreases,,,,,,,,,20969478-cmu-out.tsv
+IR,,uniprot,P06213,,Protein,,,NAC,,,Q9C000,,Protein,,,decreases,,,,,,,,,20969478-cmu-out.tsv
+IL6,,uniprot,P05231,,Protein,,,NAC,,,Q9C000,,Protein,,,decreases,,,,,,,,,20969478-cmu-out.tsv
+inflammation,,go,GO:0006954,,Biological Process,,,NAC,,,Q9C000,,Protein,,,decreases,,,,,,,,,20969478-cmu-out.tsv
+injury,,go,GO:0090303,,Biological Process,,,NAC,,,Q9C000,,Protein,,,decreases,,,,,,,,,20969478-cmu-out.tsv
+injury,,go,GO:0090303,,Biological Process,,,NAC,,,Q9C000,,Protein,,,decreases,,,,,,,,,20969478-cmu-out.tsv
+TNFalpha,,uniprot,P01375,,Protein,,,NAC,,,Q9C000,,Protein,,,decreases,,,,,,,,,20969478-cmu-out.tsv
+response_to_stress,,go,GO:0006950,go:0031982,Biological Process,,,autophagy,,,GO:0006914,go:0031982,Biological Process,,,increases,,,,,,,,,20969478-cmu-out.tsv
+apoptosis,,go,GO:0006915,go:0005741,Biological Process,,,Bad,,,Q92934,go:0005741,Protein,,,increases,,,,,,,,,20969478-cmu-out.tsv
+apoptosis,,go,GO:0006915,go:0005741,Biological Process,,,Bak,,,Q16611,go:0005741,Protein,,,increases,,,,,,,,,20969478-cmu-out.tsv
+apoptosis,,go,GO:0006915,go:0005741,Biological Process,,,Bid,,,P55957,go:0005741,Protein,,,increases,,,,,,,,,20969478-cmu-out.tsv
+apoptosis,,go,GO:0006915,go:0005741,Biological Process,,,Bim,,,O43521,go:0005741,Protein,,,increases,,,,,,,,,20969478-cmu-out.tsv
+HMGB1,,uniprot,P09429,,Protein,,,calcium,,,UAZ15290,,Other,,,increases,,,,,,,,,20969478-cmu-out.tsv
+HMGB1,,uniprot,P09429,go:0005737,Protein,cl:CL:0000235,,calcium,,,UAZ15261,go:0005737,Other,,,increases,,,,,,,,,20969478-cmu-out.tsv
+autophagy,,go,GO:0006914,go:0005739,Biological Process,,,caspase,,,Q14790,go:0005739,Protein Family|Protein Complex,,,increases,,,,,,,,,20969478-cmu-out.tsv
+autophagy,,go,GO:0006914,go:0005739,Biological Process,,,catalase,,,P04040,go:0005739,Protein,,,increases,,,,,,,,,20969478-cmu-out.tsv
+caspases,,be,Q14790,go:0005741,Protein Family|Protein Complex,,,cytochrome_c,,,P99999,go:0005741,Protein,,,increases,,,,,,,,,20969478-cmu-out.tsv
+cell_death,,go,GO:0008219,go:0005741,Biological Process,,,cytochrome_c,,,P99999,go:0005741,Protein,,,increases,,,,,,,,,20969478-cmu-out.tsv
+injury,,go,GO:0090303,,Biological Process,cl:CL:0000540,,HMBG1,,,UAZ00507,,Other,,,increases,,,,,,,,,20969478-cmu-out.tsv
+autophagy,,go,GO:0006914,go:0005829,Biological Process,cl:CL:0000235,,HMGB1,,,P09429,go:0005829,Protein,,,increases,,,,,,,,,20969478-cmu-out.tsv
+cell_survival,,mesh,D002470,go:0005829,Biological Process,cl:CL:0000235,,HMGB1,,,P09429,go:0005829,Protein,,,increases,,,,,,,,,20969478-cmu-out.tsv
+Creactive_protein,,uniprot,P02741,,Protein,cl:CL:0000359,,HMGB1,,,P09429,,Protein,,,increases,,,,,,,,,20969478-cmu-out.tsv
+HMGB1,,uniprot,P09429,go:0005829,Protein,,,HMGB1,,,P09429,go:0005634,Protein,,,increases,,,,,,,,,20969478-cmu-out.tsv
+HMGB1,,uniprot,P09429,go:0005615,Protein,,,HMGB1,,,P09429,go:0005634,Protein,,,increases,,,,,,,,,20969478-cmu-out.tsv
+IL6,,uniprot,P05231,go:0009986,Protein,cl:CL:0001054,,HMGB1,,,P09429,go:0009986,Protein,,,increases,,,,,,,,,20969478-cmu-out.tsv
+inflammation,,go,GO:0006954,go:0009986,Biological Process,cl:CL:0001054,,HMGB1,,,P09429,go:0009986,Protein,,,increases,,,,,,,,,20969478-cmu-out.tsv
+injury,,go,GO:0090303,,Biological Process,cl:CL:0000540,,HMGB1,,,P09429,,Protein,,,increases,,,,,,,,,20969478-cmu-out.tsv
+matrix,,pfam,PF00661,,Protein Family,cl:CL:0000359,,HMGB1,,,P09429,,Protein,,,increases,,,,,,,,,20969478-cmu-out.tsv
+metalloproteinase9,,uaz,UAZ15270,,Other,cl:CL:0000540,,HMGB1,,,P09429,,Protein,,,increases,,,,,,,,,20969478-cmu-out.tsv
+NADPH_oxidase,,be,NADPH_oxidase,go:0016020,Protein Family|Protein Complex,cl:CL:0000096,,HMGB1,,,P09429,go:0016020,Protein,,,increases,,,,,,,,,20969478-cmu-out.tsv
+NFkappaB,,be,P19838,,Protein Family|Protein Complex,cl:CL:0000738,,HMGB1,,,P09429,,Protein,,,increases,,,,,,,,,20969478-cmu-out.tsv
+NKDC,,uaz,UAZ15262,,Other,cl:CL:0000084,,HMGB1,,,P09429,,Protein,,,increases,,,,,,,,,20969478-cmu-out.tsv
+phospholipase,,uaz,UAZ04314,,Other,cl:CL:0000359,,HMGB1,,,P09429,,Protein,,,increases,,,,,,,,,20969478-cmu-out.tsv
+proliferation,,go,GO:0008283,go:0009986,Biological Process,cl:CL:0000235 ++++ cl:CL:0000034,,HMGB1,,,P09429,go:0009986,Protein,,,increases,,,,,,,,,20969478-cmu-out.tsv
+RAGE,,uniprot,Q15109,,Protein,cl:CL:0002139,,HMGB1,,,P09429,,Protein,,,increases,,,,,,,,,20969478-cmu-out.tsv
+TNFA,,uniprot,P01375,go:0009986,Protein,cl:CL:0001054,,HMGB1,,,P09429,go:0009986,Protein,,,increases,,,,,,,,,20969478-cmu-out.tsv
+vascular_cell_adhesion_molecule_1,,interpro,IPR003989,,Protein Family,cl:CL:0002139,,HMGB1,,,P09429,,Protein,,,increases,,,,,,,,,20969478-cmu-out.tsv
+ROS,,chebi,CHEBI:26523,go:0016020,Chemical,cl:CL:0000235,,"HMGB11,_TLR41",,,"P09429, O00206",go:0016020,"Protein, Protein",,,increases,,,,,,,,,20969478-cmu-out.tsv
+cell_migration,,go,GO:0016477,,Biological Process,cl:CL:0000540,,HMGB1RAGE,,,UAZ01264,,Other,,,increases,,,,,,,,,20969478-cmu-out.tsv
+NADPH_oxidase,,be,NADPH_oxidase,,Protein Family|Protein Complex,cl:CL:0000096,,HSR,,,P10486,,Protein,,,increases,,,,,,,,,20969478-cmu-out.tsv
+TLR4_mutant,,uaz,UAZ15282,,Other,,,NAC,,,Q9C000,,Protein,,,increases,,,,,,,,,20969478-cmu-out.tsv
+HMGB1,,uniprot,P09429,,Protein,,,NFkappaB,,,P19838,,Protein Family|Protein Complex,,,increases,,,,,,,,,20969478-cmu-out.tsv
+apoptosis,,go,GO:0006915,go:0005741,Biological Process,,,NOXA,,,Q13794,go:0005741,Protein,,,increases,,,,,,,,,20969478-cmu-out.tsv
+necrotic_cell_death,,mesh,D009336,,Biological Process,,,oxidative_phosphorylation,,,GO:0006119,,Biological Process,,,increases,,,,,,,,,20969478-cmu-out.tsv
+apoptosis,,go,GO:0006915,go:0005741,Biological Process,,,p53,,,P04637,go:0005741,Protein,,,increases,,,,,,,,,20969478-cmu-out.tsv
+ROS,,chebi,CHEBI:26523,,Chemical,cl:CL:0009002,,pattern_recognition_receptors,,,UAZ04732,,Other,,,increases,,,,,,,,,20969478-cmu-out.tsv
+autophagy,,go,GO:0006914,go:0005741,Biological Process,,,PUMA,,,Q96PG8,go:0005741,Protein,,,increases,,,,,,,,,20969478-cmu-out.tsv
+autophagy,,go,GO:0006914,go:0005739,Biological Process,,,ROS,,,CHEBI:26523,go:0005739,Chemical,,,increases,,,,,,,,,20969478-cmu-out.tsv
+HMGB1,,uniprot,P09429,,Protein,cl:CL:0002139,,ROS,,,CHEBI:26523,,Chemical,,,increases,,,,,,,,,20969478-cmu-out.tsv
+necrotic_cell_death,,mesh,D009336,,Biological Process,,,ROS,,,CHEBI:26523,,Chemical,,,increases,,,,,,,,,20969478-cmu-out.tsv
+RAGE,,uniprot,Q15109,,Protein,cl:CL:0002139,,ROS,,,CHEBI:26523,,Chemical,,,increases,,,,,,,,,20969478-cmu-out.tsv
+NADPH_oxidase,,be,NADPH_oxidase,go:0016020,Protein Family|Protein Complex,cl:CL:0000096,,TLR,,,TLR,go:0016020,Protein Family|Protein Complex,,,increases,,,,,,,,,20969478-cmu-out.tsv
+CD24,,uniprot,P25063,,Protein,cl:CL:0000235,,TLR2,,,O60603,,Protein,,,increases,,,,,,,,,20969478-cmu-out.tsv
+CD24,,uniprot,P25063,,Protein,cl:CL:0000235,,TLR4,,,O00206,,Protein,,,increases,,,,,,,,,20969478-cmu-out.tsv
+HMGB1,,uniprot,P09429,,Protein,,,TLR4,,,O00206,,Protein,,,increases,,,,,,,,,20969478-cmu-out.tsv
+inflammation,,go,GO:0006954,,Biological Process,cl:CL:0000540,,TLR4,,,O00206,,Protein,,,increases,,,,,,,,,20969478-cmu-out.tsv
+apoptosis,,go,GO:0006915,go:0005741,Biological Process,,,Bcl2,,,P10415,go:0005741,Protein,,,decreases,,,,,,,,,19109884-cmu-out.tsv
+Bmf,,uniprot,Q96LC9,go:0005741,Protein,,,Bcl2,,,P10415,go:0005741,Protein,,,decreases,,,,,,,,,19109884-cmu-out.tsv
+necrosis,,mesh,D009336,go:0005741,Biological Process,,,Bcl2,,,P10415,go:0005741,Protein,,,decreases,,,,,,,,,19109884-cmu-out.tsv
+ZVAD,,uaz,UAZ04726,,Other,,,caspase,,,Q14790,,Protein Family|Protein Complex,,,decreases,,,,,,,,,19109884-cmu-out.tsv
+PARP1,,uniprot,P09874,go:0005829,Protein,,,AIF,,,O95831,go:0005829,Protein,,,increases,,,,,,,,,19109884-cmu-out.tsv
+apoptosis,,go,GO:0006915,go:0005741,Biological Process,,,Bmf,,,Q96LC9,go:0005741,Protein,,,increases,,,,,,,,,19109884-cmu-out.tsv
+Bcl2,,uniprot,P10415,go:0005741,Protein,,,Bmf,,,Q96LC9,go:0005741,Protein,,,increases,,,,,,,,,19109884-cmu-out.tsv
+BclX_L,,uaz,UAZ01132,go:0005741,Other,,,Bmf,,,Q96LC9,go:0005741,Protein,,,increases,,,,,,,,,19109884-cmu-out.tsv
+homeostasis,,go,GO:0042592,go:0097189,Biological Process,,,cell_death,,,GO:0008219,go:0097189,Biological Process,,,increases,,,,,,,,,19109884-cmu-out.tsv
+necrotic_cell_death,,mesh,D009336,go:0097189,Biological Process,,,cell_death,,,GO:0008219,go:0097189,Biological Process,,,increases,,,,,,,,,19109884-cmu-out.tsv
+necroptosis,,go,GO:0097528,,Biological Process,,,fmk,,,UAZ04727,,Other,,,increases,,,,,,,,,19109884-cmu-out.tsv
+death,,pfam,PF00531,,Protein Family,,,necrosis,,,D009336,,Biological Process,,,increases,,,,,,,,,19109884-cmu-out.tsv
+inflammation,,go,GO:0006954,,Biological Process,,,necrosis,,,D009336,,Biological Process,,,increases,,,,,,,,,19109884-cmu-out.tsv
+AIF,,uniprot,O95831,go:0005829,Protein,,,PARP1,,,P09874,go:0005829,Protein,,,increases,,,,,,,,,19109884-cmu-out.tsv
+cell_death,,go,GO:0008219,,Biological Process,,,Glucose,,,HMDB06564,,Chemical,,,increases,,,,,,,,,19460998-cmu-out.tsv
+glucose,,hmdb,HMDB06564,,Chemical,,,Hif1alpha,,,Q16665,,Protein,,,increases,,,,,,,,,19460998-cmu-out.tsv
+glucose,,hmdb,HMDB06564,,Chemical,,,PI3K,,,P42336,,Protein Family|Protein Complex,,,increases,,,,,,,,,19460998-cmu-out.tsv
+phosphofructokinase,,pfam,PF00365,,Protein Family,,,PI3K,,,P42336,,Protein Family|Protein Complex,,,increases,,,,,,,,,19460998-cmu-out.tsv
+senescence,,mesh,D000375,,Biological Process,,,Ras,,,PF00071,,Protein Family,,,increases,,,,,,,,,19460998-cmu-out.tsv
+DNA_damage,,mesh,D004249,,Biological Process,,,ROS,,,CHEBI:26523,,Chemical,,,increases,,,,,,,,,19460998-cmu-out.tsv
+proliferation,,go,GO:0008283,go:0005694,Biological Process,cl:CL:0000034,,DNA_damage_checkpoint,,,GO:0000077,go:0005694,Biological Process,,,decreases,,,,,,,,,19887512-cmu-out.tsv
+proliferation,,go,GO:0008283,sl-0276,Biological Process,cl:CL:0000542,,TERC,,,PF03741,sl-0276,Protein Family,,,decreases,,,,,,,,,19887512-cmu-out.tsv
+cell_death,,go,GO:0008219,go:0005694,Biological Process,cl:CL:0000034,,DNA_damage_checkpoint,,,GO:0000077,go:0005694,Biological Process,,,increases,,,,,,,,,19887512-cmu-out.tsv
+senescence,,mesh,D000375,go:0005694,Biological Process,cl:CL:0000034,,DNA_damage_checkpoint,,,GO:0000077,go:0005694,Biological Process,,,increases,,,,,,,,,19887512-cmu-out.tsv
+DC,,uaz,UAZ00261,sl-0276,Other,,,dyskerin,,,O60832,sl-0276,Protein,,,increases,,,,,,,,,19887512-cmu-out.tsv
+DNA_damage,,mesh,D004249,sl-0276,Biological Process,,,oxygen,,,HMDB01377,sl-0276,Chemical,,,increases,,,,,,,,,19887512-cmu-out.tsv
+apoptosis,,go,GO:0006915,sl-0276,Biological Process,cl:CL:0000312,,p53,,,P04637,sl-0276,Protein,,,increases,,,,,,,,,19887512-cmu-out.tsv
+senescence,,mesh,D000375,sl-0276,Biological Process,cl:CL:0000312,,p53,,,P04637,sl-0276,Protein,,,increases,,,,,,,,,19887512-cmu-out.tsv
+localization,,go,GO:0051179,go:0015030,Biological Process,cl:CL:0000586,,TCAB1,,,Q9BUR4,go:0015030,Protein,,,increases,,,,,,,,,19887512-cmu-out.tsv
+telomerase,,uaz,UAZ00001,go:0015030,Other,cl:CL:0000586,,TCAB1,,,Q9BUR4,go:0015030,Protein,,,increases,,,,,,,,,19887512-cmu-out.tsv
+DNA_damage_checkpoint,,go,GO:0000077,go:0005694,Biological Process,cl:CL:0000034,,telomerase,,,UAZ00001,go:0005694,Other,,,increases,,,,,,,,,19887512-cmu-out.tsv
+proliferation,,go,GO:0008283,go:0005694,Biological Process,cl:CL:0000034,,telomerase,,,UAZ00001,go:0005694,Other,,,increases,,,,,,,,,19887512-cmu-out.tsv
+telomerase,,uaz,UAZ00001,sl-0276,Other,,,TERC,,,PF03741,sl-0276,Protein Family,,,increases,,,,,,,,,19887512-cmu-out.tsv
+proliferation,,go,GO:0008283,sl-0276,Biological Process,cl:CL:0000034,,TERT,,,O14746,sl-0276,Protein,,,increases,,,,,,,,,19887512-cmu-out.tsv
+Wnt,,be,P04628,sl-0276,Protein Family|Protein Complex,cl:CL:0000034,,TERT,,,O14746,sl-0276,Protein,,,increases,,,,,,,,,19887512-cmu-out.tsv
+senescence,,mesh,D000375,,Biological Process,,,Manuel_Serranos_laboratory,,,UAZ07224,,Other,,,decreases,,,,,,,,,20029423-cmu-out.tsv
+proliferation,,go,GO:0008283,,Biological Process,cl:CL:0000738,,stress_response,,,GO:0006950,,Biological Process,,,decreases,,,,,,,,,20029423-cmu-out.tsv
+PIN,,uniprot,P63167,,Protein,,,AKT1,,,P31749,,Protein,,,increases,,,,,,,,,20029423-cmu-out.tsv
+senescence,,mesh,D000375,,Biological Process,cl:CL:0000893,,Cdkn2a,,,P42771,,Protein,,,increases,,,,,,,,,20029423-cmu-out.tsv
+senescence,,mesh,D000375,,Biological Process,,,cell_senescence,,,D000375,,Biological Process,,,increases,,,,,,,,,20029423-cmu-out.tsv
+senescence,,mesh,D000375,,Biological Process,cl:CL:0000542,,HRAS,,,P01112,,Protein,,,increases,,,,,,,,,20029423-cmu-out.tsv
+MYC,,uniprot,P01106,,Protein,,,INK4A,,,UAZ00537,,Other,,,increases,,,,,,,,,20029423-cmu-out.tsv
+senescence,,mesh,D000375,,Biological Process,cl:CL:0000893,,INK4A,,,UAZ00537,,Other,,,increases,,,,,,,,,20029423-cmu-out.tsv
+senescence,,mesh,D000375,,Biological Process,,,Kras,,,P01116:[SubstitutionMutant],,Protein,,,increases,,,,,,,,,20029423-cmu-out.tsv
+senescence,,mesh,D000375,,Biological Process,,,MAP,,,P12872,,Protein,,,increases,,,,,,,,,20029423-cmu-out.tsv
+senescence,,mesh,D000375,,Biological Process,cl:CL:0000542,,NRAS,,,P01111,,Protein,,,increases,,,,,,,,,20029423-cmu-out.tsv
+cell_cycle,,go,GO:0007049,,Biological Process,cl:CL:0000542,,p27,,,P40305,,Protein,,,increases,,,,,,,,,20029423-cmu-out.tsv
+senescence,,mesh,D000375,,Biological Process,,,p38,,,Q16539,,Protein Family|Protein Complex,,,increases,,,,,,,,,20029423-cmu-out.tsv
+cell_senescence,,mesh,D000375,,Biological Process,,,p53,,,P04637,,Protein,,,increases,,,,,,,,,20029423-cmu-out.tsv
+MYC,,uniprot,P01106,,Protein,,,p53,,,P04637,,Protein,,,increases,,,,,,,,,20029423-cmu-out.tsv
+senescence,,mesh,D000375,,Biological Process,,,Ras,,,PF00071,,Protein Family,,,increases,,,,,,,,,20029423-cmu-out.tsv
+senescence,,mesh,D000375,,Biological Process,cl:CL:0000542,,Ras_family,,,RAS,,Protein Family|Protein Complex,,,increases,,,,,,,,,20029423-cmu-out.tsv
+ARE_enhancer,,uaz,UAZ14075,go:0005634,Other,,,Bach1,,,O14867,go:0005634,Protein,,,decreases,,,,,,,,,22286106-cmu-out.tsv
+PTEN,,uniprot,P60484,,Protein,,,peroxiredoxin,,,P32119,,Protein,,,decreases,,,,,,,,,22286106-cmu-out.tsv
+ATM,,uniprot,Q13315,,Protein,,,phosphatase,,,PF15698,,Protein Family,,,decreases,,,,,,,,,22286106-cmu-out.tsv
+PIP3,,hmdb,HMDB10147,go:0016020,Chemical,,,phosphatase,,,PF15698,go:0016020,Protein Family,,,decreases,,,,,,,,,22286106-cmu-out.tsv
+PP5,,uniprot,P48307,,Protein,,,phosphatase,,,PF15698,,Protein Family,,,decreases,,,,,,,,,22286106-cmu-out.tsv
+JNK,,be,P45983,go:0005739,Protein Family|Protein Complex,,,ROS,,,CHEBI:26523,go:0005739,Chemical,,,decreases,,,,,,,,,22286106-cmu-out.tsv
+phosphatase,,pfam,PF15698,,Protein Family,,,ROS,,,CHEBI:26523,,Chemical,,,decreases,,,,,,,,,22286106-cmu-out.tsv
+PTPs,,uniprot,Q03393,,Protein,,,ROS,,,CHEBI:26523,,Chemical,,,decreases,,,,,,,,,22286106-cmu-out.tsv
+p38,,be,Q16539,,Protein Family|Protein Complex,cl:CL:2000042,,ASK1,,,Q99683,,Protein,,,increases,,,,,,,,,22286106-cmu-out.tsv
+ASK1,,uniprot,Q99683,,Protein,cl:CL:2000042,,ASK2,,,O95382,,Protein,,,increases,,,,,,,,,22286106-cmu-out.tsv
+ASK2,,uniprot,O95382,,Protein,cl:CL:2000042,,ASK2,,,O95382,,Protein,,,increases,,,,,,,,,22286106-cmu-out.tsv
+ATM,,uniprot,Q13315,,Protein,,,ATM,,,Q13315,,Protein,,,increases,,,,,,,,,22286106-cmu-out.tsv
+liver_kinase_B1,,uniprot,Q15831,,Protein,,,ATM,,,Q13315,,Protein,,,increases,,,,,,,,,22286106-cmu-out.tsv
+ATM,,uniprot,Q13315,,Protein,,,"ATM1,_ATM1",,,"Q13315, Q13315",,"Protein, Protein",,,increases,,,,,,,,,22286106-cmu-out.tsv
+RTKs,,uaz,UAZ00201,go:0016020,Other,,,Growth_Factor,,,Q776B5,go:0016020,Protein,,,increases,,,,,,,,,22286106-cmu-out.tsv
+RTKs,,uaz,UAZ00201,go:0016020,Other,,,insulin,,,P01308,go:0016020,Protein,,,increases,,,,,,,,,22286106-cmu-out.tsv
+LKB1,,uniprot,Q15831,,Protein,,,LKB1,,,Q15831,,Protein,,,increases,,,,,,,,,22286106-cmu-out.tsv
+MAPK,,be,P27361,,Protein Family|Protein Complex,,,MAPK_kinase,,,MAP2K,,Protein Family|Protein Complex,,,increases,,,,,,,,,22286106-cmu-out.tsv
+ATM,,uniprot,Q13315:[SubstitutionMutant],,Protein,,,MRN,,,O60934,,Protein,,,increases,,,,,,,,,22286106-cmu-out.tsv
+apoptosis,,go,GO:0006915,go:0005739,Biological Process,,,p66shc,,,UAZ10300,go:0005739,Other,,,increases,,,,,,,,,22286106-cmu-out.tsv
+dimers,,uaz,UAZ00479,go:0016020,Other,,,PI3K,,,P42336,go:0016020,Protein Family|Protein Complex,,,increases,,,,,,,,,22286106-cmu-out.tsv
+p66Shc,,uaz,UAZ10300,go:0005737,Other,,,PKCbeta,,,P05771,go:0005737,Protein,,,increases,,,,,,,,,22286106-cmu-out.tsv
+p66Shc,,uaz,UAZ10300,go:0005739,Other,,,Rac1,,,P63000,go:0005739,Protein,,,increases,,,,,,,,,22286106-cmu-out.tsv
+AP1_transcription_factor,,interpro,IPR000837,,Protein Family,,,Ref1,,,P27695,,Protein,,,increases,,,,,,,,,22286106-cmu-out.tsv
+ASK1,,uniprot,Q99683,,Protein,cl:CL:2000042,,ROS,,,CHEBI:26523,,Chemical,,,increases,,,,,,,,,22286106-cmu-out.tsv
+ATM,,uniprot,Q13315,,Protein,,,ROS,,,CHEBI:26523,,Chemical,,,increases,,,,,,,,,22286106-cmu-out.tsv
+IRP2IRE_binding_[,,uaz,UAZ14037,,Other,,,ROS,,,CHEBI:26523,,Chemical,,,increases,,,,,,,,,22286106-cmu-out.tsv
+MAPK,,be,P27361,go:0005739,Protein Family|Protein Complex,cl:CL:2000042,,ROS,,,CHEBI:26523,go:0005739,Chemical,,,increases,,,,,,,,,22286106-cmu-out.tsv
+metastasis,,mesh,D009362,,Biological Process,,,ROS,,,CHEBI:26523,,Chemical,,,increases,,,,,,,,,22286106-cmu-out.tsv
+p38,,be,Q16539,,Protein Family|Protein Complex,cl:CL:2000042,,ROS,,,CHEBI:26523,,Chemical,,,increases,,,,,,,,,22286106-cmu-out.tsv
+p66shc,,uaz,UAZ10300,go:0005739,Other,,,ROS,,,CHEBI:26523,go:0005739,Chemical,,,increases,,,,,,,,,22286106-cmu-out.tsv
+PKG1alpha,,uaz,UAZ14073,go:0005739,Other,cl:CL:2000042,,ROS,,,CHEBI:26523,go:0005739,Chemical,,,increases,,,,,,,,,22286106-cmu-out.tsv
+sensor,,pfam,PF13796,go:0005739,Protein Family,cl:CL:2000042,,ROS,,,CHEBI:26523,go:0005739,Chemical,,,increases,,,,,,,,,22286106-cmu-out.tsv
+AMPK,,be,Q13131,,Protein Family|Protein Complex,,,sclerosis_complex_2,,,UAZ11262,,Other,,,increases,,,,,,,,,22286106-cmu-out.tsv
+Ref1,,uniprot,P27695,go:0005634,Protein,,,transcription,,,GO:0006351,go:0005634,Biological Process,,,increases,,,,,,,,,22286106-cmu-out.tsv
+AMPK,,be,Q13131,,Protein Family|Protein Complex,,,TSC2,,,P49815,,Protein,,,increases,,,,,,,,,22286106-cmu-out.tsv
+RTKs,,uaz,UAZ00201,go:0016020,Other,,,Vascular_Endothelial_Growth_Factor,,,VEGF,go:0016020,Protein Family|Protein Complex,,,increases,,,,,,,,,22286106-cmu-out.tsv
+early_gene_products,,uaz,UAZ06024,,Other,,,EGFR,,,P00533,,Protein,,,decreases,,,,,,,,,20602996-cmu-out.tsv
+EGF,,uniprot,P01133,,Protein,,,FOSL1,,,P15407,,Protein,,,decreases,,,,,,,,,20602996-cmu-out.tsv
+transcription,,go,GO:0006351,,Biological Process,,,FOSL1,,,P15407,,Protein,,,decreases,,,,,,,,,20602996-cmu-out.tsv
+EGF,,uniprot,P01133,,Protein,,,ID2,,,Q02363,,Protein,,,decreases,,,,,,,,,20602996-cmu-out.tsv
+transcription,,go,GO:0006351,,Biological Process,,,ID2,,,Q02363,,Protein,,,decreases,,,,,,,,,20602996-cmu-out.tsv
+EGF,,uniprot,P01133,,Protein,,,JUNB,,,P17275,,Protein,,,decreases,,,,,,,,,20602996-cmu-out.tsv
+transcription,,go,GO:0006351,,Biological Process,,,JUNB,,,P17275,,Protein,,,decreases,,,,,,,,,20602996-cmu-out.tsv
+EGF,,uniprot,P01133,go:0016020,Protein,,,PKC,,,P17252,go:0016020,Protein Family|Protein Complex,,,decreases,,,,,,,,,20602996-cmu-out.tsv
+EGFR,,uniprot,P00533,go:0016020,Protein,,,PKC,,,P17252,go:0016020,Protein Family|Protein Complex,,,decreases,,,,,,,,,20602996-cmu-out.tsv
+RTKs,,uaz,UAZ00201,,Other,,,PTPs,,,Q03393,,Protein,,,decreases,,,,,,,,,20602996-cmu-out.tsv
+PTP,,uniprot,P05451,,Protein,,,ROS,,,CHEBI:26523,,Chemical,,,decreases,,,,,,,,,20602996-cmu-out.tsv
+cFos,,uaz,UAZ00095,,Other,,,cFos,,,UAZ00095,,Other,,,increases,,,,,,,,,20602996-cmu-out.tsv
+endocytosis,,go,GO:0006897,go:0005886 ++++ go:go:0009986,Biological Process,,,clathrin,,,Clathrin,go:0005886 ++++ go:go:0009986,Protein Family|Protein Complex,,,increases,,,,,,,,,20602996-cmu-out.tsv
+DDR1,,uniprot,Q08345,go:0016020,Protein,,,collagen,,,PF01391,go:0016020,Protein Family,,,increases,,,,,,,,,20602996-cmu-out.tsv
+DDR2,,uniprot,Q16832,go:0016020,Protein,,,collagen,,,PF01391,go:0016020,Protein Family,,,increases,,,,,,,,,20602996-cmu-out.tsv
+Discoidin_Domain_Receptors,,be,DDR,go:0016020,Protein Family|Protein Complex,,,collagen,,,PF01391,go:0016020,Protein Family,,,increases,,,,,,,,,20602996-cmu-out.tsv
+"{Shc,_heparinbinding_EGFlike_growth_factor}",,"{uniprot, uniprot}","{P29353, Q99075}",go:0016020,"{Protein, Protein}",,,EGFR,,,P00533,go:0016020,Protein,,,increases,,,,,,,,,20602996-cmu-out.tsv
+"{Src,_heparinbinding_EGFlike_growth_factor}",,"{be, uniprot}","{P12931, Q99075}",go:0016020,"{Protein Family|Protein Complex, Protein}",,,EGFR,,,P00533,go:0016020,Protein,,,increases,,,,,,,,,20602996-cmu-out.tsv
+Argos,,pfam,PF11581,,Protein Family,,,EGFR,,,P00533,,Protein,,,increases,,,,,,,,,20602996-cmu-out.tsv
+proteinkinaseC,,uniprot,P13678,,Protein,,,EGFR,,,P00533,,Protein,,,increases,,,,,,,,,20602996-cmu-out.tsv
+Rap1,,uniprot,Q9NYB0,,Protein,,,EGFR,,,P00533,,Protein,,,increases,,,,,,,,,20602996-cmu-out.tsv
+ErbB_receptors,,uaz,UAZ03172,,Other,,,ErbB,,,P00533,,Protein,,,increases,,,,,,,,,20602996-cmu-out.tsv
+PLCgamma_1,,uaz,UAZ06044,,Other,,,FGFR1,,,P11362,,Protein,,,increases,,,,,,,,,20602996-cmu-out.tsv
+ID2,,uniprot,Q02363,,Protein,,,immediate_early_gene_products,,,UAZ06019,,Other,,,increases,,,,,,,,,20602996-cmu-out.tsv
+differentiation,,go,GO:0030154,,Biological Process,,,MAPK,,,P27361,,Protein Family|Protein Complex,,,increases,,,,,,,,,20602996-cmu-out.tsv
+docking,,pfam,PF08990,go:0016020,Protein Family,,,MAPK,,,P27361,go:0016020,Protein Family|Protein Complex,,,increases,,,,,,,,,20602996-cmu-out.tsv
+FRS2,,uniprot,Q8WU20,,Protein,,,MAPK,,,P27361,,Protein Family|Protein Complex,,,increases,,,,,,,,,20602996-cmu-out.tsv
+Gab1,,uniprot,Q13480,go:0016020,Protein,,,MAPK,,,P27361,go:0016020,Protein Family|Protein Complex,,,increases,,,,,,,,,20602996-cmu-out.tsv
+IRS1,,uniprot,P35568,,Protein,,,MAPK,,,P27361,,Protein Family|Protein Complex,,,increases,,,,,,,,,20602996-cmu-out.tsv
+proliferation,,go,GO:0008283,,Biological Process,,,MAPK,,,P27361,,Protein Family|Protein Complex,,,increases,,,,,,,,,20602996-cmu-out.tsv
+Raf,,be,RAF,go:0016020,Protein Family|Protein Complex,,,MAPK,,,P27361,go:0016020,Protein Family|Protein Complex,,,increases,,,,,,,,,20602996-cmu-out.tsv
+RafMAPK,,uaz,UAZ06025,,Other,,,MAPK,,,P27361,,Protein Family|Protein Complex,,,increases,,,,,,,,,20602996-cmu-out.tsv
+Sos,,be,SOS,go:0016020,Protein Family|Protein Complex,,,MAPK,,,P27361,go:0016020,Protein Family|Protein Complex,,,increases,,,,,,,,,20602996-cmu-out.tsv
+oxygen,,hmdb,HMDB01377,,Chemical,,,NADPHoxidase,,,NADPH_oxidase,,Protein Family|Protein Complex,,,increases,,,,,,,,,20602996-cmu-out.tsv
+Raf,,be,RAF,,Protein Family|Protein Complex,,,NGF,,,P01138,,Protein,,,increases,,,,,,,,,20602996-cmu-out.tsv
+Rap,,uniprot,P30533,,Protein,,,NGF,,,P01138,,Protein,,,increases,,,,,,,,,20602996-cmu-out.tsv
+PxxPbinding_modes,,uaz,UAZ06029,,Other,,,p47,,,P08567,,Protein,,,increases,,,,,,,,,20602996-cmu-out.tsv
+STAT3,,uniprot,P40763,go:0005768,Protein,,,PDGF,,,PDGF,go:0005768,Protein Family|Protein Complex,,,increases,,,,,,,,,20602996-cmu-out.tsv
+STAT3,,uniprot,P40763,go:0005768,Protein,,,PDGF_receptor,,,UAZ01211,go:0005768,Other,,,increases,,,,,,,,,20602996-cmu-out.tsv
+oxygen,,hmdb,HMDB01377,,Chemical,,,PI3,,,P42336,,Protein Family|Protein Complex,,,increases,,,,,,,,,20602996-cmu-out.tsv
+EGFR,,uniprot,P00533,,Protein,,,PTPs,,,Q03393,,Protein,,,increases,,,,,,,,,20602996-cmu-out.tsv
+oxygen,,hmdb,HMDB01377,,Chemical,,,Rac,,,P31749,,Protein,,,increases,,,,,,,,,20602996-cmu-out.tsv
+EGFR,,uaz,UAZ06096,go:0009986,Other,,,RasMAPK,,,UAZ00473,go:0009986,Other,,,increases,,,,,,,,,20602996-cmu-out.tsv
+RTKs,,uaz,UAZ00201,go:0018995,Other,,,RTKs,,,UAZ00201,go:0018995,Other,,,increases,,,,,,,,,20602996-cmu-out.tsv
+FGFR1,,uniprot,P11362,,Protein,,,SH2,,,PF00017,,Protein Family,,,increases,,,,,,,,,20602996-cmu-out.tsv
+Rap1,,uniprot,Q9NYB0,,Protein,,,TrkA,,,P04629,,Protein,,,increases,,,,,,,,,20602996-cmu-out.tsv
+Ras,,pfam,PF00071,,Protein Family,,,TrkA,,,P04629,,Protein,,,increases,,,,,,,,,20602996-cmu-out.tsv
+metastasis,,mesh,D009362,,Biological Process,,,antiTNFalpha,,,UAZ00511,,Other,,,decreases,,,,,,,,,25337577-cmu-out.tsv
+apoptosis,,go,GO:0006915,,Biological Process,,,NAD(P)H_oxidase,,,NADPH_oxidase,,Protein Family|Protein Complex,,,decreases,,,,,,,,,25337577-cmu-out.tsv
+oxygen,,hmdb,HMDB01377,,Chemical,,,NAD(P)H_oxidase,,,NADPH_oxidase,,Protein Family|Protein Complex,,,decreases,,,,,,,,,25337577-cmu-out.tsv
+metastasis,,mesh,D009362,,Biological Process,,,necrosis,,,D009336,,Biological Process,,,decreases,,,,,,,,,25337577-cmu-out.tsv
+apoptosis,,go,GO:0006915,,Biological Process,,,oxygen,,,HMDB01377,,Chemical,,,decreases,,,,,,,,,25337577-cmu-out.tsv
+EMT,,uniprot,O75751,,Protein,,,PTP1B,,,P18031,,Protein,,,decreases,,,,,,,,,25337577-cmu-out.tsv
+EMT,,uniprot,O75751,,Protein,,,ROS,,,CHEBI:26523,,Chemical,,,decreases,,,,,,,,,25337577-cmu-out.tsv
+PTP1B,,uniprot,P18031,,Protein,,,ROS,,,CHEBI:26523,,Chemical,,,decreases,,,,,,,,,25337577-cmu-out.tsv
+angiogenesis,,go,GO:0001525,,Biological Process,,,CXCL12,,,P48061,,Protein,,,increases,,,,,,,,,25337577-cmu-out.tsv
+Int_J_Cancer_2009_124_85361,,uaz,UAZ00550,,Other,,,CXCL12,,,P48061,,Protein,,,increases,,,,,,,,,25337577-cmu-out.tsv
+invasiveness,,mesh,D009361,,Biological Process,,,CXCL12,,,P48061,,Protein,,,increases,,,,,,,,,25337577-cmu-out.tsv
+angiogenesis,,go,GO:0001525,,Biological Process,,,IL8,,,UAZ00513,,Other,,,increases,,,,,,,,,25337577-cmu-out.tsv
+Int_J_Cancer_2009_124_85361,,uaz,UAZ00550,,Other,,,IL8,,,UAZ00513,,Other,,,increases,,,,,,,,,25337577-cmu-out.tsv
+invasiveness,,mesh,D009361,,Biological Process,,,IL8,,,UAZ00513,,Other,,,increases,,,,,,,,,25337577-cmu-out.tsv
+NOX,,uniprot,Q9Y5S8,go:0031012,Protein,,,ECM,,,Q13201,go:0031012,Protein,,,increases,,,,,,,,,25337577-cmu-out.tsv
+ROS,,chebi,CHEBI:26523,go:0031012,Chemical,,,ECM,,,Q13201,go:0031012,Protein,,,increases,,,,,,,,,25337577-cmu-out.tsv
+NOX,,uniprot,Q9Y5S8,,Protein,,,fibronectin,,,P02751,,Protein,,,increases,,,,,,,,,25337577-cmu-out.tsv
+NOX4,,uniprot,Q9NPH5,,Protein,,,IGF2,,,P01344,,Protein,,,increases,,,,,,,,,25337577-cmu-out.tsv
+Socs3,,uniprot,O14543,,Protein,,,IL6,,,P05231,,Protein,,,increases,,,,,,,,,25337577-cmu-out.tsv
+Stat3,,uniprot,P40763,,Protein,,,IL6,,,P05231,,Protein,,,increases,,,,,,,,,25337577-cmu-out.tsv
+STAT3,,uniprot,P40763,,Protein,cl:CL:0000738,,IL6,,,P05231,,Protein,,,increases,,,,,,,,,25337577-cmu-out.tsv
+invasiveness,,mesh,D009361,,Biological Process,,,IL8,,,P10145,,Protein,,,increases,,,,,,,,,25337577-cmu-out.tsv
+MAPK,,be,P27361,,Protein Family|Protein Complex,,,IL8,,,P10145,,Protein,,,increases,,,,,,,,,25337577-cmu-out.tsv
+matrix_metalloproteinase2,,uniprot,P08253,,Protein,,,IL8,,,P10145,,Protein,,,increases,,,,,,,,,25337577-cmu-out.tsv
+neuropilin2,,uniprot,O60462,,Protein,,,IL8,,,P10145,,Protein,,,increases,,,,,,,,,25337577-cmu-out.tsv
+VEGF,,uniprot,P15692,,Protein,,,IL8,,,P10145,,Protein,,,increases,,,,,,,,,25337577-cmu-out.tsv
+VEGF_receptor,,be,P17948,,Protein Family|Protein Complex,,,IL8,,,P10145,,Protein,,,increases,,,,,,,,,25337577-cmu-out.tsv
+neuropilin,,interpro,IPR014648,,Protein Family,,,Interleukin8,,,P10145,,Protein,,,increases,,,,,,,,,25337577-cmu-out.tsv
+NOX,,uniprot,Q9Y5S8,,Protein,,,laminin,,,UAZ00123,,Other,,,increases,,,,,,,,,25337577-cmu-out.tsv
+cell_survival,,mesh,D002470,,Biological Process,,,NADPH_oxidase,,,NADPH_oxidase,,Protein Family|Protein Complex,,,increases,,,,,,,,,25337577-cmu-out.tsv
+Jak2,,uniprot,O60674,,Protein,,,"NADPH_oxidase1,_KD1",,,"NADPH_oxidase, 6426943",,"Protein Family|Protein Complex, Chemical",,,increases,,,,,,,,,25337577-cmu-out.tsv
+ROS,,chebi,CHEBI:26523,go:0031012,Chemical,,,NOX,,,Q9Y5S8,go:0031012,Protein,,,increases,,,,,,,,,25337577-cmu-out.tsv
+JAK,,uaz,UA-BP-GGP-00072,go:0031012,Other,,,p38_mitogenactivated_protein_kinases,,,UAZ00546,go:0031012,Other,,,increases,,,,,,,,,25337577-cmu-out.tsv
+janus,,interpro,IPR007702,go:0031012,Protein Family,,,p38_mitogenactivated_protein_kinases,,,UAZ00546,go:0031012,Other,,,increases,,,,,,,,,25337577-cmu-out.tsv
+STAT,,uniprot,P35610,go:0031012,Protein,,,p38_mitogenactivated_protein_kinases,,,UAZ00546,go:0031012,Other,,,increases,,,,,,,,,25337577-cmu-out.tsv
+cell_growth,,go,GO:0016049,,Biological Process,cl:CL:0000066,,rac,,,P31749,,Protein,,,increases,,,,,,,,,25337577-cmu-out.tsv
+ROS,,chebi,CHEBI:26523,,Chemical,cl:CL:0000066,,rac,,,P31749,,Protein,,,increases,,,,,,,,,25337577-cmu-out.tsv
+autophagy,,go,GO:0006914,,Biological Process,,,RAGE,,,Q15109,,Protein,,,increases,,,,,,,,,25337577-cmu-out.tsv
+JAK,,uaz,UA-BP-GGP-00072,go:0031012,Other,,,ROS,,,CHEBI:26523,go:0031012,Chemical,,,increases,,,,,,,,,25337577-cmu-out.tsv
+JAK2,,uaz,UAZ00556,,Other,cl:CL:0000622,,ROS,,,CHEBI:26523,,Chemical,,,increases,,,,,,,,,25337577-cmu-out.tsv
+janus,,interpro,IPR007702,go:0031012,Protein Family,,,ROS,,,CHEBI:26523,go:0031012,Chemical,,,increases,,,,,,,,,25337577-cmu-out.tsv
+MAPK,,be,P27361,,Protein Family|Protein Complex,cl:CL:0000622,,ROS,,,CHEBI:26523,,Chemical,,,increases,,,,,,,,,25337577-cmu-out.tsv
+NFkappaB,,be,P19838,,Protein Family|Protein Complex,cl:CL:0000622,,ROS,,,CHEBI:26523,,Chemical,,,increases,,,,,,,,,25337577-cmu-out.tsv
+p38_MAPK,,be,Q16539,go:0031012,Protein Family|Protein Complex,cl:CL:0000622,,ROS,,,CHEBI:26523,go:0031012,Chemical,,,increases,,,,,,,,,25337577-cmu-out.tsv
+p38_mitogenactivated_protein_kinases,,uaz,UAZ00546,go:0031012,Other,,,ROS,,,CHEBI:26523,go:0031012,Chemical,,,increases,,,,,,,,,25337577-cmu-out.tsv
+STAT,,uniprot,P35610,go:0031012,Protein,,,ROS,,,CHEBI:26523,go:0031012,Chemical,,,increases,,,,,,,,,25337577-cmu-out.tsv
+STAT3,,uniprot,P40763,,Protein,cl:CL:0000622,,ROS,,,CHEBI:26523,,Chemical,,,increases,,,,,,,,,25337577-cmu-out.tsv
+transcription,,go,GO:0006351,go:0031012,Biological Process,,,ROS,,,CHEBI:26523,go:0031012,Chemical,,,increases,,,,,,,,,25337577-cmu-out.tsv
+angiogenesis,,go,GO:0001525,,Biological Process,,,SDF1alpha,,,UAZ00535,,Other,,,increases,,,,,,,,,25337577-cmu-out.tsv
+Int_J_Cancer_2009_124_85361,,uaz,UAZ00550,,Other,,,SDF1alpha,,,UAZ00535,,Other,,,increases,,,,,,,,,25337577-cmu-out.tsv
+invasiveness,,mesh,D009361,,Biological Process,,,SDF1alpha,,,UAZ00535,,Other,,,increases,,,,,,,,,25337577-cmu-out.tsv
+dedifferentiation,,go,GO:0043696,,Biological Process,cl:CL:0000622,,STAT3,,,P40763,,Protein,,,increases,,,,,,,,,25337577-cmu-out.tsv
+cell_proliferation,,go,GO:0008283,,Biological Process,,,TNFalpha,,,P01375,,Protein,,,increases,,,,,,,,,25337577-cmu-out.tsv
+invasiveness,,mesh,D009361,,Biological Process,,,TNFalpha,,,P01375,,Protein,,,increases,,,,,,,,,25337577-cmu-out.tsv
+metastasis,,mesh,D009362,,Biological Process,,,TNFalpha,,,P01375,,Protein,,,increases,,,,,,,,,25337577-cmu-out.tsv
+peroxidase,,pfam,PF00141,,Protein Family,,,hydrogen_peroxide,,,HMDB01377,,Chemical,,,decreases,,,,,,,,,16452206-cmu-out.tsv
+cell_proliferation,,go,GO:0008283,,Biological Process,,,IGFI,,,P05019,,Protein,,,decreases,,,,,,,,,16452206-cmu-out.tsv
+IGFI,,uniprot,P05019,,Protein,,,monoclonal_antibody,,,UAZ02854,,Other,,,decreases,,,,,,,,,16452206-cmu-out.tsv
+Akt,,be,"P31749,P31751",,Protein Family|Protein Complex,,,mTOR,,,P42345,,Protein,,,decreases,,,,,,,,,16452206-cmu-out.tsv
+Akt,,be,"P31749,P31751",,Protein Family|Protein Complex,,,mTOR,,,P42345,,Protein,,,decreases,,,,,,,,,16452206-cmu-out.tsv
+IGFI,,uniprot,P05019,,Protein,,,mTOR,,,P42345,,Protein,,,decreases,,,,,,,,,16452206-cmu-out.tsv
+insulin_receptor_substrate1,,uniprot,P35568,,Protein,,,mTOR,,,P42345,,Protein,,,decreases,,,,,,,,,16452206-cmu-out.tsv
+PI3K,,be,P42336,,Protein Family|Protein Complex,,,mTOR,,,P42345,,Protein,,,decreases,,,,,,,,,16452206-cmu-out.tsv
+IRS1,,uniprot,P35568,,Protein,,,p70,,,P08133,,Protein,,,decreases,,,,,,,,,16452206-cmu-out.tsv
+Akt,,be,"P31749,P31751",,Protein Family|Protein Complex,,,"rapamycin1,_IGFI_receptor1",,,"5284616, P08069",,"Chemical, Protein",,,decreases,,,,,,,,,16452206-cmu-out.tsv
+Akt,,be,"P31749,P31751",,Protein Family|Protein Complex,,,epidermal_growth_factor_receptor,,,P00533,,Protein,,,increases,,,,,,,,,16452206-cmu-out.tsv
+PI3K,,be,P42336,,Protein Family|Protein Complex,,,epidermal_growth_factor_receptor,,,P00533,,Protein,,,increases,,,,,,,,,16452206-cmu-out.tsv
+Akt,,be,"P31749,P31751",,Protein Family|Protein Complex,,,IGFI,,,P05019,,Protein,,,increases,,,,,,,,,16452206-cmu-out.tsv
+mTOR,,uniprot,P42345,,Protein,,,IGFI,,,P05019,,Protein,,,increases,,,,,,,,,16452206-cmu-out.tsv
+pAkt,,uniprot,P54644,,Protein,,,IGFI,,,P05019,,Protein,,,increases,,,,,,,,,16452206-cmu-out.tsv
+PI3K,,uaz,UAZ02861,,Other,,,IGFI,,,P05019,,Protein,,,increases,,,,,,,,,16452206-cmu-out.tsv
+PI3K,,be,P42336,,Protein Family|Protein Complex,,,IGFIR,,,UAZ02837,,Other,,,increases,,,,,,,,,16452206-cmu-out.tsv
+Akt,,uaz,UAZ02859,,Other,,,insulin,,,P01308,,Protein,,,increases,,,,,,,,,16452206-cmu-out.tsv
+PI3K,,uaz,UAZ02861,,Other,,,insulin,,,P01308,,Protein,,,increases,,,,,,,,,16452206-cmu-out.tsv
+Akt,,uaz,UAZ02859,,Other,,,insulinlike_growth_factor_I,,,P05019,,Protein,,,increases,,,,,,,,,16452206-cmu-out.tsv
+Akt,,be,"P31749,P31751",,Protein Family|Protein Complex,,,IRS1,,,P35568.a,,Protein,,,increases,,,,,,,,,16452206-cmu-out.tsv
+Akt,,be,"P31749,P31751",,Protein Family|Protein Complex,,,mTOR,,,P42345,,Protein,,,increases,,,,,,,,,16452206-cmu-out.tsv
+IRS1,,uniprot,P35568,,Protein,,,mTOR,,,P42345,,Protein,,,increases,,,,,,,,,16452206-cmu-out.tsv
+IRS1,,uniprot,P35568,,Protein,,,p70,,,P08133,,Protein,,,increases,,,,,,,,,16452206-cmu-out.tsv
+IRS1,,uniprot,P35568,,Protein,,,p70,,,P08133,,Protein,,,increases,,,,,,,,,16452206-cmu-out.tsv
+p53,,uniprot,P04637:[GenericMutant],,Protein,,,AID,,,Q9GZX7,,Protein,,,decreases,,,,,,,,,20303878-cmu-out.tsv
+inflammation,,go,GO:0006954,,Biological Process,,,Autophagy,,,GO:0006914,,Biological Process,,,decreases,,,,,,,,,20303878-cmu-out.tsv
+necrosis,,mesh,D009336,,Biological Process,,,Autophagy,,,GO:0006914,,Biological Process,,,decreases,,,,,,,,,20303878-cmu-out.tsv
+apoptosis,,go,GO:0006915,,Biological Process,,,IkappaBkinase_beta,,,O14920,,Protein,,,decreases,,,,,,,,,20303878-cmu-out.tsv
+proliferation,,go,GO:0008283,,Biological Process,,,IkappaBkinase_beta,,,O14920,,Protein,,,decreases,,,,,,,,,20303878-cmu-out.tsv
+metastasis,,mesh,D009362,,Biological Process,cl:CL:0000084,,infiltration,,,D009361,,Biological Process,,,decreases,,,,,,,,,20303878-cmu-out.tsv
+cell_death,,go,GO:0008219,,Biological Process,,,inflammation,,,GO:0006954,,Biological Process,,,decreases,,,,,,,,,20303878-cmu-out.tsv
+TNFalpha,,uniprot,P01375,,Protein,cl:CL:0000034,,Kitamura_K,,,UAZ16159,,Other,,,decreases,,,,,,,,,20303878-cmu-out.tsv
+cyclin_D,,be,Cyclin_D,,Protein Family|Protein Complex,cl:CL:0000584,,NFkappaB,,,P19838,,Protein Family|Protein Complex,,,decreases,,,,,,,,,20303878-cmu-out.tsv
+IL6,,uniprot,P05231,,Protein,cl:CL:0009002,,NFkappaB,,,P19838,,Protein Family|Protein Complex,,,decreases,,,,,,,,,20303878-cmu-out.tsv
+inflammation,,go,GO:0006954,,Biological Process,,,NFkappaB,,,P19838,,Protein Family|Protein Complex,,,decreases,,,,,,,,,20303878-cmu-out.tsv
+necrosis,,mesh,D009336,,Biological Process,cl:CL:0009002,,NFkappaB,,,P19838,,Protein Family|Protein Complex,,,decreases,,,,,,,,,20303878-cmu-out.tsv
+p53,,uniprot,P04637,,Protein,cl:CL:0000584,,NFkappaB,,,P19838,,Protein Family|Protein Complex,,,decreases,,,,,,,,,20303878-cmu-out.tsv
+immunity,,go,GO:0006955,,Biological Process,,,Stat3,,,P40763,,Protein,,,decreases,,,,,,,,,20303878-cmu-out.tsv
+p53,,uniprot,P04637,,Protein,cl:CL:0000584,,STAT3,,,P40763,,Protein,,,decreases,,,,,,,,,20303878-cmu-out.tsv
+proliferation,,go,GO:0008283,,Biological Process,cl:CL:0000084,,TGFbeta,,,P01137,,Protein Family|Protein Complex,,,decreases,,,,,,,,,20303878-cmu-out.tsv
+genomic_instability,,mesh,D042822,,Biological Process,cl:CL:0000236,,AID,,,Q9GZX7,,Protein,,,increases,,,,,,,,,20303878-cmu-out.tsv
+caspases,,be,Q14790,,Protein Family|Protein Complex,cl:CL:0000738,,AP1,,,P05412,,Protein Family|Protein Complex,,,increases,,,,,,,,,20303878-cmu-out.tsv
+cell_survival,,mesh,D002470,,Biological Process,,,Autophagy,,,GO:0006914,,Biological Process,,,increases,,,,,,,,,20303878-cmu-out.tsv
+invasiveness,,mesh,D009361,go:0031012,Biological Process,cl:CL:0009002,,CCR1,,,P32246,go:0031012,Protein,,,increases,,,,,,,,,20303878-cmu-out.tsv
+Shojaei_F,,uaz,UAZ16085,,Other,cl:CL:0000763,,CD11bGr1,,,UAZ07555,,Other,,,increases,,,,,,,,,20303878-cmu-out.tsv
+metastasis,,mesh,D009362,,Biological Process,cl:CL:0000084 ++++ cl:CL:0000899,,CD4,,,P01730,,Protein,,,increases,,,,,,,,,20303878-cmu-out.tsv
+inflammation,,go,GO:0006954,,Biological Process,,,cell_death,,,GO:0008219,,Biological Process,,,increases,,,,,,,,,20303878-cmu-out.tsv
+inflammation,,go,GO:0006954,,Biological Process,cl:CL:0000738,,cell_senescence,,,D000375,,Biological Process,,,increases,,,,,,,,,20303878-cmu-out.tsv
+inflammatory_response,,go,GO:0006954,,Biological Process,cl:CL:0000451,,death,,,PF00531,,Protein Family,,,increases,,,,,,,,,20303878-cmu-out.tsv
+inflammation,,go,GO:0006954,,Biological Process,cl:CL:0000034,,DNA_damage,,,D004249,,Biological Process,,,increases,,,,,,,,,20303878-cmu-out.tsv
+necrotic_cell_death,,mesh,D009336,,Biological Process,cl:CL:0000034,,DNA_damage,,,D004249,,Biological Process,,,increases,,,,,,,,,20303878-cmu-out.tsv
+cell_death,,go,GO:0008219,,Biological Process,,,E3_ubiquitin_ligase,,,PF12483,,Protein Family,,,increases,,,,,,,,,20303878-cmu-out.tsv
+cFLIP,,uniprot,O15519,,Protein,,,E3_ubiquitin_ligase,,,PF12483,,Protein Family,,,increases,,,,,,,,,20303878-cmu-out.tsv
+STAT3,,uniprot,P40763,,Protein,,,EGFR,,,P00533,,Protein,,,increases,,,,,,,,,20303878-cmu-out.tsv
+cell_survival,,mesh,D002470,,Biological Process,cl:CL:0000084,,epiregulin,,,O14944,,Protein,,,increases,,,,,,,,,20303878-cmu-out.tsv
+DNA_repair,,go,GO:0006281,,Biological Process,cl:CL:0000763,,exonuclease,,,PF00929,,Protein Family,,,increases,,,,,,,,,20303878-cmu-out.tsv
+apoptosis,,go,GO:0006915,go:0016020,Biological Process,cl:CL:0000235,,Fas,,,P25445,go:0016020,Protein,,,increases,,,,,,,,,20303878-cmu-out.tsv
+DNA_repair,,go,GO:0006281,,Biological Process,cl:CL:0000763,,Fen1,,,P39748,,Protein,,,increases,,,,,,,,,20303878-cmu-out.tsv
+Stat3,,uniprot,P40763,,Protein,cl:CL:0000584,,gp130,,,P40189,,Protein,,,increases,,,,,,,,,20303878-cmu-out.tsv
+metastasis,,mesh,D009362,,Biological Process,cl:CL:0000763,,Gr1CD11b,,,UAZ11666,,Other,,,increases,,,,,,,,,20303878-cmu-out.tsv
+CXCL12,,uniprot,P48061,,Protein,cl:CL:0001054,,HIF1alpha,,,Q16665,,Protein,,,increases,,,,,,,,,20303878-cmu-out.tsv
+TRAIL,,uniprot,P50591,,Protein,,,IFN,,,Interferon,,Protein Family|Protein Complex,,,increases,,,,,,,,,20303878-cmu-out.tsv
+NFkappaB,,be,P19838,,Protein Family|Protein Complex,cl:CL:0000584,,IKKbeta,,,O14920,,Protein,,,increases,,,,,,,,,20303878-cmu-out.tsv
+MMP,,be,MMP,go:0031012,Protein Family|Protein Complex,cl:CL:0009002,,IL1,,,PF00340,go:0031012,Protein Family,,,increases,,,,,,,,,20303878-cmu-out.tsv
+necrosis,,mesh,D009336,,Biological Process,,,IL1_alpha,,,P01583,,Protein,,,increases,,,,,,,,,20303878-cmu-out.tsv
+IL6,,uniprot,P05231,,Protein,cl:CL:0009002,,IL1alpha,,,P01583,,Protein,,,increases,,,,,,,,,20303878-cmu-out.tsv
+inflammatory_response,,go,GO:0006954,,Biological Process,cl:CL:0009002,,IL1alpha,,,P01583,,Protein,,,increases,,,,,,,,,20303878-cmu-out.tsv
+MMP,,be,MMP,go:0031012,Protein Family|Protein Complex,cl:CL:0009002,,IL6,,,P05231,go:0031012,Protein,,,increases,,,,,,,,,20303878-cmu-out.tsv
+inflammation,,go,GO:0006954,,Biological Process,cl:CL:0000235,,immunity,,,GO:0006955,,Biological Process,,,increases,,,,,,,,,20303878-cmu-out.tsv
+cell_adhesion,,go,GO:0007155,,Biological Process,,,inflammation,,,GO:0006954,,Biological Process,,,increases,,,,,,,,,20303878-cmu-out.tsv
+cell_migration,,go,GO:0016477,,Biological Process,,,inflammation,,,GO:0006954,,Biological Process,,,increases,,,,,,,,,20303878-cmu-out.tsv
+cell_proliferation,,go,GO:0008283,,Biological Process,,,inflammation,,,GO:0006954,,Biological Process,,,increases,,,,,,,,,20303878-cmu-out.tsv
+DNA_damage,,mesh,D004249,,Biological Process,cl:CL:0009002,,inflammation,,,GO:0006954,,Biological Process,,,increases,,,,,,,,,20303878-cmu-out.tsv
+immune_response,,go,GO:0006955,,Biological Process,cl:CL:0000738,,inflammation,,,GO:0006954,,Biological Process,,,increases,,,,,,,,,20303878-cmu-out.tsv
+inflammation,,go,GO:0006954,,Biological Process,,,injury,,,GO:0090303,,Biological Process,,,increases,,,,,,,,,20303878-cmu-out.tsv
+cell_death,,go,GO:0008219,,Biological Process,,,itch,,,Q96J02,,Protein,,,increases,,,,,,,,,20303878-cmu-out.tsv
+cFLIP,,uniprot,O15519,,Protein,,,itch,,,Q96J02,,Protein,,,increases,,,,,,,,,20303878-cmu-out.tsv
+Stat3,,uniprot,P40763,,Protein,,,JAK2_Inhibitor,,,UAZ02937,,Other,,,increases,,,,,,,,,20303878-cmu-out.tsv
+cell_death,,go,GO:0008219,,Biological Process,,,JNK,,,P45983,,Protein Family|Protein Complex,,,increases,,,,,,,,,20303878-cmu-out.tsv
+cFLIP,,uniprot,O15519,,Protein,,,JNK,,,P45983,,Protein Family|Protein Complex,,,increases,,,,,,,,,20303878-cmu-out.tsv
+proliferation,,go,GO:0008283,,Biological Process,,,JNK,,,P45983,,Protein Family|Protein Complex,,,increases,,,,,,,,,20303878-cmu-out.tsv
+inflammation,,go,GO:0006954,,Biological Process,,,metastasis,,,D009362,,Biological Process,,,increases,,,,,,,,,20303878-cmu-out.tsv
+angiogenesis,,go,GO:0001525,,Biological Process,cl:CL:0009002,,NFkappaB,,,P19838,,Protein Family|Protein Complex,,,increases,,,,,,,,,20303878-cmu-out.tsv
+Bcl2,,uniprot,P10415,,Protein,cl:CL:0000584,,NFkappaB,,,P19838,,Protein Family|Protein Complex,,,increases,,,,,,,,,20303878-cmu-out.tsv
+BclX_L,,uaz,UAZ01132,,Other,cl:CL:0000584,,NFkappaB,,,P19838,,Protein Family|Protein Complex,,,increases,,,,,,,,,20303878-cmu-out.tsv
+betacatenin,,uniprot,P35222,,Protein,cl:CL:0000034,,NFkappaB,,,P19838,,Protein Family|Protein Complex,,,increases,,,,,,,,,20303878-cmu-out.tsv
+caspases,,be,Q14790,,Protein Family|Protein Complex,cl:CL:0000738,,NFkappaB,,,P19838,,Protein Family|Protein Complex,,,increases,,,,,,,,,20303878-cmu-out.tsv
+chemokine,,be,Chemokine,,Protein Family|Protein Complex,cl:CL:0009002,,NFkappaB,,,P19838,,Protein Family|Protein Complex,,,increases,,,,,,,,,20303878-cmu-out.tsv
+cytokine_production,,go,GO:0001816,,Biological Process,cl:CL:0009002,,NFkappaB,,,P19838,,Protein Family|Protein Complex,,,increases,,,,,,,,,20303878-cmu-out.tsv
+invasiveness,,mesh,D009361,,Biological Process,cl:CL:0009002,,NFkappaB,,,P19838,,Protein Family|Protein Complex,,,increases,,,,,,,,,20303878-cmu-out.tsv
+ROS,,chebi,CHEBI:26523,,Chemical,cl:CL:0009002,,NFkappaB,,,P19838,,Protein Family|Protein Complex,,,increases,,,,,,,,,20303878-cmu-out.tsv
+Wnt,,be,P04628,,Protein Family|Protein Complex,cl:CL:0000034,,NFkappaB,,,P19838,,Protein Family|Protein Complex,,,increases,,,,,,,,,20303878-cmu-out.tsv
+adaptive_immunity,,go,GO:0002250,,Biological Process,cl:CL:0000451,,NLRP3,,,Q96P20,,Protein,,,increases,,,,,,,,,20303878-cmu-out.tsv
+interleukin8,,uniprot,P10145,,Protein,cl:CL:0000097,,Ras,,,PF00071,,Protein Family,,,increases,,,,,,,,,20303878-cmu-out.tsv
+necrosis,,mesh,D009336,,Biological Process,cl:CL:0000451,,response_to_hypoxia,,,GO:0001666,,Biological Process,,,increases,,,,,,,,,20303878-cmu-out.tsv
+caspases,,be,Q14790,,Protein Family|Protein Complex,cl:CL:0000738,,SMAD,,,SMAD,,Protein Family|Protein Complex,,,increases,,,,,,,,,20303878-cmu-out.tsv
+caspases,,be,Q14790,,Protein Family|Protein Complex,cl:CL:0000738,,STAT,,,P35610,,Protein,,,increases,,,,,,,,,20303878-cmu-out.tsv
+angiogenesis,,go,GO:0001525,,Biological Process,cl:CL:0009002,,Stat3,,,P40763,,Protein,,,increases,,,,,,,,,20303878-cmu-out.tsv
+Bcl2,,uniprot,P10415,,Protein,cl:CL:0000584,,STAT3,,,P40763,,Protein,,,increases,,,,,,,,,20303878-cmu-out.tsv
+BclX_L,,uaz,UAZ01132,,Other,cl:CL:0000584,,STAT3,,,P40763,,Protein,,,increases,,,,,,,,,20303878-cmu-out.tsv
+cell_proliferation,,go,GO:0008283,,Biological Process,cl:CL:0000584,,STAT3,,,P40763,,Protein,,,increases,,,,,,,,,20303878-cmu-out.tsv
+chemokine,,be,Chemokine,,Protein Family|Protein Complex,cl:CL:0009002,,STAT3,,,P40763,,Protein,,,increases,,,,,,,,,20303878-cmu-out.tsv
+cytokine_production,,go,GO:0001816,,Biological Process,cl:CL:0009002,,STAT3,,,P40763,,Protein,,,increases,,,,,,,,,20303878-cmu-out.tsv
+invasiveness,,mesh,D009361,,Biological Process,cl:CL:0009002,,STAT3,,,P40763,,Protein,,,increases,,,,,,,,,20303878-cmu-out.tsv
+tumor_microenvironment,,mesh,D059016,,Biological Process,,,Stat3,,,P40763,,Protein,,,increases,,,,,,,,,20303878-cmu-out.tsv
+Twist,,uniprot,Q15672,go:0031012,Protein,cl:CL:0000899,,STAT3,,,P40763,go:0031012,Protein,,,increases,,,,,,,,,20303878-cmu-out.tsv
+differentiation,,go,GO:0030154,,Biological Process,cl:CL:0000899,,TGFbeta,,,P01137,,Protein Family|Protein Complex,,,increases,,,,,,,,,20303878-cmu-out.tsv
+SMAD,,be,SMAD,,Protein Family|Protein Complex,cl:CL:0000084,,TGFbeta,,,P01137,,Protein Family|Protein Complex,,,increases,,,,,,,,,20303878-cmu-out.tsv
+transcription,,go,GO:0006351,,Biological Process,cl:CL:0000084,,TGFbeta,,,P01137,,Protein Family|Protein Complex,,,increases,,,,,,,,,20303878-cmu-out.tsv
+IKKalpha,,uniprot,O15111,,Protein,cl:CL:0000542,,TNF,,,PF00229,,Protein Family,,,increases,,,,,,,,,20303878-cmu-out.tsv
+cell_death,,go,GO:0008219,,Biological Process,,,TNFa,,,P01375,,Protein,,,increases,,,,,,,,,20303878-cmu-out.tsv
+AP1,,be,P05412,,Protein Family|Protein Complex,cl:CL:0009002,,TNFalpha,,,P01375,,Protein,,,increases,,,,,,,,,20303878-cmu-out.tsv
+betacatenin,,uniprot,P35222,,Protein,cl:CL:0000034,,TNFalpha,,,P01375,,Protein,,,increases,,,,,,,,,20303878-cmu-out.tsv
+MMP,,be,MMP,go:0031012,Protein Family|Protein Complex,cl:CL:0009002,,TNFalpha,,,P01375,go:0031012,Protein,,,increases,,,,,,,,,20303878-cmu-out.tsv
+NFkappaB,,be,P19838,,Protein Family|Protein Complex,cl:CL:0009002,,TNFalpha,,,P01375,,Protein,,,increases,,,,,,,,,20303878-cmu-out.tsv
+transcription,,go,GO:0006351,,Biological Process,cl:CL:0009002,,TNFalpha,,,P01375,,Protein,,,increases,,,,,,,,,20303878-cmu-out.tsv
+proliferation,,go,GO:0008283,,Biological Process,,,TNFR1,,,P19438,,Protein,,,increases,,,,,,,,,20303878-cmu-out.tsv
+transcription,,go,GO:0006351,,Biological Process,cl:CL:0009002,,TPA,,,P00750,,Protein,,,increases,,,,,,,,,20303878-cmu-out.tsv
+apoptosis,,go,GO:0006915,go:0044194,Biological Process,cl:CL:0000236,,CD4,,,P01730,go:0044194,Protein,,,decreases,,,,,,,,,20405169-cmu-out.tsv
+IL1,,pfam,PF00340,,Protein Family,cl:CL:0000235,,M2b,,,Q10989,,Protein,,,decreases,,,,,,,,,20405169-cmu-out.tsv
+IL6,,uniprot,P05231,,Protein,cl:CL:0000235,,M2b,,,Q10989,,Protein,,,decreases,,,,,,,,,20405169-cmu-out.tsv
+TNFalpha,,interpro,IPR002959,,Protein Family,cl:CL:0000235,,M2b,,,Q10989,,Protein,,,decreases,,,,,,,,,20405169-cmu-out.tsv
+proliferation,,go,GO:0008283,go:0044194,Biological Process,cl:CL:0000236,,CD4,,,P01730,go:0044194,Protein,,,increases,,,,,,,,,20405169-cmu-out.tsv
+CD4,,uniprot,P01730,go:0044194,Protein,cl:CL:0000236,,IL13,,,P35225,go:0044194,Protein,,,increases,,,,,,,,,20405169-cmu-out.tsv
+CD4,,uniprot,P01730,go:0044194,Protein,cl:CL:0000236,,IL4,,,P05112,go:0044194,Protein,,,increases,,,,,,,,,20405169-cmu-out.tsv
+M2b,,uniprot,Q10989,,Protein,cl:CL:0000235,,M2b,,,Q10989,,Protein,,,increases,,,,,,,,,20405169-cmu-out.tsv
+angiogenesis,,go,GO:0001525,,Biological Process,cl:CL:0000775,,MCs,,,P49901,,Protein,,,increases,,,,,,,,,20405169-cmu-out.tsv
+immunity,,go,GO:0006955,,Biological Process,cl:CL:0000623,,REG,,,P05451,,Protein,,,increases,,,,,,,,,20405169-cmu-out.tsv
+CXCL1,,uniprot,P09341,,Protein,cl:CL:0000066,,chemokine_receptor,,,UAZ-PF-43,,Other,,,decreases,,,,,,,,,20538542-cmu-out.tsv
+chemokine_receptor,,uaz,UAZ-PF-43,,Other,cl:CL:0000066,,CXCL1,,,P09341,,Protein,,,decreases,,,,,,,,,20538542-cmu-out.tsv
+immune_surveillance,,go,GO:0006955,go:0031012,Biological Process,cl:CL:0002327,,cyclindependent_kinase_inhibitors,,,CDKN,go:0031012,Protein Family|Protein Complex,,,decreases,,,,,,,,,20538542-cmu-out.tsv
+p63,,uniprot,Q07065,,Protein,,,mutantp53,,,P04637,,Protein,,,decreases,,,,,,,,,20538542-cmu-out.tsv
+CD8,,be,CD8,,Protein Family|Protein Complex,cl:CL:0000546,,TGFbeta,,,P01137,,Protein Family|Protein Complex,,,decreases,,,,,,,,,20538542-cmu-out.tsv
+CXCL1,,uniprot,P09341,,Protein,cl:CL:0009002,,TGFbeta,,,P01137,,Protein Family|Protein Complex,,,decreases,,,,,,,,,20538542-cmu-out.tsv
+CXCL5,,uniprot,P42830,,Protein,cl:CL:0009002,,TGFbeta,,,P01137,,Protein Family|Protein Complex,,,decreases,,,,,,,,,20538542-cmu-out.tsv
+Ig,,pfam,PF00047,,Protein Family,cl:CL:0000623,,TGFbeta,,,P01137,,Protein Family|Protein Complex,,,decreases,,,,,,,,,20538542-cmu-out.tsv
+IL2,,uniprot,P60568,,Protein,cl:CL:0000084,,TGFbeta,,,P01137,,Protein Family|Protein Complex,,,decreases,,,,,,,,,20538542-cmu-out.tsv
+immune_surveillance,,go,GO:0006955,go:0018995,Biological Process,cl:CL:0009002,,TGFbeta,,,P01137,go:0018995,Protein Family|Protein Complex,,,decreases,,,,,,,,,20538542-cmu-out.tsv
+MICA,,uniprot,Q29983,,Protein,cl:CL:0000623,,TGFbeta,,,P01137,,Protein Family|Protein Complex,,,decreases,,,,,,,,,20538542-cmu-out.tsv
+NKG2D,,uniprot,P26718,,Protein,cl:CL:0000815,,TGFbeta,,,P01137,,Protein Family|Protein Complex,,,decreases,,,,,,,,,20538542-cmu-out.tsv
+NKG2D,,uniprot,P26718,,Protein,cl:CL:0000623 ++++ cl:CL:0000542,,TGFbeta,,,P01137,,Protein Family|Protein Complex,,,decreases,,,,,,,,,20538542-cmu-out.tsv
+NKG2D_receptor,,uaz,UAZ04352,,Other,cl:CL:0000542,,TGFbeta,,,P01137,,Protein Family|Protein Complex,,,decreases,,,,,,,,,20538542-cmu-out.tsv
+NKp30,,uniprot,O14931,,Protein,cl:CL:0000542,,TGFbeta,,,P01137,,Protein Family|Protein Complex,,,decreases,,,,,,,,,20538542-cmu-out.tsv
+proliferation,,go,GO:0008283,,Biological Process,cl:CL:0000542 ++++ cl:CL:0000084 ++++ cl:CL:0000623,,TGFbeta,,,P01137,,Protein Family|Protein Complex,,,decreases,,,,,,,,,20538542-cmu-out.tsv
+NFkappaB,,be,P19838,,Protein Family|Protein Complex,,,TGFbeta1,,,IPR003939,,Protein Family,,,decreases,,,,,,,,,20538542-cmu-out.tsv
+Tregs_[,,uaz,UAZ04340,,Other,cl:CL:0000084,,AntiTGFbeta_antibody,,,UAZ03408,,Other,,,increases,,,,,,,,,20538542-cmu-out.tsv
+TGFbeta,,be,P01137,,Protein Family|Protein Complex,cl:CL:0009002,,chemokine,,,Chemokine,,Protein Family|Protein Complex,,,increases,,,,,,,,,20538542-cmu-out.tsv
+angiogenesis,,go,GO:0001525,go:0031012,Biological Process,cl:CL:0002327,,cyclindependent_kinase_inhibitors,,,CDKN,go:0031012,Protein Family|Protein Complex,,,increases,,,,,,,,,20538542-cmu-out.tsv
+TGFbeta,,be,P01137,,Protein Family|Protein Complex,cl:CL:0000546,,Gr1CD11b,,,UAZ04337,,Other,,,increases,,,,,,,,,20538542-cmu-out.tsv
+proliferation,,go,GO:0008283,,Biological Process,cl:CL:0000084,,IL2,,,P60568,,Protein,,,increases,,,,,,,,,20538542-cmu-out.tsv
+metastasis,,mesh,D009362,go:0018995,Biological Process,cl:CL:0000763,,Mac1,,,PF09028,go:0018995,Protein Family,,,increases,,,,,,,,,20538542-cmu-out.tsv
+invasion,,mesh,D009361,,Biological Process,cl:CL:0000066,,MMP,,,MMP,,Protein Family|Protein Complex,,,increases,,,,,,,,,20538542-cmu-out.tsv
+metastasis,,mesh,D009362,,Biological Process,cl:CL:0000066,,MMP,,,MMP,,Protein Family|Protein Complex,,,increases,,,,,,,,,20538542-cmu-out.tsv
+MICA,,uniprot,Q29983,,Protein,cl:CL:0000623,,NKG2D,,,P26718.t,,Protein,,,increases,,,,,,,,,20538542-cmu-out.tsv
+NKG2D,,uniprot,P26718,,Protein,cl:CL:0000623,,NKG2D,,,P26718.t,,Protein,,,increases,,,,,,,,,20538542-cmu-out.tsv
+SMAD,,be,SMAD,,Protein Family|Protein Complex,,,p53,,,P04637:[GenericMutant],,Protein,,,increases,,,,,,,,,20538542-cmu-out.tsv
+SMAD2,,uniprot,Q15796,go:0005634,Protein,,,TbetaRI,,,P36897.p,go:0005634,Protein,,,increases,,,,,,,,,20538542-cmu-out.tsv
+SMAD3,,uniprot,P84022,go:0005634,Protein,,,TbetaRI,,,P36897.p,go:0005634,Protein,,,increases,,,,,,,,,20538542-cmu-out.tsv
+TbetaRII,,uniprot,P37173,go:0005634,Protein,,,TbetaRI,,,P36897.p,go:0005634,Protein,,,increases,,,,,,,,,20538542-cmu-out.tsv
+angiopoietinlike_4,,uaz,UAZ02788,go:0005911,Other,cl:CL:0000066,,TGFbeta,,,P01137,go:0005911,Protein Family|Protein Complex,,,increases,,,,,,,,,20538542-cmu-out.tsv
+CD4CD25_Tregs,,uaz,UAZ04345,,Other,cl:CL:0000899,,TGFbeta,,,P01137,,Protein Family|Protein Complex,,,increases,,,,,,,,,20538542-cmu-out.tsv
+CD8_Tcell,,uaz,UAZ04342,go:0018995,Other,cl:CL:0000775,,TGFbeta,,,P01137,go:0018995,Protein Family|Protein Complex,,,increases,,,,,,,,,20538542-cmu-out.tsv
+CXCL1,,uniprot,P09341,go:0005911,Protein,cl:CL:0009002,,TGFbeta,,,P01137,go:0005911,Protein Family|Protein Complex,,,increases,,,,,,,,,20538542-cmu-out.tsv
+Foxp3,,uniprot,B7ZLG1,,Protein,cl:CL:0000084,,TGFbeta,,,P01137,,Protein Family|Protein Complex,,,increases,,,,,,,,,20538542-cmu-out.tsv
+invasion,,mesh,D009361,,Biological Process,cl:CL:0000066,,TGFbeta,,,P01137,,Protein Family|Protein Complex,,,increases,,,,,,,,,20538542-cmu-out.tsv
+metastasis,,mesh,D009362,,Biological Process,cl:CL:0000066,,TGFbeta,,,P01137,,Protein Family|Protein Complex,,,increases,,,,,,,,,20538542-cmu-out.tsv
+proliferation,,go,GO:0008283,,Biological Process,cl:CL:0000084,,TGFbeta,,,P01137,,Protein Family|Protein Complex,,,increases,,,,,,,,,20538542-cmu-out.tsv
+TAN,,pfam,PF11640,,Protein Family,cl:CL:0000763,,TGFbeta,,,P01137,,Protein Family|Protein Complex,,,increases,,,,,,,,,20538542-cmu-out.tsv
+angiogenesis,,go,GO:0001525,go:0018995,Biological Process,cl:CL:0000763,,tumor_microenvironment,,,D059016,go:0018995,Biological Process,,,increases,,,,,,,,,20538542-cmu-out.tsv
+CPT1A,,uniprot,P50416,,Protein,,,Akt,,,"P31749,P31751",,Protein Family|Protein Complex,,,decreases,,,,,,,,,18387799-cmu-out.tsv
+proliferation,,go,GO:0008283,,Biological Process,,,CPT1A,,,P50416,,Protein,,,decreases,,,,,,,,,18387799-cmu-out.tsv
+glycolysis,,go,GO:0006096,,Biological Process,,,p53,,,P04637,,Protein,,,decreases,,,,,,,,,18387799-cmu-out.tsv
+phosphoglycerate_mutase,,uniprot,P82612,,Protein,,,p53,,,P04637,,Protein,,,decreases,,,,,,,,,18387799-cmu-out.tsv
+CPT1A,,uniprot,P50416,,Protein,,,PI3K,,,P42336,,Protein Family|Protein Complex,,,decreases,,,,,,,,,18387799-cmu-out.tsv
+glycolysis,,go,GO:0006096,,Biological Process,,,SCO2,,,O43819,,Protein,,,decreases,,,,,,,,,18387799-cmu-out.tsv
+glycolysis,,go,GO:0006096,,Biological Process,,,TIGAR,,,Q9NQ88,,Protein,,,decreases,,,,,,,,,18387799-cmu-out.tsv
+glutaminase,,pfam,PF04960,,Protein Family,,,Alonso_FJ,,,UAZ04613,,Other,,,increases,,,,,,,,,18387799-cmu-out.tsv
+span,,pfam,PF02510,,Protein Family,,,Beach,,,PF02138,,Protein Family,,,increases,,,,,,,,,18387799-cmu-out.tsv
+apoptosis,,go,GO:0006915,,Biological Process,,,glucose,,,HMDB06564,,Chemical,,,increases,,,,,,,,,18387799-cmu-out.tsv
+MYC,,uniprot,P01106,,Protein,,,glucose,,,HMDB06564,,Chemical,,,increases,,,,,,,,,18387799-cmu-out.tsv
+span,,pfam,PF02510,,Protein Family,,,Glycolytic,,,PF00274,,Protein Family,,,increases,,,,,,,,,18387799-cmu-out.tsv
+glutaminase,,pfam,PF04960,,Protein Family,,,JC,,,UAZ04620,,Other,,,increases,,,,,,,,,18387799-cmu-out.tsv
+span,,pfam,PF02510,,Protein Family,,,ME,,,P39900,,Protein,,,increases,,,,,,,,,18387799-cmu-out.tsv
+glycolysis,,go,GO:0006096,,Biological Process,,,metabolism,,,GO:0008152,,Biological Process,,,increases,,,,,,,,,18387799-cmu-out.tsv
+oxidative_phosphorylation,,go,GO:0006119,,Biological Process,,,metabolism,,,GO:0008152,,Biological Process,,,increases,,,,,,,,,18387799-cmu-out.tsv
+glucose_transporters,,be,SLC2A,,Protein Family|Protein Complex,,,mTOR,,,P42345,,Protein,,,increases,,,,,,,,,18387799-cmu-out.tsv
+transcription,,go,GO:0006351,,Biological Process,,,PKB,,,"P31749,P31751",,Protein Family|Protein Complex,,,increases,,,,,,,,,18387799-cmu-out.tsv
+PCNA,,uniprot,P12004,go:0005657,Protein,,,"{RAD6,_RAD18}",,,"{P06104, Q9NS91}",go:0005657,"{Protein, Protein}",,,decreases,,,,,,,,,20965415-cmu-out.tsv
+DSB,,uaz,UAZ00772,,Other,cl:CL:0000236,,53BP1,,,Q12888,,Protein,,,decreases,,,,,,,,,20965415-cmu-out.tsv
+transcription,,go,GO:0006351,,Biological Process,,,ATM,,,Q13315,,Protein,,,decreases,,,,,,,,,20965415-cmu-out.tsv
+XPC,,uniprot,Q01831,go:0000805,Protein,,,cullin,,,CUL,go:0000805,Protein Family|Protein Complex,,,decreases,,,,,,,,,20965415-cmu-out.tsv
+apoptosis,,go,GO:0006915,,Biological Process,,,DDR,,,PF08841,,Protein Family,,,decreases,,,,,,,,,20965415-cmu-out.tsv
+cellular_senescence,,mesh,D000375,,Biological Process,,,DDR,,,PF08841,,Protein Family,,,decreases,,,,,,,,,20965415-cmu-out.tsv
+NHEJ,,uaz,UAZ00800,,Other,cl:CL:0000236,,FA,,,PF08736,,Protein Family,,,decreases,,,,,,,,,20965415-cmu-out.tsv
+ID,,uniprot,P41134,,Protein,,,Polzeta,,,UAZ06223,,Other,,,decreases,,,,,,,,,20965415-cmu-out.tsv
+ID,,uniprot,P41134,,Protein,,,REV1,,,Q9UBZ9,,Protein,,,decreases,,,,,,,,,20965415-cmu-out.tsv
+ID,,uniprot,P41134,,Protein,,,UAF1,,,Q8TAF3,,Protein,,,decreases,,,,,,,,,20965415-cmu-out.tsv
+ID,,uniprot,P41134,,Protein,,,USP1,,,O94782,,Protein,,,decreases,,,,,,,,,20965415-cmu-out.tsv
+"{RNF168,_BRCA1}",,"{uniprot, uniprot}","{Q8IYW5, Q16539398}",,"{Protein, Protein}",,,"{RNF8,_UBC13}",,,"{O76064, P61088}",,"{Protein, Protein}",,,increases,,,,,,,,,20965415-cmu-out.tsv
+CSR,,uniprot,Q6AZY7,,Protein,,,AID,,,Q9GZX7,,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+BRCA2,,uniprot,P51587,,Protein,,,ATM,,,Q13315,,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+DDB1,,uniprot,Q16531,go:0000805,Protein,,,ATM,,,Q13315,go:0000805,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+DDB2,,uniprot,Q92466,go:0000805,Protein,,,ATM,,,Q13315,go:0000805,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+DDR,,pfam,PF08841,go:0005657,Protein Family,,,ATM,,,Q13315,go:0005657,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+DSB,,uaz,UAZ00772,,Other,,,ATM,,,Q13315,,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+DSB_repair,,uaz,UAZ00740,,Other,,,ATM,,,Q13315,,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+Effector_proteins,,uaz,UAZ06210,go:0005657,Other,,,ATM,,,Q13315,go:0005657,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+p53,,uniprot,P04637,,Protein,,,ATM,,,Q13315,,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+XPC,,uniprot,Q01831,go:0000805,Protein,,,ATM,,,Q13315,go:0000805,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+BLM,,uniprot,P54132,go:0005657,Protein,,,ATR,,,P20848,go:0005657,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+BRCA2,,uniprot,P51587,,Protein,,,ATR,,,P20848,,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+CHK1,,uniprot,O14757,go:0005657,Protein,,,ATR,,,P20848,go:0005657,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+DDB1,,uniprot,Q16531,go:0000805,Protein,,,ATR,,,P20848,go:0000805,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+DDB2,,uniprot,Q92466,go:0000805,Protein,,,ATR,,,P20848,go:0000805,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+DSB_repair,,uaz,UAZ00740,,Other,,,ATR,,,P20848,,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+Effector_proteins,,uaz,UAZ06210,go:0005657,Other,,,ATR,,,P20848,go:0005657,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+FA,,pfam,PF08736,,Protein Family,,,ATR,,,P20848,,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+FANCI,,uniprot,Q9NVI1,,Protein,,,ATR,,,P20848,,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+Seckel_syndrome,,uaz,UAZ06209,,Other,,,ATR,,,P20848:[GenericMutant],,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+TOPBP1,,uniprot,Q92547,go:0005657,Protein,,,ATR,,,P20848,go:0005657,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+XPC,,uniprot,Q01831,go:0000805,Protein,,,ATR,,,P20848,go:0000805,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+H2AX,,uniprot,P16104,,Protein,,,BAZ,,,UAZ03650,,Other,,,increases,,,,,,,,,20965415-cmu-out.tsv
+RPA,,be,RPA,,Protein Family|Protein Complex,,,BRCA2,,,P51587,,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+BRCA2,,uniprot,P51587,,Protein,,,CDK,,,CDK,,Protein Family|Protein Complex,,,increases,,,,,,,,,20965415-cmu-out.tsv
+Effector_proteins,,uaz,UAZ06210,go:0005657,Other,,,CHK1,,,O14757,go:0005657,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+RAD51,,uniprot,Q06609,,Protein,,,CHK1,,,O14757,,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+Effector_proteins,,uaz,UAZ06210,go:0005657,Other,,,CHK2,,,O96017,go:0005657,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+HP1,,uniprot,P59665,go:0000805,Protein,,,CK2,,,CK2,go:0000805,Protein Family|Protein Complex,,,increases,,,,,,,,,20965415-cmu-out.tsv
+ATR,,uniprot,P20848,go:0005657,Protein,,,clamp,,,PF14769,go:0005657,Protein Family,,,increases,,,,,,,,,20965415-cmu-out.tsv
+TOPBP1,,uniprot,Q92547,go:0005657,Protein,,,clamp,,,PF14769,go:0005657,Protein Family,,,increases,,,,,,,,,20965415-cmu-out.tsv
+NER,,uniprot,P55055,,Protein,,,CSA,,,Q13216,,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+TCNER,,uaz,UAZ01667,,Other,,,CSA,,,Q13216,,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+NER,,uniprot,P55055,,Protein,,,CSB,,,Q03468,,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+TCNER,,uaz,UAZ01667,,Other,,,CSB,,,Q03468,,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+DSB,,uaz,UAZ00772,,Other,,,CtIP,,,Q99708,,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+PCNA,,uniprot,P12004,,Protein,,,DDR,,,PF08841,,Protein Family,,,increases,,,,,,,,,20965415-cmu-out.tsv
+senescence,,mesh,D000375,sl-0276,Biological Process,,,DDR,,,PF08841,sl-0276,Protein Family,,,increases,,,,,,,,,20965415-cmu-out.tsv
+NHEJ,,uaz,UAZ00800,,Other,,,DNAPK,,,UAZ01081,,Other,,,increases,,,,,,,,,20965415-cmu-out.tsv
+NHEJ,,uaz,UAZ00800,,Other,,,DNAPKcs,,,P78527,,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+altNHEJ,,uaz,UAZ03781,,Other,cl:CL:0000236,,DSB,,,UAZ00772,,Other,,,increases,,,,,,,,,20965415-cmu-out.tsv
+apoptosis,,go,GO:0006915,go:0005657,Biological Process,cl:CL:0002319,,DSB,,,UAZ00772,go:0005657,Other,,,increases,,,,,,,,,20965415-cmu-out.tsv
+HR,,uniprot,O43593,,Protein,cl:CL:0000236,,FA,,,PF08736,,Protein Family,,,increases,,,,,,,,,20965415-cmu-out.tsv
+FANCM,,uniprot,Q8IYD8,go:0005657,Protein,,,FAAP24,,,Q9BTP7,go:0005657,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+FANCM,,uniprot,Q8IYD8,go:0005657,Protein,,,histone,,,Histone,go:0005657,Protein Family|Protein Complex,,,increases,,,,,,,,,20965415-cmu-out.tsv
+apoptosis,,go,GO:0006915,,Biological Process,,,JNK,,,P45983,,Protein Family|Protein Complex,,,increases,,,,,,,,,20965415-cmu-out.tsv
+DNAPK,,uaz,UAZ01081,,Other,,,Ku,,,PF02735,,Protein Family,,,increases,,,,,,,,,20965415-cmu-out.tsv
+HR,,uniprot,O43593,,Protein,,,Ku,,,PF02735,,Protein Family,,,increases,,,,,,,,,20965415-cmu-out.tsv
+SSB,,uniprot,P05455,,Protein,,,LIG3,,,P49916,,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+ATM,,uniprot,Q13315,,Protein,,,MRN,,,O60934,,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+CS,,uniprot,O75390,,Protein,,,NER,,,P55055,,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+apoptosis,,go,GO:0006915,go:0005657,Biological Process,,,P53,,,P04637,go:0005657,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+cell_cycle,,go,GO:0007049,go:0005657,Biological Process,,,P53,,,P04637,go:0005657,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+proliferation,,go,GO:0008283,go:0031965,Biological Process,cl:CL:0000034,,p53,,,P04637,go:0031965,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+senescence,,mesh,D000375,go:0005657,Biological Process,,,P53,,,P04637,go:0005657,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+MRN,,uniprot,O60934,,Protein,,,PARP1,,,P09874,,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+ubiquitin,,uniprot,P0CG47,,Protein,,,PIAS1,,,O75925,,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+"{RNF8,_UBC13}",,"{uniprot, uniprot}","{O76064, P61088}",,"{Protein, Protein}",,,PIAS4,,,Q8N2W9,,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+53BP1,,uniprot,Q12888,,Protein,,,PIAS4,,,Q8N2W9,,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+HR,,uniprot,O43593,,Protein,,,RAD51,,,Q06609,,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+ATM,,uniprot,Q13315,,Protein,,,RNA_polymerase,,,UAZ02835,,Other,,,increases,,,,,,,,,20965415-cmu-out.tsv
+ALS,,uniprot,P35858,,Protein,cl:CL:0000100,,ROS,,,CHEBI:26523,,Chemical,,,increases,,,,,,,,,20965415-cmu-out.tsv
+DNA_damage,,mesh,D004249,,Biological Process,cl:CL:1001611,,ROS,,,CHEBI:26523,,Chemical,,,increases,,,,,,,,,20965415-cmu-out.tsv
+clamp,,pfam,PF14769,go:0005657,Protein Family,,,RPAssDNA_complexes,,,UAZ06187,go:0005657,Other,,,increases,,,,,,,,,20965415-cmu-out.tsv
+DDR,,pfam,PF08841,,Protein Family,,,sensor,,,PF13796,,Protein Family,,,increases,,,,,,,,,20965415-cmu-out.tsv
+Localization,,go,GO:0051179,,Biological Process,,,sensor,,,PF13796,,Protein Family,,,increases,,,,,,,,,20965415-cmu-out.tsv
+ATM,,uniprot,Q13315,,Protein,,,TIP60,,,Q92993,,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+H4,,interpro,IPR001951,,Protein Family,,,TIP60,,,Q92993,,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+histones_H3,,uaz,UAZ01185,,Other,,,TIP60,,,Q92993,,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+RNR,,uniprot,Q9Y5X4,go:0005634,Protein,,,TIP60,,,Q92993,go:0005634,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+H2AX,,uniprot,P16104,,Protein,,,WAL,,,UAZ06239,,Other,,,increases,,,,,,,,,20965415-cmu-out.tsv
+H2AX,,uniprot,P16104,,Protein,,,WAL_family,,,UAZ06230,,Other,,,increases,,,,,,,,,20965415-cmu-out.tsv
+HR,,uniprot,O43593,sl-0276,Protein,,,WRN,,,Q14191,sl-0276,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+H2AX,,uniprot,P16104,,Protein,,,WSTF,,,Q9UIG0,,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+CS,,uniprot,O75390,,Protein,,,XPB,,,P19447,,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+NER,,uniprot,P55055,go:0000805,Protein,,,XPC,,,Q01831,go:0000805,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+CS,,uniprot,O75390,,Protein,,,XPD,,,P18074,,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+CS,,uniprot,O75390,,Protein,,,XPG,,,P28715,,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+SSB,,uniprot,P05455,,Protein,,,XRCC1,,,P18887,,Protein,,,increases,,,,,,,,,20965415-cmu-out.tsv
+Bclx_L,,uaz,UAZ00200,,Other,,,Bad,,,Q92934,,Protein,,,decreases,,,,,,,,,17322918-cmu-out.tsv
+Mcl1,,uniprot,Q07820,,Protein,,,Bad,,,Q92934,,Protein,,,decreases,,,,,,,,,17322918-cmu-out.tsv
+apoptosis,,go,GO:0006915,go:0016020,Biological Process,,,Bid,,,P55957,go:0016020,Protein,,,decreases,,,,,,,,,17322918-cmu-out.tsv
+apoptosis,,go,GO:0006915,go:0016020,Biological Process,,,Bim,,,O43521,go:0016020,Protein,,,decreases,,,,,,,,,17322918-cmu-out.tsv
+Bclx_L_prosurvival,,uaz,UAZ01156,,Other,,,DNA_damage,,,D004249,,Biological Process,,,decreases,,,,,,,,,17322918-cmu-out.tsv
+apoptosis,,go,GO:0006915,,Biological Process,,,Myc,,,P01106,,Protein,,,decreases,,,,,,,,,17322918-cmu-out.tsv
+Bcl2,,uniprot,P10415,,Protein,cl:CL:0000236,,Myc,,,P01106.t,,Protein,,,decreases,,,,,,,,,17322918-cmu-out.tsv
+Bclx_L,,uaz,UAZ00200,,Other,cl:CL:0000236,,Myc,,,P01106.t,,Protein,,,decreases,,,,,,,,,17322918-cmu-out.tsv
+Bclx_L,,uaz,UAZ00200,,Other,,,Noxa,,,Q13794,,Protein,,,decreases,,,,,,,,,17322918-cmu-out.tsv
+Mcl1,,uniprot,Q07820,,Protein,,,Noxa,,,Q13794,,Protein,,,decreases,,,,,,,,,17322918-cmu-out.tsv
+Bak,,uniprot,Q16611,,Protein,,,apoptosis,,,GO:0006915,,Biological Process,,,increases,,,,,,,,,17322918-cmu-out.tsv
+Bax,,uniprot,Q07812,,Protein,,,apoptosis,,,GO:0006915,,Biological Process,,,increases,,,,,,,,,17322918-cmu-out.tsv
+cell_death,,go,GO:0008219,,Biological Process,,,Bad,,,Q92934,,Protein,,,increases,,,,,,,,,17322918-cmu-out.tsv
+apoptosis,,go,GO:0006915,,Biological Process,,,Bak,,,Q16611,,Protein,,,increases,,,,,,,,,17322918-cmu-out.tsv
+cell_death,,go,GO:0008219,,Biological Process,,,Bak,,,Q16611,,Protein,,,increases,,,,,,,,,17322918-cmu-out.tsv
+apoptosis,,go,GO:0006915,go:0031966,Biological Process,,,Bax,,,Q07812,go:0031966,Protein,,,increases,,,,,,,,,17322918-cmu-out.tsv
+apoptosis,,go,GO:0006915,,Biological Process,,,Bax,,,Q07812,,Protein,,,increases,,,,,,,,,17322918-cmu-out.tsv
+Bax,,uniprot,Q07812,,Protein,,,BH3,,,PF15285,,Protein Family,,,increases,,,,,,,,,17322918-cmu-out.tsv
+apoptosis,,go,GO:0006915,,Biological Process,,,Bid,,,P55957,,Protein,,,increases,,,,,,,,,17322918-cmu-out.tsv
+Bax,,uniprot,Q07812,,Protein,,,Bid,,,P55957,,Protein,,,increases,,,,,,,,,17322918-cmu-out.tsv
+apoptosis,,go,GO:0006915,,Biological Process,,,Bim,,,O43521,,Protein,,,increases,,,,,,,,,17322918-cmu-out.tsv
+apoptosis,,go,GO:0006915,go:0009986,Biological Process,cl:CL:0000542,,death_receptor,,,Death_receptor,go:0009986,Protein Family|Protein Complex,,,increases,,,,,,,,,17322918-cmu-out.tsv
+bim,,uniprot,O43521,go:0005856,Protein,,,Forkhead,,,PF00250,go:0005856,Protein Family,,,increases,,,,,,,,,17322918-cmu-out.tsv
+proliferation,,go,GO:0008283,,Biological Process,cl:CL:0000236,,Myc,,,P01106,,Protein,,,increases,,,,,,,,,17322918-cmu-out.tsv
+cell_death,,go,GO:0008219,,Biological Process,,,Noxa,,,Q13794,,Protein,,,increases,,,,,,,,,17322918-cmu-out.tsv
+apoptosis,,go,GO:0006915,,Biological Process,,,p53,,,P04637,,Protein,,,increases,,,,,,,,,17322918-cmu-out.tsv
+Bim,,uniprot,O43521,,Protein,cl:CL:0000542,,p53,,,P04637,,Protein,,,increases,,,,,,,,,17322918-cmu-out.tsv
+Noxa,,uniprot,Q13794,go:0005739,Protein,cl:CL:0000542,,p53,,,P04637,go:0005739,Protein,,,increases,,,,,,,,,17322918-cmu-out.tsv
+Bim,,uniprot,O43521,,Protein,,,proteasome,,,Proteasome,,Protein Family|Protein Complex,,,increases,,,,,,,,,17322918-cmu-out.tsv
+Myc,,uniprot,P01106,,Protein,,,Puma,,,Q96PG8,,Protein,,,increases,,,,,,,,,17322918-cmu-out.tsv
+protein_folding,,go,GO:0006457,go:0043226,Biological Process,,,alpha1ATZ,,,UAZ07372,go:0043226,Other,,,decreases,,,,,,,,,18191218-cmu-out.tsv
+genomic_instability,,mesh,D042822,go:0043226,Biological Process,cl:CL:0000066,,autophagy,,,GO:0006914,go:0043226,Biological Process,,,decreases,,,,,,,,,18191218-cmu-out.tsv
+proliferation,,go,GO:0008283,go:0043226,Biological Process,cl:CL:0000066,,Beclin_1,,,Q14457,go:0043226,Protein,,,decreases,,,,,,,,,18191218-cmu-out.tsv
+wildtype_alpha1antitrypsin,,uaz,UAZ07361,go:0016234,Other,,,proteasome,,,Proteasome,go:0016234,Protein Family|Protein Complex,,,decreases,,,,,,,,,18191218-cmu-out.tsv
+dysferlin,,uniprot,O75923,go:0016234,Protein,cl:CL:0000187,,ubiquitinproteasome,,,UAZ00845,go:0016234,Other,,,decreases,,,,,,,,,18191218-cmu-out.tsv
+proliferation,,go,GO:0008283,,Biological Process,,,UVRAG,,,Q9P2Y5,,Protein,,,decreases,,,,,,,,,18191218-cmu-out.tsv
+"{TSC1,_TSC2}",,"{uniprot, uniprot}","{Q92574, P49815}",go:0031966,"{Protein, Protein}",,,AMPK,,,Q13131,go:0031966,Protein Family|Protein Complex,,,increases,,,,,,,,,18191218-cmu-out.tsv
+inflammation,,go,GO:0006954,,Biological Process,cl:CL:0002293,,atg5,,,Q9H1Y0,,Protein,,,increases,,,,,,,,,18191218-cmu-out.tsv
+inflammation,,go,GO:0006954,,Biological Process,cl:CL:0002293,,autophagy,,,GO:0006914,,Biological Process,,,increases,,,,,,,,,18191218-cmu-out.tsv
+apoptosis,,go,GO:0006915,go:0031966,Biological Process,,,DAPk,,,P53355,go:0031966,Protein,,,increases,,,,,,,,,18191218-cmu-out.tsv
+autophagy,,go,GO:0006914,go:0031966,Biological Process,,,DAPk,,,P53355,go:0031966,Protein,,,increases,,,,,,,,,18191218-cmu-out.tsv
+apoptosis,,go,GO:0006915,go:0031966,Biological Process,,,deathassociated_protein,,,PF15228,go:0031966,Protein Family,,,increases,,,,,,,,,18191218-cmu-out.tsv
+autophagy,,go,GO:0006914,go:0031966,Biological Process,,,deathassociated_protein,,,PF15228,go:0031966,Protein Family,,,increases,,,,,,,,,18191218-cmu-out.tsv
+girdle_muscular_dystrophy_type_2B_and_Miyoshi_myopathy,,uaz,UAZ07358,go:0016234,Other,cl:CL:0000187,,dysferlin,,,O75923,go:0016234,Protein,,,increases,,,,,,,,,18191218-cmu-out.tsv
+autophagy,,go,GO:0006914,go:0042383,Biological Process,cl:CL:0000187,,eIF2alpha,,,P05198,go:0042383,Protein,,,increases,,,,,,,,,18191218-cmu-out.tsv
+autophagic_cell_death,,go,GO:0048102,go:0031975,Biological Process,cl:CL:0000542,,glycoprotein,,,PF03409,go:0031975,Protein Family,,,increases,,,,,,,,,18191218-cmu-out.tsv
+autophagy,,go,GO:0006914,go:0031966,Biological Process,,,lysosomal_protein,,,UAZ01158,go:0031966,Other,,,increases,,,,,,,,,18191218-cmu-out.tsv
+autophagy,,go,GO:0006914,go:0031966,Biological Process,,,P53,,,P04637,go:0031966,Protein,,,increases,,,,,,,,,18191218-cmu-out.tsv
+autophagy,,go,GO:0006914,go:0031966,Biological Process,,,TORactivating_oncogene_products,,,UAZ07355,go:0031966,Other,,,increases,,,,,,,,,18191218-cmu-out.tsv
+ERK,,be,P27361,,Protein Family|Protein Complex,,,dual_specificity_phosphatase,,,IPR024950,,Protein Family,,,decreases,,,,,,,,,18562239-cmu-out.tsv
+"{Raf,_MEK}",,"{be, be}","{RAF, Q02750}",go:0016020,"{Protein Family|Protein Complex, Protein Family|Protein Complex}",,,IMP1,,,P29218,go:0016020,Protein,,,decreases,,,,,,,,,18562239-cmu-out.tsv
+KSR,,uniprot,Q8IVT5,go:0016020,Protein,,,IMP1,,,P29218,go:0016020,Protein,,,decreases,,,,,,,,,18562239-cmu-out.tsv
+ERK,,be,P27361,,Protein Family|Protein Complex,,,KSR,,,Q8IVT5,,Protein,,,decreases,,,,,,,,,18562239-cmu-out.tsv
+ERK,,be,P27361,go:0005634,Protein Family|Protein Complex,,,MEK1,,,Q02750,go:0005634,Protein Family|Protein Complex,,,decreases,,,,,,,,,18562239-cmu-out.tsv
+ERK,,be,P27361,go:0005737,Protein Family|Protein Complex,,,Mxi2,,,Q16539,go:0005737,Protein,,,decreases,,,,,,,,,18562239-cmu-out.tsv
+localization,,go,GO:0051179,go:0005737,Biological Process,,,Mxi2,,,Q16539,go:0005737,Protein,,,decreases,,,,,,,,,18562239-cmu-out.tsv
+ERK,,be,P27361,,Protein Family|Protein Complex,cl:CL:0000127,,PEA15,,,Q15121,,Protein,,,decreases,,,,,,,,,18562239-cmu-out.tsv
+HRas,,uniprot,P01112,,Protein,cl:CL:0000127,,PEA15,,,Q15121,,Protein,,,decreases,,,,,,,,,18562239-cmu-out.tsv
+transcription,,go,GO:0006351,,Biological Process,cl:CL:0000127,,PEA15,,,Q15121,,Protein,,,decreases,,,,,,,,,18562239-cmu-out.tsv
+ERK,,be,P27361,go:0031982,Protein Family|Protein Complex,,,RNAi,,,UAZ02742,go:0031982,Other,,,decreases,,,,,,,,,18562239-cmu-out.tsv
+"{Sprouty,_Grb2}",,"{pfam, uniprot}","{PF05210, P62993}",,"{Protein Family, Protein}",,,Src,,,P12931.p,,Protein Family|Protein Complex,,,decreases,,,,,,,,,18562239-cmu-out.tsv
+PAK1,,uniprot,Q13153,go:0005770,Protein,,,"{MP1,_p14}",,,"{Q5JRX3, P06702}",go:0005770,"{Protein, Protein}",,,increases,,,,,,,,,18562239-cmu-out.tsv
+CRaf,,uniprot,P04049,go:0005737,Protein,,,BRaf,,,P15056,go:0005737,Protein,,,increases,,,,,,,,,18562239-cmu-out.tsv
+ERK,,be,P27361,,Protein Family|Protein Complex,,,CNK,,,Q9H4B4,,Protein,,,increases,,,,,,,,,18562239-cmu-out.tsv
+Raf,,be,RAF,,Protein Family|Protein Complex,,,CNK,,,Q9H4B4,,Protein,,,increases,,,,,,,,,18562239-cmu-out.tsv
+Raf1,,uniprot,P04049,,Protein,,,CNK,,,Q9H4B4,,Protein,,,increases,,,,,,,,,18562239-cmu-out.tsv
+Rafs,,uaz,UAZ07446,,Other,,,CNK,,,Q9H4B4,,Protein,,,increases,,,,,,,,,18562239-cmu-out.tsv
+Ras,,pfam,PF00071,,Protein Family,,,CNK,,,Q9H4B4,,Protein,,,increases,,,,,,,,,18562239-cmu-out.tsv
+Src,,be,P12931,,Protein Family|Protein Complex,,,CNK,,,Q9H4B4,,Protein,,,increases,,,,,,,,,18562239-cmu-out.tsv
+ERK,,be,P27361,go:0005921,Protein Family|Protein Complex,,,docking,,,PF08990,go:0005921,Protein Family,,,increases,,,,,,,,,18562239-cmu-out.tsv
+ERK,,be,P27361,go:0031982,Protein Family|Protein Complex,,,EGF,,,P01133,go:0031982,Protein,,,increases,,,,,,,,,18562239-cmu-out.tsv
+connexin43,,pfam,PF03508,go:0005921,Protein Family,,,ERK,,,P27361,go:0005921,Protein Family|Protein Complex,,,increases,,,,,,,,,18562239-cmu-out.tsv
+differentiation,,go,GO:0030154,,Biological Process,cl:CL:0000084,,ERK,,,P27361,,Protein Family|Protein Complex,,,increases,,,,,,,,,18562239-cmu-out.tsv
+DUSP1,,uniprot,P28562,,Protein,,,ERK,,,P27361,,Protein Family|Protein Complex,,,increases,,,,,,,,,18562239-cmu-out.tsv
+DUSP6,,uniprot,Q16828,,Protein,,,ERK,,,P27361,,Protein Family|Protein Complex,,,increases,,,,,,,,,18562239-cmu-out.tsv
+DUSP6,,uniprot,Q16828,,Protein,,,ERK,,,P27361,,Protein Family|Protein Complex,,,increases,,,,,,,,,18562239-cmu-out.tsv
+DUSP6,,uniprot,Q16828,,Protein,,,ERK,,,P27361,,Protein Family|Protein Complex,,,increases,,,,,,,,,18562239-cmu-out.tsv
+DUSP6,,uniprot,Q16828,,Protein,,,ERK,,,P27361,,Protein Family|Protein Complex,,,increases,,,,,,,,,18562239-cmu-out.tsv
+MEK1,,be,Q02750,,Protein Family|Protein Complex,cl:CL:0000084,,ERK,,,P27361,,Protein Family|Protein Complex,,,increases,,,,,,,,,18562239-cmu-out.tsv
+MKP1,,uniprot,P28562,go:0005634,Protein,cl:CL:0000553,,ERK,,,P27361,go:0005634,Protein Family|Protein Complex,,,increases,,,,,,,,,18562239-cmu-out.tsv
+Myosin_Light_Chain,,be,MYL,go:0005921,Protein Family|Protein Complex,,,ERK,,,P27361,go:0005921,Protein Family|Protein Complex,,,increases,,,,,,,,,18562239-cmu-out.tsv
+Raf,,be,RAF,,Protein Family|Protein Complex,,,ERK,,,P27361,,Protein Family|Protein Complex,,,increases,,,,,,,,,18562239-cmu-out.tsv
+SOS,,be,SOS,go:0005886,Protein Family|Protein Complex,,,ERK,,,P27361,go:0005886,Protein Family|Protein Complex,,,increases,,,,,,,,,18562239-cmu-out.tsv
+transcription,,go,GO:0006351,go:0005921 ++++ go:go:0005634,Biological Process,cl:CL:0000127,,ERK,,,P27361,go:0005921 ++++ go:go:0005634,Protein Family|Protein Complex,,,increases,,,,,,,,,18562239-cmu-out.tsv
+ERK,,be,P27361,,Protein Family|Protein Complex,cl:CL:0000127,,HRas,,,P01112,,Protein,,,increases,,,,,,,,,18562239-cmu-out.tsv
+IMP1,,uniprot,P29218,go:0016020,Protein,,,"IMP11,_RASGTP1",,,"P29218, UA-BP-GGP-00142",go:0016020,"Protein, Other",,,increases,,,,,,,,,18562239-cmu-out.tsv
+cell_adhesion,,go,GO:0007155,go:0005921,Biological Process,cl:CL:0000553,,integrin,,,P08648,go:0005921,Protein,,,increases,,,,,,,,,18562239-cmu-out.tsv
+BRaf,,uniprot,P15056,,Protein,,,IQGAP1,,,P46940,,Protein,,,increases,,,,,,,,,18562239-cmu-out.tsv
+ERK,,be,P27361,go:0031982,Protein Family|Protein Complex,,,IQGAP1,,,P46940,go:0031982,Protein,,,increases,,,,,,,,,18562239-cmu-out.tsv
+Ncadherin,,uniprot,P19022,,Protein,,,IQGAP1,,,P46940,,Protein,,,increases,,,,,,,,,18562239-cmu-out.tsv
+proliferation,,go,GO:0008283,,Biological Process,,,IQGAP1,,,P46940,,Protein,,,increases,,,,,,,,,18562239-cmu-out.tsv
+cfos,,uaz,UAZ00715,,Other,cl:CL:0000540,,JNK,,,P45983,,Protein Family|Protein Complex,,,increases,,,,,,,,,18562239-cmu-out.tsv
+ERK,,be,P27361,,Protein Family|Protein Complex,,,KSR,,,Q8IVT5,,Protein,,,increases,,,,,,,,,18562239-cmu-out.tsv
+Gprotein,,be,G_protein,go:0005886,Protein Family|Protein Complex,,,MAP,,,P12872,go:0005886,Protein,,,increases,,,,,,,,,18562239-cmu-out.tsv
+ERK,,be,P27361,go:0005770,Protein Family|Protein Complex,,,MEK,,,Q02750,go:0005770,Protein Family|Protein Complex,,,increases,,,,,,,,,18562239-cmu-out.tsv
+ERK,,be,P27361,go:0005737,Protein Family|Protein Complex,,,MEK,,,Q02750,go:0005737,Protein Family|Protein Complex,,,increases,,,,,,,,,18562239-cmu-out.tsv
+ERK,,be,P27361,go:0005737,Protein Family|Protein Complex,,,MEK,,,Q02750,go:0005737,Protein Family|Protein Complex,,,increases,,,,,,,,,18562239-cmu-out.tsv
+ERK,,be,P27361,go:0005737,Protein Family|Protein Complex,,,MEK,,,Q02750,go:0005737,Protein Family|Protein Complex,,,increases,,,,,,,,,18562239-cmu-out.tsv
+ERK1,,uniprot,P27361,go:0005770,Protein,,,MEK1,,,Q02750,go:0005770,Protein,,,increases,,,,,,,,,18562239-cmu-out.tsv
+"{JLP,_JNK}",,"{uniprot, be}","{O60271, P45983}",,"{Protein, Protein Family|Protein Complex}",cl:CL:0000127,,MEKK3,,,Q99759,,Protein,,,increases,,,,,,,,,18562239-cmu-out.tsv
+ERK,,be,P27361,go:0031982,Protein Family|Protein Complex,,,MORG1,,,Q9BRX9,go:0031982,Protein,,,increases,,,,,,,,,18562239-cmu-out.tsv
+"{MP1,_MEK1}",,"{uniprot, uniprot}","{Q5JRX3, Q02750}",go:0005770,"{Protein, Protein}",,,MP1,,,Q5JRX3,go:0005770,Protein,,,increases,,,,,,,,,18562239-cmu-out.tsv
+adhesion,,go,GO:0007155,go:0005634,Biological Process,,,MP1,,,Q5JRX3,go:0005634,Protein,,,increases,,,,,,,,,18562239-cmu-out.tsv
+ERK,,be,P27361,go:0005770,Protein Family|Protein Complex,,,MP1,,,Q5JRX3,go:0005770,Protein,,,increases,,,,,,,,,18562239-cmu-out.tsv
+ERK,,be,P27361,,Protein Family|Protein Complex,cl:CL:0000084,,NGF,,,P01138,,Protein,,,increases,,,,,,,,,18562239-cmu-out.tsv
+ERK,,be,P27361,go:0005770,Protein Family|Protein Complex,,,p14,,,P06702,go:0005770,Protein,,,increases,,,,,,,,,18562239-cmu-out.tsv
+MEK,,be,Q02750,go:0005770,Protein Family|Protein Complex,,,"PAK11,_{MP1,_p14}1",,,"Q13153, {Q5JRX3, P06702}",go:0005770,"Protein, {Protein, Protein}",,,increases,,,,,,,,,18562239-cmu-out.tsv
+ERK,,be,P27361,,Protein Family|Protein Complex,cl:CL:0000542,,PEA15,,,Q15121,,Protein,,,increases,,,,,,,,,18562239-cmu-out.tsv
+ERK,,be,P27361,go:0016020,Protein Family|Protein Complex,,,Raf,,,RAF,go:0016020,Protein Family|Protein Complex,,,increases,,,,,,,,,18562239-cmu-out.tsv
+MAP,,uniprot,P12872,go:0016020,Protein,,,Raf,,,RAF,go:0016020,Protein Family|Protein Complex,,,increases,,,,,,,,,18562239-cmu-out.tsv
+MEK,,be,Q02750,go:0005737,Protein Family|Protein Complex,,,Raf,,,RAF,go:0005737,Protein Family|Protein Complex,,,increases,,,,,,,,,18562239-cmu-out.tsv
+ERK,,be,P27361,go:0005886,Protein Family|Protein Complex,,,Ras,,,PF00071,go:0005886,Protein Family,,,increases,,,,,,,,,18562239-cmu-out.tsv
+FGF,,pfam,PF00167,go:0005634,Protein Family,,,Ras,,,PF00071,go:0005634,Protein Family,,,increases,,,,,,,,,18562239-cmu-out.tsv
+Raf,,be,RAF,,Protein Family|Protein Complex,,,Ras,,,PF00071,,Protein Family,,,increases,,,,,,,,,18562239-cmu-out.tsv
+Raf1,,uniprot,P04049,,Protein,,,Ras,,,PF00071,,Protein Family,,,increases,,,,,,,,,18562239-cmu-out.tsv
+ERK,,be,P27361,,Protein Family|Protein Complex,,,RKIP,,,P30086,,Protein,,,increases,,,,,,,,,18562239-cmu-out.tsv
+EGF,,uniprot,P01133,go:0031982,Protein,,,RNAi,,,UAZ02742,go:0031982,Other,,,increases,,,,,,,,,18562239-cmu-out.tsv
+ERK,,be,P27361,go:0031982,Protein Family|Protein Complex,,,RNAi,,,UAZ02742,go:0031982,Other,,,increases,,,,,,,,,18562239-cmu-out.tsv
+SOS,,be,SOS,go:0005886,Protein Family|Protein Complex,,,RSK2,,,P51812,go:0005886,Protein,,,increases,,,,,,,,,18562239-cmu-out.tsv
+ERK,,be,P27361,go:0005634,Protein Family|Protein Complex,,,Sef,,,Q12800,go:0005634,Protein,,,increases,,,,,,,,,18562239-cmu-out.tsv
+Ras,,pfam,PF00071,go:0005886,Protein Family,,,Sef,,,Q12800,go:0005886,Protein,,,increases,,,,,,,,,18562239-cmu-out.tsv
+Ras,,pfam,PF00071,go:0005886,Protein Family,,,SOS,,,SOS,go:0005886,Protein Family|Protein Complex,,,increases,,,,,,,,,18562239-cmu-out.tsv
+Raf1,,uniprot,P04049,,Protein,,,Src,,,P12931,,Protein Family|Protein Complex,,,increases,,,,,,,,,18562239-cmu-out.tsv
+Raf,,be,RAF,,Protein Family|Protein Complex,,,Src42,,,UAZ07433,,Other,,,increases,,,,,,,,,18562239-cmu-out.tsv

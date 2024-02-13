@@ -1,0 +1,171 @@
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_Tcell_Extension_Candidate_4.xlsx ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_Tcell_Extension_Candidate_4.xlsx ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-02-13 05:02:11,568 [MainThread  ] [INFO ]  Simulating...
+2024-02-13 05:02:12,066 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_Tcell/p1/p1a.txt ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_Tcell_Extension_Candidate_4.xlsx ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_Tcell_Extension_Candidate_4.xlsx ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-02-13 05:02:13,171 [MainThread  ] [INFO ]  Simulating...
+2024-02-13 05:02:13,694 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_Tcell/p1/p1a.txt ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_Tcell_Extension_Candidate_4.xlsx ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_Tcell_Extension_Candidate_4.xlsx ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-02-13 05:02:14,792 [MainThread  ] [INFO ]  Simulating...
+2024-02-13 05:02:15,275 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_Tcell/p1/p1a.txt ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_Tcell_Extension_Candidate_4.xlsx ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_Tcell_Extension_Candidate_4.xlsx ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-02-13 05:02:16,369 [MainThread  ] [INFO ]  Simulating...
+2024-02-13 05:02:16,872 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_Tcell/p1/p1a.txt ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_Tcell_Extension_Candidate_4.xlsx ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_Tcell_Extension_Candidate_4.xlsx ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-02-13 05:02:17,997 [MainThread  ] [INFO ]  Simulating...
+2024-02-13 05:02:18,487 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_Tcell/p1/p1a.txt ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_Tcell_Extension_Candidate_4.xlsx ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_Tcell_Extension_Candidate_4.xlsx ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-02-13 05:02:19,594 [MainThread  ] [INFO ]  Simulating...
+2024-02-13 05:02:20,093 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_Tcell/p1/p1a.txt ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_Tcell_Extension_Candidate_4.xlsx ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_Tcell_Extension_Candidate_4.xlsx ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-02-13 05:02:21,202 [MainThread  ] [INFO ]  Simulating...
+2024-02-13 05:02:21,684 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_Tcell/p1/p1a.txt ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_Tcell_Extension_Candidate_4.xlsx ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_Tcell_Extension_Candidate_4.xlsx ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-02-13 05:02:22,806 [MainThread  ] [INFO ]  Simulating...
+2024-02-13 05:02:23,284 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_Tcell/p1/p1a.txt ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_Tcell_Extension_Candidate_4.xlsx ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_Tcell_Extension_Candidate_4.xlsx ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-02-13 05:02:24,388 [MainThread  ] [INFO ]  Simulating...
+2024-02-13 05:02:24,884 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_Tcell/p1/p1a.txt ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_Tcell_Extension_Candidate_4.xlsx ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_Tcell_Extension_Candidate_4.xlsx ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-02-13 05:02:26,002 [MainThread  ] [INFO ]  Simulating...
+2024-02-13 05:02:26,492 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_Tcell/p1/p1a.txt ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_Tcell_Extension_Candidate_4.xlsx ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_Tcell_Extension_Candidate_4.xlsx ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-02-13 05:02:27,594 [MainThread  ] [INFO ]  Simulating...
+2024-02-13 05:02:28,087 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_Tcell/p1/p1a.txt ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_Tcell_Extension_Candidate_4.xlsx ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_Tcell_Extension_Candidate_4.xlsx ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-02-13 05:02:29,189 [MainThread  ] [INFO ]  Simulating...
+2024-02-13 05:02:29,682 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_Tcell/p1/p1a.txt ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_Tcell_Extension_Candidate_4.xlsx ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_Tcell_Extension_Candidate_4.xlsx ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-02-13 05:02:30,794 [MainThread  ] [INFO ]  Simulating...
+2024-02-13 05:02:31,284 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_Tcell/p1/p1a.txt ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_Tcell_Extension_Candidate_4.xlsx ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_Tcell_Extension_Candidate_4.xlsx ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-02-13 05:02:32,411 [MainThread  ] [INFO ]  Simulating...
+2024-02-13 05:02:32,905 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_Tcell/p1/p1a.txt ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_Tcell_Extension_Candidate_4.xlsx ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_Tcell_Extension_Candidate_4.xlsx ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-02-13 05:02:34,012 [MainThread  ] [INFO ]  Simulating...
+2024-02-13 05:02:34,502 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_Tcell/p1/p1a.txt ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_Tcell_Extension_Candidate_4.xlsx ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_Tcell_Extension_Candidate_4.xlsx ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-02-13 05:02:35,611 [MainThread  ] [INFO ]  Simulating...
+2024-02-13 05:02:36,094 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_Tcell/p1/p1a.txt ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_Tcell_Extension_Candidate_4.xlsx ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_Tcell_Extension_Candidate_4.xlsx ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-02-13 05:02:37,196 [MainThread  ] [INFO ]  Simulating...
+2024-02-13 05:02:37,686 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_Tcell/p1/p1a.txt ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_Tcell_Extension_Candidate_4.xlsx ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_Tcell_Extension_Candidate_4.xlsx ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-02-13 05:02:38,810 [MainThread  ] [INFO ]  Simulating...
+2024-02-13 05:02:39,293 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_Tcell/p1/p1a.txt ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_Tcell_Extension_Candidate_4.xlsx ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_Tcell_Extension_Candidate_4.xlsx ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-02-13 05:02:40,391 [MainThread  ] [INFO ]  Simulating...
+2024-02-13 05:02:40,884 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_Tcell/p1/p1a.txt ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_Tcell_Extension_Candidate_4.xlsx ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_Tcell_Extension_Candidate_4.xlsx ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-02-13 05:02:42,024 [MainThread  ] [INFO ]  Simulating...
+2024-02-13 05:02:42,511 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_Tcell/p1/p1a.txt ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt
+syntax error, unexpected UNKN_TOK, expecting $end
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_Tcell_Extension_Candidate_4.xlsx ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_Tcell_Extension_Candidate_4.xlsx ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-02-13 05:02:43,611 [MainThread  ] [INFO ]  Simulating...
+2024-02-13 05:02:44,106 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_Tcell/p1/p1a.txt ../../examples/traces/example_traces_BaselineModel_Tcell_Extension_Candidate_4.txt
+syntax error, unexpected UNKN_TOK, expecting $end
+BEST 0.05 0.9 1 1: estimate = 0.956522, successes = 21, samples = 21
+Elapsed cpu time: 0.016744
+Elapsed wall time: 34
