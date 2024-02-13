@@ -1,5 +1,5 @@
 ########################
-Online Tutorial
+Online Web-based Usage
 ########################
 .. image:: https://mybinder.org/badge_logo.svg
  :target: https://mybinder.org/v2/gh/pitt-miskov-zivanov-lab/ACCORDION/HEAD?labpath=%2Fexamples%2Fuse_ACCORDION.ipynb
@@ -75,17 +75,17 @@ Input and Output
 ########################
 
 Input includes:
-  * a .xlsx file containing the model to extend, in the BioRECIPES tabular format, `see example <https://github.com/pitt-miskov-zivanov-lab/ACCORDION/blob/main/examples/input/BooleanTcell.xlsx>`_
-  * a machine reading output file with the following header, `see example <https://github.com/pitt-miskov-zivanov-lab/ACCORDION/blob/main/examples/input/MachineReadingOutput.csv>`_ |br| RegulatedName, RegulatedID, RegulatedType, RegulatorName, RegulatorID, RegulatorType, PaperID
+  * a .xlsx file containing the model to extend, in the BioRECIPES tabular format, `see example <https://github.com/pitt-miskov-zivanov-lab/ACCORDION/blob/main/examples/input/BaselineModel_Tcell.xlsx>`_
+  * a machine reading output file with the following header, `see example <https://github.com/pitt-miskov-zivanov-lab/ACCORDION/blob/main/examples/input/CandidateEvents_Tcell.csv>`_ |br| RegulatedName, RegulatedID, RegulatedType, RegulatorName, RegulatorID, RegulatorType, PaperID
   * inflation parameter for markov clustering
   * number of return paths
-  * property file containing the property expression based on BLTL syntax, `see example <https://github.com/pitt-miskov-zivanov-lab/ACCORDION/tree/main/examples/input/TheProperties>`_
+  * property file containing the property expression based on BLTL syntax, `see example <https://github.com/pitt-miskov-zivanov-lab/ACCORDION/tree/main/examples/input/Properties_Tcell>`_
 
 Output includes:
   * a cluster dictionary that contains individual clusters, `see example <https://github.com/pitt-miskov-zivanov-lab/ACCORDION/blob/main/examples/output/markov_cluster>`_
   * a pickle file containing grouped (clustered) extensions, specified as nested lists. Each group starts with an integer, followed by interactions specified as [regulator element, regulated element, Interaction type: Activation (+) or Inhibition (-)], `see example <https://github.com/pitt-miskov-zivanov-lab/ACCORDION/blob/main/examples/output/grouped_ext>`_. This file along with the directory of system properties will be the input to the statistical model checking to verify the behavior of candidate models against the properties
   * another pickle file containing the merged clusters (different than _grouped_ext_ which is not merged), clusters are merged based on user-selected number of return paths, `see example <https://github.com/pitt-miskov-zivanov-lab/ACCORDION/blob/main/examples/output/grouped_ext_Merged>`_
-  * a new .xlsx file containing the resulting extended model, this is just one candidate extension and there could be many candidates, `see example <https://github.com/pitt-miskov-zivanov-lab/ACCORDION/blob/main/examples/output/BooleanTcell_Extension_Candidate_1.xlsx>`_
+  * a new .xlsx file containing the resulting extended model, this is just one candidate extension and there could be many candidates, `see example <https://github.com/pitt-miskov-zivanov-lab/ACCORDION/blob/main/examples/output/BaselineModel_Tcell_Extension_Candidate_1.xlsx>`_
   * model checking results of the resulting extended model against properties, `see example <https://github.com/pitt-miskov-zivanov-lab/ACCORDION/tree/main/examples/checking>`_
 
 ########################

@@ -1,8 +1,3 @@
-.. ACCORDION documentation master file, created by
-   sphinx-quickstart on Fri May 21 08:17:49 2021.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
 Welcome to ACCORDION's documentation!
 =====================================
 .. image:: https://readthedocs.org/projects/melody-accordion/badge/?version=latest
@@ -11,7 +6,7 @@ Welcome to ACCORDION's documentation!
 .. image:: https://mybinder.org/badge_logo.svg
     :target: https://mybinder.org/v2/gh/pitt-miskov-zivanov-lab/ACCORDION/HEAD?labpath=%2Fexamples%2Fuse_ACCORDION.ipynb
 
-ACCORDION (ACCelerating and Optimizing model RecommenDatIONs) is novel tool and methodology for rapid model assembly by automatically extending dynamic network models with the information published in literature. This facilitates information reuse and data reproducibility and replaces hundreds or thousands of manual experiments, thereby reducing the time needed for the advancement of knowledge.
+ACCORDION (ACCelerating and Optimizing model RecommenDatIONs) is a novel tool and methodology for rapid model assembly by automatically extending and evaluating dynamic network models with the information published in literature. This facilitates information reuse and data reproducibility and replaces hundreds or thousands of manual experiments, thereby reducing the time needed for the advancement of knowledge.
 
 ACCORDION objectives
 --------------------
