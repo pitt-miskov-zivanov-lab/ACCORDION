@@ -12,6 +12,7 @@ dependencies:
   - pip:
     - networkx
     - openpyxl
+    - pyarrow
     - pandas
     - matplotlib
     - rst2pdf
