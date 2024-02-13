@@ -9,7 +9,7 @@ ACCORDION (ACCelerating and Optimizing model RecommenDatIONs) is a novel tool an
 ## Contents
 
 - [Functionality](#Functionality)
-- [I/O](#IO)
+- [I/O and Parameters](#IO-and-Parameters)
 - [Online Web-based Usage](#Online-Web-based-Usage)
 - [Offline Installation](#Offline-Installation)
 - [Package Structure](#Package-Structure)
@@ -58,7 +58,7 @@ RegulatedName, RegulatedID, RegulatedType, RegulatorName, RegulatorID, Regulator
 ## Online Web-based Usage
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pitt-miskov-zivanov-lab/ACCORDION/HEAD)
 
-Run the demonstrated example (read the comments in each cell and uncomment some to choose your case study); or alternatively upload user-customized input files (see [I/O](#IO)) to the _input/_ directory on File Browser Tab (upper left corner) of Binder.
+Run the demonstrated example (read the comments in each cell and uncomment some to choose your case study); or alternatively upload user-customized input files (see [I/O and Parameters](#IO-and-Parameters)) to the _input/_ directory on File Browser Tab (upper left corner) of Binder.
 
 #### This interactive jupyter notebook walks you though all of the code and functions to:
 
@@ -78,7 +78,7 @@ Run the demonstrated example (read the comments in each cell and uncomment some 
    cd ACCORDION
    python setup.py install
    ```
-   Check [ReadTheDocs page of this ACCORDION tool](https://accordion.readthedocs.io/en/latest/TutorialandInstallation.html#offline-installation) for more detailed installtion instructions and debugging suggestions, MacOS/Linux users have alternative way to build non-python packages using managers like [conda](https://anaconda.org/bioconda/mcl), [brew](https://formulae.brew.sh/formula/gsl), [apt](https://manpages.ubuntu.com/manpages/jammy/en/man8/apt.8.html), Windows users may need [Cygwin](https://www.cygwin.com) installation to compile.
+   Check [ReadTheDocs page of this ACCORDION tool](https://melody-accordion.readthedocs.io/en/latest/TutorialandInstallation.html#offline-installation) for more detailed installtion instructions and debugging suggestions, MacOS/Linux users have alternative way to build non-python packages using managers like [conda](https://anaconda.org/bioconda/mcl), [brew](https://formulae.brew.sh/formula/gsl), [apt](https://manpages.ubuntu.com/manpages/jammy/en/man8/apt.8.html), Windows users may need [Cygwin](https://www.cygwin.com) installation to compile.
 
 3. Run the provided notebook (Check [Jupyter notebook installation](https://jupyter.org/install) here).
    ```
@@ -95,7 +95,7 @@ Run the demonstrated example (read the comments in each cell and uncomment some 
 - [`examples/`](examples/): directory that includes tutorial notebook and example inputs and outputs
 - [`environment.yml`](environment.yml): environment file, required by [Binder](https://mybinder.readthedocs.io/en/latest/using/config_files.html#environment-yml-install-a-conda-environment)
 - [`postBuild`](postBuild): path settings and compilation, used by [Binder](https://mybinder.readthedocs.io/en/latest/using/config_files.html#postbuild-run-code-after-installing-the-environment)
-- [`docs/`](docs/): containing files supporting the repo's host on [Read the Docs](https://accordion.readthedocs.io)
+- [`docs/`](docs/): containing files supporting the repo's host on [Read the Docs](https://melody-accordion.readthedocs.io)
 - [`supplementary/`](supplementary): containing supplementary files for paper manuscript
 - [`LICENSE.txt`](LICENSE.txt): MIT License
 - [`README.md`](README.md): it's me!
