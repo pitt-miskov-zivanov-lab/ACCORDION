@@ -6,7 +6,7 @@ dependencies:
   - flex
   - bison
   - mcl
-  - python
+  - python=3.8.5
   - numpy
   - pip
   - pip:
