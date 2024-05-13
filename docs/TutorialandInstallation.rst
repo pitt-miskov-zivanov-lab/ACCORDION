@@ -75,8 +75,8 @@ Input and Output
 ########################
 
 Input includes:
-  * a .xlsx file containing the model to extend, in the `BioRECIPE model<https://melody-biorecipe.readthedocs.io/en/latest/model_representation.html>`_ format, `see example <https://github.com/pitt-miskov-zivanov-lab/ACCORDION/blob/main/examples/input/BaselineModel_Tcell.xlsx>`_
-  * a machine reading output file, in the `BioRECIPE interaction<https://melody-biorecipe.readthedocs.io/en/latest/bio_interactions.html>`_ format, `see example <https://github.com/pitt-miskov-zivanov-lab/ACCORDION/blob/main/examples/input/CandidateEvents_Tcell.csv>`_
+  * a .xlsx file containing the model to extend, in the `BioRECIPE model <https://melody-biorecipe.readthedocs.io/en/latest/model_representation.html>`_ format, `see example <https://github.com/pitt-miskov-zivanov-lab/ACCORDION/blob/main/examples/input/BaselineModel_Tcell.xlsx>`_
+  * a machine reading output file, in the `BioRECIPE interaction <https://melody-biorecipe.readthedocs.io/en/latest/bio_interactions.html>`_ format, `see example <https://github.com/pitt-miskov-zivanov-lab/ACCORDION/blob/main/examples/input/CandidateEvents_Tcell.csv>`_
   * inflation parameter for markov clustering
   * number of return paths
   * property file containing the property expression based on BLTL syntax, `see example <https://github.com/pitt-miskov-zivanov-lab/ACCORDION/tree/main/examples/input/Properties_Tcell>`_
