@@ -48,19 +48,18 @@ def get_model(model_file):
 		df_model = df_model.rename(columns=df_model.iloc[1]).drop([0,1]).set_index('#')
 
 	input_col_name = [x.strip() for x in df_model.columns if ('element name' in x.lower())]
-	input_col_ids = [x.strip() for x in df_model.columns if ('ids' in x.lower())]
-
+	input_col_ids = [x.strip() for x in df_model.columns if ('element ids' in x.lower())]
 	input_col_type = [x.strip() for x in df_model.columns if ('element type' in x.lower())]
 	input_col_X = [x.strip() for x in df_model.columns if ('variable' in x.lower())]
-	input_col_A = [x.strip() for x in df_model.columns if ('positive' in x.lower())]
-	input_col_I = [x.strip() for x in df_model.columns if ('negative' in x.lower())]
+	input_col_A = [x.strip() for x in df_model.columns if ('positive regulation rule' in x.lower())]
+	input_col_I = [x.strip() for x in df_model.columns if ('negative regulation rule' in x.lower())]
 
 	# set index to variable name column
 	# remove empty variable names
 	# append cols with the sets of regulators using .apply
 	for curr_row in df_model.index:
 		element_name = df_model.loc[curr_row,input_col_name[-1]].strip()
-		ids = df_model.loc[curr_row,input_col_ids[0]].strip().upper().split(',')
+		ids = str(df_model.loc[curr_row,input_col_ids[0]]).strip().upper().split(',')
 		#print(ids)
 		element_type = df_model.loc[curr_row,input_col_type[0]].strip()
 		var_name = df_model.loc[curr_row,input_col_X[0]].strip()
@@ -110,6 +109,8 @@ def getVariableName(model_dict, curr_map, ext_element_info):
 	global _VALID_CHARS
 
 	ext_element_name = ext_element_info[0]
+	#FIXME: hard-coded here and lines 123/124,
+    #element name is the first in the tuple, followed by element_type, then five columns later element_id
 
 	# Check for valid element name
 	if ext_element_name=='':
@@ -119,8 +120,8 @@ def getVariableName(model_dict, curr_map, ext_element_info):
 		#logging.warn(('Skipping due to invalid characters in variable name: %s') % str(ext_element_name))
 		return ''
 
-	ext_element_id = ext_element_info[3]
-	ext_element_type = ext_element_info[5]
+	ext_element_id = ext_element_info[5]
+	ext_element_type = ext_element_info[1]
 
 	if ext_element_name in curr_map:
 		return curr_map[ext_element_name]
@@ -166,18 +167,22 @@ def parseExtension(model_dict, ext_file):
          Each interaction within the reading output file will have the form:
          (regulator element, regulated element, type of interaction (+/-))
 	"""
+
+	regulator_col = 0
 	regulated_col = 8
-	interaction_col = 16
+	interaction_sign_col = 16
+	#FIXME: hard coded here, the 1st, 9th, 17th columns of ReadingOutput file
+	#have to be 'Regulator Name', 'Regulated Name' and 'Sign'
 	ext_edges, curr_map = set(),  dict()
 
 	with open(ext_file) as f:
 		for line in f:
-			if line.startswith('regulator_name'): continue
+			if line.startswith('Regulator Name'): continue
 			line = line.strip()
 			s = re.split(',',line)
-			name1, name2 = getVariableName(model_dict,curr_map,s[0:regulated_col]), getVariableName(model_dict,curr_map,s[regulated_col:interaction_col])
+			name1, name2 = getVariableName(model_dict,curr_map,s[regulator_col:regulated_col]), getVariableName(model_dict,curr_map,s[regulated_col:interaction_sign_col])
 			if name1=="" or name2=="": continue
-			pos = '+' if s[16]=='increases' else '-'
+			pos = '+' if s[interaction_sign_col]=='positive' else '-'
 
 			if (name2 in model_dict and name1 in model_dict[name2]):
 				continue
@@ -323,15 +328,15 @@ def extend_model(base_mdl,clusters,ext_mdl):
 
 	os.system('cp '+base_mdl+' '+ext_mdl)
 	df = pd.read_excel(ext_mdl)
-	pos=df.columns.get_loc("Positive Regulators")+1
-	neg=df.columns.get_loc("Negative Regulators")+1
+	pos=df.columns.get_loc("Positive Regulation Rule")+1
+	neg=df.columns.get_loc("Negative Regulation Rule")+1
 	var_name=df.columns.get_loc("Variable")+1
-	ini0=df.columns.get_loc("Initial 0")+1 #uncomment the following lines if you have more than one scenario in the properties
-	ini1=df.columns.get_loc("Initial 1")+1
-	ini2=df.columns.get_loc("Initial 2")+1
-#	ini3=df.columns.get_loc("Initial 3")+1
-#	ini4=df.columns.get_loc("Initial 4")+1
-#	ini5=df.columns.get_loc("Initial 5")+1
+	ini0=df.columns.get_loc("State List 0")+1 #uncomment the following lines if you have more than one scenario in the properties
+	ini1=df.columns.get_loc("State List 1")+1
+	ini2=df.columns.get_loc("State List 2")+1
+#	ini3=df.columns.get_loc("State List 3")+1
+#	ini4=df.columns.get_loc("State List 4")+1
+#	ini5=df.columns.get_loc("State List 5")+1
 	el_name=df.columns.get_loc("Element Name")+1
 	name_to_row = getRow(ext_mdl)
 	curr_row = len(name_to_row)+2

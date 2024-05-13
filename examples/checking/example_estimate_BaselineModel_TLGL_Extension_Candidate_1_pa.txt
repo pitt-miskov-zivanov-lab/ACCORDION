@@ -1,171 +1,1564 @@
 Calling simulator
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
-2024-02-09 04:36:03,561 [MainThread  ] [INFO ]  Simulating...
-2024-02-09 04:36:04,974 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+2024-05-12 21:36:06,784 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:07,029 [MainThread  ] [INFO ]  Simulation scenario 0 complete
 Calling checker
 dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
-syntax error, unexpected UNKN_TOK, expecting $end
 Calling simulator
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
-2024-02-09 04:36:07,939 [MainThread  ] [INFO ]  Simulating...
-2024-02-09 04:36:09,453 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+2024-05-12 21:36:07,724 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:07,963 [MainThread  ] [INFO ]  Simulation scenario 0 complete
 Calling checker
 dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
-syntax error, unexpected UNKN_TOK, expecting $end
 Calling simulator
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
-2024-02-09 04:36:11,827 [MainThread  ] [INFO ]  Simulating...
-2024-02-09 04:36:13,703 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+2024-05-12 21:36:08,669 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:08,909 [MainThread  ] [INFO ]  Simulation scenario 0 complete
 Calling checker
 dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
-syntax error, unexpected UNKN_TOK, expecting $end
 Calling simulator
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
-2024-02-09 04:36:16,623 [MainThread  ] [INFO ]  Simulating...
-2024-02-09 04:36:18,039 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+2024-05-12 21:36:09,636 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:09,878 [MainThread  ] [INFO ]  Simulation scenario 0 complete
 Calling checker
 dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
-syntax error, unexpected UNKN_TOK, expecting $end
 Calling simulator
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
-2024-02-09 04:36:20,967 [MainThread  ] [INFO ]  Simulating...
-2024-02-09 04:36:22,115 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+2024-05-12 21:36:10,592 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:10,834 [MainThread  ] [INFO ]  Simulation scenario 0 complete
 Calling checker
 dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
-syntax error, unexpected UNKN_TOK, expecting $end
 Calling simulator
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
-2024-02-09 04:36:24,412 [MainThread  ] [INFO ]  Simulating...
-2024-02-09 04:36:25,935 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+2024-05-12 21:36:11,547 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:11,806 [MainThread  ] [INFO ]  Simulation scenario 0 complete
 Calling checker
 dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
-syntax error, unexpected UNKN_TOK, expecting $end
 Calling simulator
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
-2024-02-09 04:36:28,729 [MainThread  ] [INFO ]  Simulating...
-2024-02-09 04:36:29,935 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+2024-05-12 21:36:12,471 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:12,711 [MainThread  ] [INFO ]  Simulation scenario 0 complete
 Calling checker
 dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
-syntax error, unexpected UNKN_TOK, expecting $end
 Calling simulator
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
-2024-02-09 04:36:33,559 [MainThread  ] [INFO ]  Simulating...
-2024-02-09 04:36:35,020 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+2024-05-12 21:36:13,472 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:13,760 [MainThread  ] [INFO ]  Simulation scenario 0 complete
 Calling checker
 dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
-syntax error, unexpected UNKN_TOK, expecting $end
 Calling simulator
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
-2024-02-09 04:36:37,337 [MainThread  ] [INFO ]  Simulating...
-2024-02-09 04:36:38,874 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+2024-05-12 21:36:14,583 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:14,825 [MainThread  ] [INFO ]  Simulation scenario 0 complete
 Calling checker
 dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
-syntax error, unexpected UNKN_TOK, expecting $end
 Calling simulator
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
-2024-02-09 04:36:41,391 [MainThread  ] [INFO ]  Simulating...
-2024-02-09 04:36:43,035 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+2024-05-12 21:36:15,536 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:15,780 [MainThread  ] [INFO ]  Simulation scenario 0 complete
 Calling checker
 dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
-syntax error, unexpected UNKN_TOK, expecting $end
 Calling simulator
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
-2024-02-09 04:36:45,930 [MainThread  ] [INFO ]  Simulating...
-2024-02-09 04:36:47,953 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+2024-05-12 21:36:16,464 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:16,710 [MainThread  ] [INFO ]  Simulation scenario 0 complete
 Calling checker
 dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
-syntax error, unexpected UNKN_TOK, expecting $end
 Calling simulator
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
-2024-02-09 04:36:50,612 [MainThread  ] [INFO ]  Simulating...
-2024-02-09 04:36:51,870 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+2024-05-12 21:36:17,383 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:17,626 [MainThread  ] [INFO ]  Simulation scenario 0 complete
 Calling checker
 dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
-syntax error, unexpected UNKN_TOK, expecting $end
 Calling simulator
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
-2024-02-09 04:36:54,824 [MainThread  ] [INFO ]  Simulating...
-2024-02-09 04:36:56,031 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+2024-05-12 21:36:18,261 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:18,504 [MainThread  ] [INFO ]  Simulation scenario 0 complete
 Calling checker
 dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
-syntax error, unexpected UNKN_TOK, expecting $end
 Calling simulator
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
-2024-02-09 04:36:58,295 [MainThread  ] [INFO ]  Simulating...
-2024-02-09 04:37:00,003 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+2024-05-12 21:36:19,152 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:19,395 [MainThread  ] [INFO ]  Simulation scenario 0 complete
 Calling checker
 dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
-syntax error, unexpected UNKN_TOK, expecting $end
 Calling simulator
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
-2024-02-09 04:37:02,895 [MainThread  ] [INFO ]  Simulating...
-2024-02-09 04:37:04,003 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+2024-05-12 21:36:20,041 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:20,288 [MainThread  ] [INFO ]  Simulation scenario 0 complete
 Calling checker
 dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
-syntax error, unexpected UNKN_TOK, expecting $end
 Calling simulator
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
-2024-02-09 04:37:06,517 [MainThread  ] [INFO ]  Simulating...
-2024-02-09 04:37:08,641 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+2024-05-12 21:36:20,926 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:21,168 [MainThread  ] [INFO ]  Simulation scenario 0 complete
 Calling checker
 dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
-syntax error, unexpected UNKN_TOK, expecting $end
 Calling simulator
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
-2024-02-09 04:37:11,832 [MainThread  ] [INFO ]  Simulating...
-2024-02-09 04:37:13,168 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+2024-05-12 21:36:21,814 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:22,059 [MainThread  ] [INFO ]  Simulation scenario 0 complete
 Calling checker
 dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
-syntax error, unexpected UNKN_TOK, expecting $end
 Calling simulator
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
-2024-02-09 04:37:18,187 [MainThread  ] [INFO ]  Simulating...
-2024-02-09 04:37:19,362 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+2024-05-12 21:36:22,718 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:22,961 [MainThread  ] [INFO ]  Simulation scenario 0 complete
 Calling checker
 dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
-syntax error, unexpected UNKN_TOK, expecting $end
 Calling simulator
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
-2024-02-09 04:37:22,080 [MainThread  ] [INFO ]  Simulating...
-2024-02-09 04:37:24,098 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+2024-05-12 21:36:23,606 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:23,851 [MainThread  ] [INFO ]  Simulation scenario 0 complete
 Calling checker
 dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
-syntax error, unexpected UNKN_TOK, expecting $end
 Calling simulator
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
-2024-02-09 04:37:26,649 [MainThread  ] [INFO ]  Simulating...
-2024-02-09 04:37:27,936 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+2024-05-12 21:36:24,518 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:24,765 [MainThread  ] [INFO ]  Simulation scenario 0 complete
 Calling checker
 dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
-syntax error, unexpected UNKN_TOK, expecting $end
 Calling simulator
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
-2024-02-09 04:37:31,059 [MainThread  ] [INFO ]  Simulating...
-2024-02-09 04:37:34,285 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+2024-05-12 21:36:25,416 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:25,665 [MainThread  ] [INFO ]  Simulation scenario 0 complete
 Calling checker
 dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
-syntax error, unexpected UNKN_TOK, expecting $end
-BEST 0.05 0.9 1 1: estimate = 0.956522, successes = 21, samples = 21
-Elapsed cpu time: 0.021274
-Elapsed wall time: 94
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:36:26,367 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:26,612 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:36:27,255 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:27,499 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:36:28,141 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:28,386 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:36:29,067 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:29,327 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:36:30,030 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:30,277 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:36:30,939 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:31,183 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:36:31,830 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:32,075 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:36:32,759 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:33,002 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:36:33,643 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:33,885 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:36:34,549 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:34,791 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:36:35,439 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:35,682 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:36:36,323 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:36,568 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:36:37,228 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:37,468 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:36:38,111 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:38,354 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:36:39,009 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:39,252 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:36:39,916 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:40,162 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:36:40,803 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:41,043 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:36:41,678 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:41,922 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:36:42,589 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:42,834 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:36:43,477 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:43,723 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:36:44,375 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:44,621 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:36:45,267 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:45,509 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:36:46,150 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:46,393 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:36:47,033 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:47,278 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:36:47,921 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:48,165 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:36:48,804 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:49,049 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:36:49,714 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:49,957 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:36:50,604 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:50,845 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:36:51,494 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:51,738 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:36:52,381 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:52,623 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:36:53,265 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:53,509 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:36:54,145 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:54,391 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:36:55,039 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:55,281 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:36:55,916 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:56,158 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:36:56,928 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:57,176 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:36:57,950 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:58,204 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:36:59,024 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:36:59,264 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:36:59,994 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:00,242 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:01,042 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:01,284 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:02,041 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:02,287 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:02,958 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:03,206 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:03,867 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:04,110 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:04,816 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:05,057 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:05,720 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:05,962 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:06,693 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:06,939 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:07,664 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:07,905 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:08,636 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:08,885 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:09,648 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:09,890 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:10,570 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:10,814 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:11,480 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:11,723 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:12,394 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:12,639 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:13,301 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:13,544 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:14,206 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:14,446 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:15,162 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:15,404 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:16,079 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:16,320 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:16,981 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:17,226 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:17,979 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:18,225 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:18,885 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:19,130 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:19,807 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:20,051 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:20,775 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:21,024 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:21,685 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:21,927 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:22,606 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:22,848 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:23,496 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:23,737 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:24,377 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:24,624 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:25,277 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:25,525 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:26,264 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:26,519 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:27,184 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:27,438 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:28,133 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:28,373 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:29,056 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:29,302 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:29,999 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:30,242 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:30,889 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:31,130 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:31,802 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:32,050 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:32,727 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:32,968 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:33,635 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:33,878 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:34,557 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:34,808 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:35,512 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:35,758 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:36,433 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:36,676 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:37,337 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:37,579 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:38,216 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:38,460 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:39,118 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:39,362 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:40,048 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:40,292 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:41,005 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:41,256 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:42,078 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:42,323 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:43,018 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:43,261 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:43,910 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:44,154 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:44,809 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:45,053 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:45,730 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:45,976 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:46,632 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:46,875 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:47,526 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:47,766 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:48,411 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:48,651 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:49,329 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:49,588 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:50,256 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:50,505 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:51,146 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:51,385 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:52,031 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:52,273 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:52,923 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:53,166 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:53,820 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:54,062 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:54,702 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:54,943 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:55,578 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:55,820 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:56,471 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:56,711 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:57,369 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:57,614 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:58,282 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:58,525 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:37:59,165 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:37:59,407 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:00,055 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:00,297 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:00,948 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:01,189 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:01,836 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:02,077 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:02,722 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:02,963 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:03,608 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:03,849 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:04,497 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:04,745 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:05,385 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:05,624 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:06,262 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:06,503 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:07,135 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:07,376 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:08,029 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:08,270 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:08,912 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:09,155 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:09,813 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:10,055 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:10,696 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:10,943 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:11,610 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:11,862 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:12,556 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:12,799 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:13,477 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:13,720 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:14,368 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:14,607 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:15,258 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:15,501 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:16,136 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:16,376 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:17,023 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:17,265 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:17,901 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:18,141 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:18,794 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:19,036 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:19,699 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:19,943 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:20,601 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:20,843 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:21,482 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:21,721 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:22,363 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:22,603 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:23,235 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:23,479 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:24,129 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:24,370 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:25,000 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:25,240 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:25,881 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:26,125 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:26,781 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:27,024 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:27,682 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:27,921 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:28,577 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:28,817 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:29,467 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:29,707 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:30,446 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:30,692 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:31,360 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:31,602 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:32,263 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:32,549 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:33,245 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:33,489 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:34,327 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:34,573 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:35,327 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:35,572 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:36,247 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:36,490 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:37,161 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:37,406 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:38,074 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:38,316 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:38,983 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:39,227 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:39,895 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:40,139 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:40,805 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:41,048 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:41,768 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:42,013 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:42,661 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:42,901 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:43,581 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:43,822 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:44,484 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:44,731 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:45,391 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:45,636 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:46,313 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:46,555 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:47,214 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:47,458 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:48,123 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:48,365 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:49,030 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:49,274 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:49,963 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:50,207 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:50,878 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:51,124 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:51,772 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:52,014 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:52,676 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:52,924 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:53,572 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:53,815 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:54,473 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:54,715 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:55,378 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:55,619 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:56,281 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:56,524 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:57,190 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:57,432 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:58,090 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:58,338 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:59,020 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:38:59,262 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:38:59,924 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:39:00,174 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:39:00,868 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:39:01,112 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:39:01,814 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:39:02,059 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:39:02,789 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:39:03,029 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:39:03,720 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:39:03,962 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:39:04,624 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:39:04,867 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:39:05,523 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:39:05,770 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:39:06,425 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:39:06,668 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:39:07,327 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:39:07,570 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:39:08,219 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:39:08,461 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:39:09,128 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:39:09,371 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:39:10,039 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:39:10,285 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:39:10,942 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:39:11,180 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:39:11,843 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:39:12,087 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:39:12,732 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:39:12,975 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:39:13,650 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:39:13,895 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:39:14,559 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:39:14,805 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:39:15,499 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:39:15,740 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:39:16,414 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:39:16,657 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:39:17,316 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:39:17,556 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:39:18,225 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:39:18,472 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:39:19,117 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:39:19,364 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:39:20,005 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:39:20,256 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:39:20,911 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:39:21,154 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:39:21,802 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:39:22,046 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:39:22,731 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:39:22,976 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:39:23,648 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:39:23,890 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:39:24,562 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:39:24,818 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:39:25,580 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:39:25,854 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:39:26,538 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:39:26,786 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:39:27,461 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:39:27,706 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:39:28,428 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:39:28,676 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:39:29,360 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:39:29,608 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+Calling simulator
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_TLGL_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt --scenario=0 --steps=1555 --output_format=2 --runs=1
+2024-05-12 21:39:30,295 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 21:39:30,551 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+Calling checker
+dishwrap_v1.0/monitor/checker ../../examples/input/Properties_TLGL/pa.txt ../../examples/traces/example_traces_BaselineModel_TLGL_Extension_Candidate_1.txt
+BEST 0.05 0.9 1 1: estimate = 0.702222, successes = 157, samples = 223
+Elapsed cpu time: 0.102562
+Elapsed wall time: 204

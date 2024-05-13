@@ -27,10 +27,8 @@ An automated framework for clustering and selecting relevant data for guided net
 
 
 ### Input
-- A .xlsx file containing the baseline model to extend, in the tabular format with the following column headers, see [`examples/input/BaselineModel_Tcell.xlsx`](examples/input/BaselineModel_Tcell.xlsx)
-Element Name, Element IDs, Positive Regulators, Negative Regulators, Levels, Initial 0
-- Machine reading output file with the following header, it has potential interactions that could be added to baseline model, see [`examples/input/CandidateEvents_Tcell.csv`](examples/input/CandidateEvents_Tcell.csv)
-RegulatedName, RegulatedID, RegulatedType, RegulatorName, RegulatorID, RegulatorType, PaperID
+- A .xlsx file containing the baseline model to extend, in the [BioRECIPE model](https://melody-biorecipe.readthedocs.io/en/latest/model_representation.html) format, see [`examples/input/BaselineModel_Tcell.xlsx`](examples/input/BaselineModel_Tcell.xlsx)
+- Machine reading output file, in the [BioRECIPE interaction](https://melody-biorecipe.readthedocs.io/en/latest/bio_interactions.html) format, it has potential interactions that could be added to baseline model, see [`examples/input/CandidateEvents_Tcell.csv`](examples/input/CandidateEvents_Tcell.csv)
 - Property files containing the property expression based on BLTL syntax, they are the golden properties that the extended models should satisfy, see them at directory [`examples/input/Properties_Tcell/p1`](examples/input/Properties_Tcell/p1)
 
 ### Parameters
@@ -104,43 +102,43 @@ Run the demonstrated example (read the comments in each cell and uncomment some 
 
 1. **Input 1**: The baseline model (BM) to be extended is given in [`examples/input/BaselineModel_Tcell.xlsx`](examples/input/BaselineModel_Tcell.xlsx), with 62 elements, key information of this model is listed below:
 
-| Element Name | Positive Regulators                     | Negative Regulators | Levels | Initial 0 |
-| ------------ | --------------------------------------- | ------------------- | ------ | --------- |
-| AKT          | (PDK1,MTORC2)                           | AKT_OFF             | 2      | 0         |
-| AKT_OFF      |                                         |                     | 2      | 0         |
-| AP1          | (FOS_DD,JUN)                            |                     | 2      | 0         |
-| CA           | TCR                                     |                     | 2      | 0         |
-| CD122        |                                         |                     | 2      | 1         |
-| CD132        |                                         |                     | 2      | 1         |
-| CD25         | FOXP3,(AP1,NFAT,NFKAPPAB),STAT5         |                     | 2      | 0         |
-| ...          | ...                                     |      ...            | ...    | ...       |
-| TAK1         | PKCTHETA                                |                     | 2      | 0         |
-| TCR          | TCR_LOW,TCR_HIGH                        |                     | 2      | 0         |
-| TCR_HIGH     |                                         |                     | 2      | 0         |
-| TCR_LOW      |                                         |                     | 2      | 0         |
-| TGFBETA      |                                         |                     | 2      | 0         |
-| TSC          |                                         | AKT                 | 2      | 1         |
-| FOXO1        |                                         |                     | 2      | 1         |
+| Element Name | Positive Regulation Rule         | Negative Regulation Rule | Levels | State List 0 |
+| ------------ | -------------------------------- | ------------------------ | ------ | ------------ |
+| AKT          | (PDK1,MTORC2)                    | AKT_OFF                  | 2      | 0            |
+| AKT_OFF      |                                  |                          | 2      | 0            |
+| AP1          | (FOS_DD,JUN)                     |                          | 2      | 0            |
+| CA           | TCR                              |                          | 2      | 0            |
+| CD122        |                                  |                          | 2      | 1            |
+| CD132        |                                  |                          | 2      | 1            |
+| CD25         | FOXP3,(AP1,NFAT,NFKAPPAB),STAT5  |                          | 2      | 0            |
+| ...          | ...                              |      ...                 | ...    | ...          |
+| TAK1         | PKCTHETA                         |                          | 2      | 0            |
+| TCR          | TCR_LOW,TCR_HIGH                 |                          | 2      | 0            |
+| TCR_HIGH     |                                  |                          | 2      | 0            |
+| TCR_LOW      |                                  |                          | 2      | 0            |
+| TGFBETA      |                                  |                          | 2      | 0            |
+| TSC          |                                  | AKT                      | 2      | 1            |
+| FOXO1        |                                  |                          | 2      | 1            |
 
  **Input 2**: The candidate event (CE) set, represented as a set of signed directed edges, is given in [`examples/input/CandidateEvents_Tcell.csv`](examples/input/CandidateEvents_Tcell.csv). The studied candidate set has 118 events, with key information as follows:
 
-| regulator_name | regulated_name | interaction | PaperID    |
-| -------------- | -------------- | ----------- | ---------- |
-| AKT            | CD4            | decreases   | PMC2275380 |
-| AKT            | CTRL           | decreases   | PMC2275380 |
-| TGFBETA        | AKT            | increases   | PMC2275380 |
-| Foxp3          | Ctla4          | increases   | PMC2275380 |
-| Foxp3          | Gpr83          | increases   | PMC2275380 |
-| Pten           | CD8            | increases   | PMC3375464 |
-| PTEN           | HSC            | increases   | PMC3375464 |
-| ...            | ...            | ...         | ...        |
-| TCR            | MEK1           | increases   | PMC4418530 |
-| TCR            | CK2            | increases   | PMC4418530 |
-| MTORC2         | MTORC2         | increases   | PMC4418530 |
-| CD28           | MTORC2         | increases   | PMC4418530 |
-| IL2_EX         | MTORC2         | increases   | PMC4418530 |
-| IL2_R          | MTORC2         | increases   | PMC4418530 |
-| PI3K           | PIP3           | increases   | PMC4418530 |
+| Regulator Name | Regulated Name | Sign       | Paper IDs  |
+| -------------- | -------------- | ---------- | ---------- |
+| AKT            | CD4            | negative   | PMC2275380 |
+| AKT            | CTRL           | negative   | PMC2275380 |
+| TGFBETA        | AKT            | positive   | PMC2275380 |
+| Foxp3          | Ctla4          | positive   | PMC2275380 |
+| Foxp3          | Gpr83          | positive   | PMC2275380 |
+| Pten           | CD8            | positive   | PMC3375464 |
+| PTEN           | HSC            | positive   | PMC3375464 |
+| ...            | ...            | ...        | ...        |
+| TCR            | MEK1           | positive   | PMC4418530 |
+| TCR            | CK2            | positive   | PMC4418530 |
+| MTORC2         | MTORC2         | positive   | PMC4418530 |
+| CD28           | MTORC2         | positive   | PMC4418530 |
+| IL2_EX         | MTORC2         | positive   | PMC4418530 |
+| IL2_R          | MTORC2         | positive   | PMC4418530 |
+| PI3K           | PIP3           | positive   | PMC4418530 |
 
 2. Markov cluster algorithm is applied to cluster the set of candidate event (with a user-defined inflation parameter of 2), 17 clusters are detected as follows:
 
@@ -156,7 +154,7 @@ Run the demonstrated example (read the comments in each cell and uncomment some 
 
 3. We now extend the baseline model to include candidate event set and obtain 17 candidate models, see two examples at [`examples/output/BaselineModel_Tcell_Extension_Candidate_1.xlsx`](examples/output/BaselineModel_Tcell_Extension_Candidate_1.xlsx) and [`examples/output/BaselineModel_Tcell_Extension_Candidate_2.xlsx`](examples/output/BaselineModel_Tcell_Extension_Candidate_2.xlsx). The first extended candidate model now has 79 elements (compared to 62 of baseline model), and its top seven rows are now as follows:
 
-| Element Name | Positive Regulators                                                                          | Negative Regulators                                                         | Levels | Initial 0 |
+| Element Name | Positive Regulation Rule                          | Negative Regulation Rule                                                         | Levels | State List 0 |
 | ------------ | -------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- | ------ | --------- |
 | AKT          | (PDK1,MTORC2),PIP3,PTEN,CHK1_ext,<br>TBK1_ext,TGFBETA,IFNgamma_ext,<br>CK2_ext,PDK1,PI3K,MTORC2,MTOR | AKT_OFF,PTEN,TBK1_ext,MEK1_ext,<br>CTLA4_ext,PI3K,TIL_ext,PD1_ext,<br>SHIP1_ext,TCR | 2      | 0         |
 | AKT_OFF      |                                                                                              |                                                                             | 2      | 0         |
@@ -174,13 +172,13 @@ We omit to show the remaining candidate models, but all 17 of them are listed un
 
 |                       | Property 1d  | Property 1c  | Property 1b  | Property 1a  |
 | --------------------- | -------- | -------- | -------- | -------- |
-| Extension_Candidate_1 | 0.711712 | 0.956522 | 0.956522 | 0.956522 |
+| Extension_Candidate_1 | 0.79096  | 0.956522 | 0.956522 | 0.956522 |
 | Extension_Candidate_2 | 0.956522 | 0.956522 | 0.956522 | 0.956522 |
 | Extension_Candidate_3 | 0.956522 | 0.956522 | 0.956522 | 0.956522 |
 | Extension_Candidate_4 | 0.956522 | 0.956522 | 0.956522 | 0.956522 |
 | Extension_Candidate_5 | 0.956522 | 0.956522 | 0.956522 | 0.956522 |
 
-5. Two other case studies of TLGL and PCC are available, users can edit and uncomment cell 7, 10, 14, 23, 26, 31, 32 to play with other case studies. 
+5. Two other case studies of TLGL and PCC are available, users can edit and uncomment cell 7, 10, 14, 23, 26, 31, 32 to play with other case studies.
 
 ## Citation
 
@@ -191,4 +189,4 @@ _Yasmine Ahmed, Cheryl Telmer, Gaoxiang Zhou, Natasa Miskov-Zivanov, “Context-
 This work was funded in part by DARPA Big Mechanism award, AIMCancer (W911NF-17-1-0135); and in part by the University of Pittsburgh, Swanson School of Engineering.
 
 ## Support
-For installtion and reproducibility concerns, feel free to reach out to Natasa Miskov-Zivanov: nmzivanov@pitt.edu
+For installation and reproducibility concerns, feel free to reach out to Natasa Miskov-Zivanov: nmzivanov@pitt.edu

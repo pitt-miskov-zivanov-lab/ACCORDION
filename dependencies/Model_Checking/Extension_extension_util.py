@@ -127,3 +127,4 @@ def get_regulation_init(model_dict,this_element,pos_reg_col,neg_reg_col,scenario
 		sum_neg = sum_neg/sum_neg
 
 	return 1 - sum_pos + sum_neg
+	

@@ -1,171 +1,150 @@
 Calling simulator
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_PCC_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt --scenario=0 --steps=9555 --output_format=2 --runs=1
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_PCC_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt --scenario=0 --steps=9555 --output_format=2 --runs=1
-2024-02-13 03:35:22,206 [MainThread  ] [INFO ]  Simulating...
-2024-02-13 03:35:27,679 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+2024-05-12 20:36:21,451 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 20:36:22,990 [MainThread  ] [INFO ]  Simulation scenario 0 complete
 Calling checker
 dishwrap_v1.0/monitor/checker ../../examples/input/Properties_PCC/p1c.txt ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt
-syntax error, unexpected UNKN_TOK, expecting $end
 Calling simulator
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_PCC_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt --scenario=0 --steps=9555 --output_format=2 --runs=1
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_PCC_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt --scenario=0 --steps=9555 --output_format=2 --runs=1
-2024-02-13 03:35:28,754 [MainThread  ] [INFO ]  Simulating...
-2024-02-13 03:35:34,029 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+2024-05-12 20:36:23,685 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 20:36:25,239 [MainThread  ] [INFO ]  Simulation scenario 0 complete
 Calling checker
 dishwrap_v1.0/monitor/checker ../../examples/input/Properties_PCC/p1c.txt ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt
-syntax error, unexpected UNKN_TOK, expecting $end
 Calling simulator
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_PCC_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt --scenario=0 --steps=9555 --output_format=2 --runs=1
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_PCC_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt --scenario=0 --steps=9555 --output_format=2 --runs=1
-2024-02-13 03:35:35,109 [MainThread  ] [INFO ]  Simulating...
-2024-02-13 03:35:40,860 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+2024-05-12 20:36:25,901 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 20:36:27,451 [MainThread  ] [INFO ]  Simulation scenario 0 complete
 Calling checker
 dishwrap_v1.0/monitor/checker ../../examples/input/Properties_PCC/p1c.txt ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt
-syntax error, unexpected UNKN_TOK, expecting $end
 Calling simulator
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_PCC_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt --scenario=0 --steps=9555 --output_format=2 --runs=1
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_PCC_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt --scenario=0 --steps=9555 --output_format=2 --runs=1
-2024-02-13 03:35:42,062 [MainThread  ] [INFO ]  Simulating...
-2024-02-13 03:35:47,772 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+2024-05-12 20:36:28,103 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 20:36:29,670 [MainThread  ] [INFO ]  Simulation scenario 0 complete
 Calling checker
 dishwrap_v1.0/monitor/checker ../../examples/input/Properties_PCC/p1c.txt ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt
-syntax error, unexpected UNKN_TOK, expecting $end
 Calling simulator
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_PCC_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt --scenario=0 --steps=9555 --output_format=2 --runs=1
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_PCC_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt --scenario=0 --steps=9555 --output_format=2 --runs=1
-2024-02-13 03:35:49,015 [MainThread  ] [INFO ]  Simulating...
-2024-02-13 03:35:54,544 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+2024-05-12 20:36:30,318 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 20:36:31,875 [MainThread  ] [INFO ]  Simulation scenario 0 complete
 Calling checker
 dishwrap_v1.0/monitor/checker ../../examples/input/Properties_PCC/p1c.txt ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt
-syntax error, unexpected UNKN_TOK, expecting $end
 Calling simulator
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_PCC_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt --scenario=0 --steps=9555 --output_format=2 --runs=1
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_PCC_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt --scenario=0 --steps=9555 --output_format=2 --runs=1
-2024-02-13 03:35:55,771 [MainThread  ] [INFO ]  Simulating...
-2024-02-13 03:36:01,226 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+2024-05-12 20:36:32,656 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 20:36:34,205 [MainThread  ] [INFO ]  Simulation scenario 0 complete
 Calling checker
 dishwrap_v1.0/monitor/checker ../../examples/input/Properties_PCC/p1c.txt ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt
-syntax error, unexpected UNKN_TOK, expecting $end
 Calling simulator
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_PCC_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt --scenario=0 --steps=9555 --output_format=2 --runs=1
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_PCC_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt --scenario=0 --steps=9555 --output_format=2 --runs=1
-2024-02-13 03:36:02,408 [MainThread  ] [INFO ]  Simulating...
-2024-02-13 03:36:07,549 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+2024-05-12 20:36:34,904 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 20:36:36,464 [MainThread  ] [INFO ]  Simulation scenario 0 complete
 Calling checker
 dishwrap_v1.0/monitor/checker ../../examples/input/Properties_PCC/p1c.txt ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt
-syntax error, unexpected UNKN_TOK, expecting $end
 Calling simulator
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_PCC_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt --scenario=0 --steps=9555 --output_format=2 --runs=1
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_PCC_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt --scenario=0 --steps=9555 --output_format=2 --runs=1
-2024-02-13 03:36:08,747 [MainThread  ] [INFO ]  Simulating...
-2024-02-13 03:36:14,104 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+2024-05-12 20:36:37,113 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 20:36:38,667 [MainThread  ] [INFO ]  Simulation scenario 0 complete
 Calling checker
 dishwrap_v1.0/monitor/checker ../../examples/input/Properties_PCC/p1c.txt ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt
-syntax error, unexpected UNKN_TOK, expecting $end
 Calling simulator
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_PCC_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt --scenario=0 --steps=9555 --output_format=2 --runs=1
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_PCC_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt --scenario=0 --steps=9555 --output_format=2 --runs=1
-2024-02-13 03:36:15,200 [MainThread  ] [INFO ]  Simulating...
-2024-02-13 03:36:20,762 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+2024-05-12 20:36:39,334 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 20:36:40,877 [MainThread  ] [INFO ]  Simulation scenario 0 complete
 Calling checker
 dishwrap_v1.0/monitor/checker ../../examples/input/Properties_PCC/p1c.txt ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt
-syntax error, unexpected UNKN_TOK, expecting $end
 Calling simulator
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_PCC_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt --scenario=0 --steps=9555 --output_format=2 --runs=1
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_PCC_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt --scenario=0 --steps=9555 --output_format=2 --runs=1
-2024-02-13 03:36:21,946 [MainThread  ] [INFO ]  Simulating...
-2024-02-13 03:36:27,372 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+2024-05-12 20:36:41,545 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 20:36:43,112 [MainThread  ] [INFO ]  Simulation scenario 0 complete
 Calling checker
 dishwrap_v1.0/monitor/checker ../../examples/input/Properties_PCC/p1c.txt ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt
-syntax error, unexpected UNKN_TOK, expecting $end
 Calling simulator
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_PCC_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt --scenario=0 --steps=9555 --output_format=2 --runs=1
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_PCC_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt --scenario=0 --steps=9555 --output_format=2 --runs=1
-2024-02-13 03:36:28,526 [MainThread  ] [INFO ]  Simulating...
-2024-02-13 03:36:33,553 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+2024-05-12 20:36:43,762 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 20:36:45,317 [MainThread  ] [INFO ]  Simulation scenario 0 complete
 Calling checker
 dishwrap_v1.0/monitor/checker ../../examples/input/Properties_PCC/p1c.txt ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt
-syntax error, unexpected UNKN_TOK, expecting $end
 Calling simulator
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_PCC_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt --scenario=0 --steps=9555 --output_format=2 --runs=1
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_PCC_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt --scenario=0 --steps=9555 --output_format=2 --runs=1
-2024-02-13 03:36:34,639 [MainThread  ] [INFO ]  Simulating...
-2024-02-13 03:36:39,895 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+2024-05-12 20:36:45,960 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 20:36:47,541 [MainThread  ] [INFO ]  Simulation scenario 0 complete
 Calling checker
 dishwrap_v1.0/monitor/checker ../../examples/input/Properties_PCC/p1c.txt ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt
-syntax error, unexpected UNKN_TOK, expecting $end
 Calling simulator
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_PCC_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt --scenario=0 --steps=9555 --output_format=2 --runs=1
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_PCC_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt --scenario=0 --steps=9555 --output_format=2 --runs=1
-2024-02-13 03:36:40,936 [MainThread  ] [INFO ]  Simulating...
-2024-02-13 03:36:46,068 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+2024-05-12 20:36:48,214 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 20:36:49,780 [MainThread  ] [INFO ]  Simulation scenario 0 complete
 Calling checker
 dishwrap_v1.0/monitor/checker ../../examples/input/Properties_PCC/p1c.txt ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt
-syntax error, unexpected UNKN_TOK, expecting $end
 Calling simulator
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_PCC_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt --scenario=0 --steps=9555 --output_format=2 --runs=1
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_PCC_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt --scenario=0 --steps=9555 --output_format=2 --runs=1
-2024-02-13 03:36:47,282 [MainThread  ] [INFO ]  Simulating...
-2024-02-13 03:36:53,015 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+2024-05-12 20:36:50,425 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 20:36:51,973 [MainThread  ] [INFO ]  Simulation scenario 0 complete
 Calling checker
 dishwrap_v1.0/monitor/checker ../../examples/input/Properties_PCC/p1c.txt ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt
-syntax error, unexpected UNKN_TOK, expecting $end
 Calling simulator
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_PCC_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt --scenario=0 --steps=9555 --output_format=2 --runs=1
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_PCC_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt --scenario=0 --steps=9555 --output_format=2 --runs=1
-2024-02-13 03:36:54,142 [MainThread  ] [INFO ]  Simulating...
-2024-02-13 03:36:59,430 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+2024-05-12 20:36:52,633 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 20:36:54,174 [MainThread  ] [INFO ]  Simulation scenario 0 complete
 Calling checker
 dishwrap_v1.0/monitor/checker ../../examples/input/Properties_PCC/p1c.txt ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt
-syntax error, unexpected UNKN_TOK, expecting $end
 Calling simulator
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_PCC_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt --scenario=0 --steps=9555 --output_format=2 --runs=1
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_PCC_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt --scenario=0 --steps=9555 --output_format=2 --runs=1
-2024-02-13 03:37:00,483 [MainThread  ] [INFO ]  Simulating...
-2024-02-13 03:37:05,507 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+2024-05-12 20:36:54,907 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 20:36:56,450 [MainThread  ] [INFO ]  Simulation scenario 0 complete
 Calling checker
 dishwrap_v1.0/monitor/checker ../../examples/input/Properties_PCC/p1c.txt ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt
-syntax error, unexpected UNKN_TOK, expecting $end
 Calling simulator
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_PCC_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt --scenario=0 --steps=9555 --output_format=2 --runs=1
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_PCC_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt --scenario=0 --steps=9555 --output_format=2 --runs=1
-2024-02-13 03:37:06,656 [MainThread  ] [INFO ]  Simulating...
-2024-02-13 03:37:12,224 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+2024-05-12 20:36:57,149 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 20:36:58,712 [MainThread  ] [INFO ]  Simulation scenario 0 complete
 Calling checker
 dishwrap_v1.0/monitor/checker ../../examples/input/Properties_PCC/p1c.txt ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt
-syntax error, unexpected UNKN_TOK, expecting $end
 Calling simulator
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_PCC_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt --scenario=0 --steps=9555 --output_format=2 --runs=1
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_PCC_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt --scenario=0 --steps=9555 --output_format=2 --runs=1
-2024-02-13 03:37:13,452 [MainThread  ] [INFO ]  Simulating...
-2024-02-13 03:37:18,690 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+2024-05-12 20:36:59,399 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 20:37:00,976 [MainThread  ] [INFO ]  Simulation scenario 0 complete
 Calling checker
 dishwrap_v1.0/monitor/checker ../../examples/input/Properties_PCC/p1c.txt ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt
-syntax error, unexpected UNKN_TOK, expecting $end
 Calling simulator
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_PCC_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt --scenario=0 --steps=9555 --output_format=2 --runs=1
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_PCC_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt --scenario=0 --steps=9555 --output_format=2 --runs=1
-2024-02-13 03:37:19,945 [MainThread  ] [INFO ]  Simulating...
-2024-02-13 03:37:25,290 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+2024-05-12 20:37:01,631 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 20:37:03,198 [MainThread  ] [INFO ]  Simulation scenario 0 complete
 Calling checker
 dishwrap_v1.0/monitor/checker ../../examples/input/Properties_PCC/p1c.txt ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt
-syntax error, unexpected UNKN_TOK, expecting $end
 Calling simulator
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_PCC_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt --scenario=0 --steps=9555 --output_format=2 --runs=1
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_PCC_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt --scenario=0 --steps=9555 --output_format=2 --runs=1
-2024-02-13 03:37:26,688 [MainThread  ] [INFO ]  Simulating...
-2024-02-13 03:37:34,188 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+2024-05-12 20:37:03,945 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 20:37:05,512 [MainThread  ] [INFO ]  Simulation scenario 0 complete
 Calling checker
 dishwrap_v1.0/monitor/checker ../../examples/input/Properties_PCC/p1c.txt ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt
-syntax error, unexpected UNKN_TOK, expecting $end
 Calling simulator
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_PCC_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt --scenario=0 --steps=9555 --output_format=2 --runs=1
 python3 Simulation_Simulator_Python_simulator_interface.py ../../examples/output/BaselineModel_PCC_Extension_Candidate_1.xlsx ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt --scenario=0 --steps=9555 --output_format=2 --runs=1
-2024-02-13 03:37:35,685 [MainThread  ] [INFO ]  Simulating...
-2024-02-13 03:37:41,295 [MainThread  ] [INFO ]  Simulation scenario 0 complete
+2024-05-12 20:37:06,244 [MainThread  ] [INFO ]  Simulating...
+2024-05-12 20:37:07,809 [MainThread  ] [INFO ]  Simulation scenario 0 complete
 Calling checker
 dishwrap_v1.0/monitor/checker ../../examples/input/Properties_PCC/p1c.txt ../../examples/traces/example_traces_BaselineModel_PCC_Extension_Candidate_1.txt
-syntax error, unexpected UNKN_TOK, expecting $end
 BEST 0.05 0.9 1 1: estimate = 0.956522, successes = 21, samples = 21
-Elapsed cpu time: 0.017578
-Elapsed wall time: 140
+Elapsed cpu time: 0.009535
+Elapsed wall time: 47

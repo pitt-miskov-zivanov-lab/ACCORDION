@@ -132,16 +132,15 @@ class Simulator(object):
 				]
 		input_col_A = [
 				x.strip() for x in df_model.columns
-				if ('positive regulators' in x.lower() or x.lower()=='positive')
+				if ('positive regulation rule' in x.lower())
 				]
 		input_col_I = [
 				x.strip() for x in df_model.columns
-				if ('negative regulators' in x.lower() or x.lower()=='negative')
+				if ('negative regulation rule' in x.lower())
 				]
 		input_col_initial = [
 				x.strip() for x in df_model.columns
-				if ('initial' in x.lower()
-				or 'scenario' in x.lower())
+				if ('state list' in x.lower())
 				]
 
 		unique_init = set(input_col_initial)
@@ -222,8 +221,9 @@ class Simulator(object):
 		input_col_delta = [
 			x for x in df_model.columns if ('delta' in x.lower())]
 		# experimental or historical data
+		# FIXME: conflict with column 'Element Database'
 		input_col_data = [
-			x for x in df_model.columns if ('data' in x.lower())]
+			x for x in df_model.columns if ('data' == x.lower())]
 
 		if input_col_data != '':
 			self.__exp_data_list = [{} for i in range(len(input_col_data))]

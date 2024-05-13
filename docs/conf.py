@@ -22,13 +22,13 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.getcwd(), os.pardir, 'src/'))
 # -- Project information -----------------------------------------------------
 
 project = 'ACCORDION'
-copyright = '2022, Yasmine Ahmed, Miskov-Zivanov Lab (MeLoDy lab)'
+copyright = '2024, Yasmine Ahmed, Miskov-Zivanov Lab (MeLoDy lab)'
 author = 'Yasmine Ahmed'
 
 # The short X.Y version
 version = 'Latest'
 # The full version, including alpha/beta/rc tags
-release = '2022'
+release = '2024'
 
 
 # -- General configuration ---------------------------------------------------

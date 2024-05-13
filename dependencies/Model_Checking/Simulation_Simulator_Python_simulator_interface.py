@@ -230,7 +230,6 @@ def concatenate_traces(inputFilenames: list, outputFilename):
 
     all_traces_concat.to_csv(outputFilename, sep=' ')
 
-
 def get_input_args():
 
     # Parse command line arguments
